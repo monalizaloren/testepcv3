@@ -1,0 +1,549 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@500;700&family=Montserrat:wght@400;500;600;700;800&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-family: 'Montserrat';
+
+}
+
+body {
+    background-color: #000;
+}
+
+
+
+.typography {
+    margin-top: 100px;
+}
+
+#numbers {
+    height: 600px;
+}
+
+.background-benefits {
+    padding: 130px 0;
+    background-color: #e9e9e9;
+}
+
+#benefits {
+    position: relative;
+}
+
+#detailed-depositions {
+    margin-top: 200px;
+}
+
+.text-a {
+    margin-bottom: 100px;
+}
+
+.splide.splide-depositions .splide__slide {
+    width: calc(30%) !important;
+    margin: 0 20px;
+}
+
+.slide-item {
+    height: 700px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.space-ul {
+    margin-left: 25%;
+}
+
+.logo {
+    width: 90%;
+}
+
+.space {
+    margin-left: 70px;
+}
+
+.space-btn {
+    margin-left: 6px;
+}
+
+.btnn {
+    display: flex;
+    width: 150px;
+    height: 40px;
+    padding: 9.503px 33.429px;
+    justify-content: center;
+    align-items: center;
+    gap: 7.31px;
+    flex-shrink: 0;
+    border-radius: 23.392px;
+    border-color: #00e8ff;
+    color: var(--pcv-gray, #E9E9E9);
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 9.503px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.143px;
+}
+
+
+
+.text-nav-color {
+    color: var(--pcv-gray, #E9E9E9);
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 15.336px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.23px;
+
+}
+
+.fale {
+    width: 651px;
+    height: 66px;
+    flex-shrink: 0;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    background: linear-gradient(198deg, #00E8FF 0%, #38BBC8 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-top: 10%;
+    margin-left: 24%;
+}
+
+.form {
+    max-width: 600px;
+    height: auto;
+    float: none;
+    margin: auto;
+    padding: 1em;
+    margin-top: 5%;
+    border-radius: 6px;
+    background: transparent;
+    box-shadow: transparent;
+    position: relative;
+
+}
+
+.space-label {
+    margin-top: -7.3%;
+    margin-left: 51%;
+}
+
+.design {
+
+    width: 255px;
+    height: 40px;
+    flex-shrink: 0;
+    fill: var(--pcv-gray, #E9E9E9);
+}
+
+.mg {
+    margin-top: 10%;
+    width: 547px;
+    height: 43px;
+    flex-shrink: 0;
+}
+
+.mg-one {
+
+    width: 547px;
+    height: 171px !important;
+    flex-shrink: 0;
+}
+
+.texts {
+    color: var(--pcv-gray, #E9E9E9);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Montserrat;
+    font-size: 13.944px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32.536px;
+    /* 233.333% */
+}
+
+.texts9 {
+    color: var(--pcv-gray, #E9E9E9);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Montserrat;
+    font-size: 13.944px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32.536px;
+    /* 233.333% */
+    margin-top: 9%;
+}
+
+/* form {
+    font-family: Arial, sans-serif;
+    color: #333;
+    margin: 0 auto;
+    max-width: 600px;
+    padding: 20px;
+    border: 1px solid #ccc;
+  }
+  label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  input,
+  textarea {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+  }
+  button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  button:hover {
+    background-color: #45a049;
+  } */
+
+.card-metodo {
+    width: 122px;
+    height: 25.351px;
+    flex-shrink: 0;
+    background: var(--cyan-1, linear-gradient(201deg, #00E8FF 0%, #38BBC8 100%));
+    color: var(--pcv-black, #101010);
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 15.579px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 151.4%;
+    /* 23.587px */
+
+
+}
+
+.space-card {
+    margin-top: 15%;
+}
+
+.metodo {
+    width: 520px;
+}
+
+.metodo-text {
+    font-family: Montserrat;
+    font-size: 47px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    background: linear-gradient(243deg, #00E8FF 0%, #38BBC8 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.alunos {
+    width: 449px;
+    margin-top: 1%;
+}
+
+.alunos-text {
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 151.4%;
+    /* 30.28px */
+}
+
+.aula {
+    display: flex;
+    width: 295px;
+    height: 42.986px;
+    padding: 11.98px 42.143px;
+    justify-content: center;
+    align-items: center;
+    gap: 9.216px;
+    flex-shrink: 0;
+    border-radius: 29.49px;
+    background: var(--cyan-1, linear-gradient(201deg, #00E8FF 0%, #38BBC8 100%));
+    color: var(--pcv-black, #101010);
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 11.98px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.18px;
+    margin-top: 2%;
+}
+
+.frame {
+    margin-left: 50%;
+    margin-top: -36%;
+}
+
+.color {
+    background: var(--pcv-gray, #E9E9E9);
+}
+
+.flip-image {
+    margin-left: 50%;
+    margin-top: -20%;
+}
+
+.flipe-img {
+    height: 80%;
+    width: 100%;
+}
+
+.flip {
+    width: 505px;
+    height: 128px;
+    flex-shrink: 0;
+    margin-top: 20%;
+}
+
+.flipped {
+    color: var(--pcv-black, #101010);
+    font-family: Montserrat;
+    font-size: 46px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.classroom {
+    color: var(--pcv-black, #101010);
+    font-family: Montserrat;
+    font-size: 18.916px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 151.4%;
+    /* 28.639px */
+}
+
+.gami-image {
+    margin-left: -2%;
+    margin-top: -25%;
+}
+
+.gami-img {
+    height: 80%;
+    width: 45%;
+}
+
+
+.gami {
+    width: 505px;
+    height: 128px;
+    flex-shrink: 0;
+    margin-top: 35%;
+    margin-left: 63%;
+}
+
+.gamificacao {
+    color: var(--pcv-black, #101010);
+    font-family: Montserrat;
+    font-size: 46px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.jogos {
+    color: var(--pcv-black, #101010);
+    font-family: Montserrat;
+    font-size: 18.916px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 151.4%;
+    /* 28.639px */
+}
+
+.aula-image {
+    margin-left: 60%;
+    margin-top: -25%;
+}
+
+.aula-img {
+    height: 100%;
+    width: 110%;
+}
+
+.aula-colaborativa {
+    width: 505px;
+    height: 128px;
+    flex-shrink: 0;
+    margin-top: 35%;
+}
+
+.colaborativa {
+    color: var(--pcv-black, #101010);
+    font-family: Montserrat;
+    font-size: 46px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.grupo {
+    color: var(--pcv-black, #101010);
+    font-family: Montserrat;
+    font-size: 18.916px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 151.4%;
+    /* 28.639px */
+}
+
+.learning-doing {
+    width: 505px;
+    height: 128px;
+    flex-shrink: 0;
+    margin-top: 35%;
+    margin-left: 63%;
+}
+
+.learning {
+    color: var(--pcv-black, #101010);
+    font-family: Montserrat;
+    font-size: 46px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.aprendizado {
+    color: var(--pcv-black, #101010);
+    font-family: Montserrat;
+    font-size: 18.916px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 151.4%;
+    /* 28.639px */
+}
+
+.last-image {
+    margin-left: -1%;
+    margin-top: -25%;
+}
+
+.last-img {
+    height: 100%;
+    width: 45%;
+
+}
+
+/* .svg {
+    width: 657px;
+    height: 2458px;
+    flex-shrink: 0;
+    stroke-width: 5px;
+    stroke: rgba(0, 0, 0, 0.62);
+    margin-left: 20%;
+    margin-top: -170%;
+    z-index: 999;
+} */
+
+.aula-gratis {
+    display: flex;
+    width: 295px;
+    height: 42.986px;
+    padding: 11.98px 42.143px;
+    justify-content: center;
+    align-items: center;
+    gap: 9.216px;
+    flex-shrink: 0;
+    background: var(--cyan-1, linear-gradient(201deg, #00E8FF 0%, #38BBC8 100%));
+    color: var(--pcv-black, #101010);
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 11.98px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.18px;
+    margin-left: 25%;
+    margin-top: -2%;
+    position: absolute;
+}
+
+.div-card-aula {
+    width: 868px;
+    height: 413px;
+    flex-shrink: 0;
+}
+
+.card-aula{
+    border-radius: 19px;
+background: var(--pcv-gray, #E9E9E9);
+box-shadow: 0px 4px 26px 0px rgba(0, 0, 0, 0.25);
+}
+
+
+
+
+
+
+
+
+.footer {
+    background: var(--pcv-black, #101010);
+    width: 100%;
+    height: 145px;
+    flex-shrink: 0;
+    margin-top: 4%;
+}
+
+.logo {
+    margin-top: 4%;
+}
+
+.direitos {
+    color: var(--branco, #E9E9E9);
+    font-family: Barlow;
+    font-size: 16.007px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    width: 417px;
+    margin-top: -3%;
+    margin-left: 18%;
+}
+
+.facebook {
+    filter: invert(100%);
+    width: 2%;
+    margin-top: 2%;
+    margin-left: 80%;
+}
+
+.instagram {
+    filter: invert(100%);
+    width: 2%;
+    margin-top: -3.7%;
+    margin-left: 85%;
+}
+
+.linkedin {
+    filter: invert(100%);
+    width: 2%;
+    margin-top: -7.3%;
+    margin-left: 90%;
+}
+
+.icons {
+    margin-top: -5%;
+
+}
