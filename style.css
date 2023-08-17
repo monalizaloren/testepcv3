@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@500;700&family=Montserrat:wght@400;500;600;700;800&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Barlow:wght@500;700&family=Montserrat:wght@400;500;600;700;800&display=swap');
 
 * {
     box-sizing: border-box;
@@ -22,6 +22,7 @@ body {
 .background-benefits {
     padding: 130px 0;
     background-color: #e9e9e9;
+    position: relative;
 }
 
 #benefits {
@@ -39,7 +40,29 @@ body {
     height: 1063px;
     background-repeat: no-repeat;
     background-size: cover;
-background-position: center;
+    background-position: center;
+}
+
+.background-top {
+    width: 100%;
+    height: 137px;
+    top: -137px;
+    position: absolute;
+    z-index: 2;
+    background-image: url(./images/background-top.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.background-bottom {
+    width: 100%;
+    height: 200px;
+    bottom: -90px;
+    position: absolute;
+    z-index: 2;
+    background-image: url(./images/background-bottom.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .text-a {
@@ -733,6 +756,7 @@ h4 {
 }
 
 .depositions {
+    margin-top: 130px;
     background-color: black;
 }
 
