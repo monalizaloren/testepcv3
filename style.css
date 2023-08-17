@@ -1545,13 +1545,20 @@ line-height: normal;
 }
 
 .card-align {
+    
     width: 407px;
     height: 328px;
     flex-shrink: 0;
     border-radius: 15px;
     background: var(--pcv-black, #050505);
     box-shadow: 0px 25px 23px 0px rgba(0, 232, 255, 0.05);
+  
 }
+
+.card-align:hover{
+    background-color: #00E8FF;
+}
+
 
 .btn-class-blue {
     border-radius: 38.569px;
@@ -1582,7 +1589,14 @@ line-height: normal;
     width: 208px;
     margin: 15%;
     margin-top: -10%;
+    color: white;
 }
+
+.card-align:hover .formacao,
+.card-align:hover .zero{
+   color: black;
+}
+
 
 .zero {
     color: var(--pcv-gray, #E9E9E9);
@@ -2234,8 +2248,8 @@ line-height: 164.4%; /* 27.074px */
 }
 
 .azul {
-    width: 1300px;
-    height: 486px;
+    
+    
     flex-shrink: 0;
     border-radius: 0px 0px 39px 39px;
     background: var(--cyan-1, linear-gradient(201deg, #00E8FF 0%, #38BBC8 100%));
@@ -2374,8 +2388,7 @@ line-height: 164.4%; /* 27.074px */
 }
 
 .div-grey {
-    margin-top: -50%;
-    margin-left: 34%;
+    
 }
 
 .card-blue {
@@ -2572,7 +2585,7 @@ box-shadow: 0px 4px 46px 0px rgba(0, 0, 0, 0.25);
     font-style: normal;
     font-weight: 800;
     line-height: 164.4%; /* 65.76px */
-  margin-top:-95% ;
+  
   margin-left: 29%;
   width: 688px;
 }
