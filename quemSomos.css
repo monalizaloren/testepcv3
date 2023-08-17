@@ -89,8 +89,8 @@ body {
 
 
 
-.text-nav-color {
-    color: var(--pcv-gray, #E9E9E9);
+.nav-link {
+    color: var(--pcv-gray, #E9E9E9) !important;
     text-align: center;
     font-family: Montserrat;
     font-size: 15.336px;
@@ -98,7 +98,11 @@ body {
     font-weight: 700;
     line-height: normal;
     letter-spacing: -0.23px;
+    
+}
 
+.nav-link:hover{
+    color: #00e8ff !important;
 }
 
 .fale {

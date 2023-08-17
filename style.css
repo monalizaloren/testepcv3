@@ -1295,15 +1295,16 @@ h4 {
     margin-top: 5%;
 }
 
-.nome {
+.nomer {
     color: var(--pcv-black, #101010);
     font-family: Montserrat;
     font-size: 20px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-    margin-left: 24%;
-    margin-top: -11%;
+    margin-left: 147px;
+    margin-top: -3%;
+    position: absolute;
 }
 
 .programadora {
@@ -1314,7 +1315,7 @@ h4 {
     font-weight: 400;
     line-height: normal;
     margin-left: 24%;
-    margin-top: -2%;
+    margin-top: -6%;
 }
 
 .card-div {
@@ -1364,21 +1365,64 @@ h4 {
 .image-one {
     width: 10%;
     height: 10%;
+    margin-left: 3%;
+}
+
+.manual-text{
+    color: var(--pcv-black, #101010);
+font-family: Montserrat;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+
+}
+
+.div-front{
+    margin-top: 6.7%;
+    margin-left: 14%;
+}
+
+.div-back{
+    margin-top:3%;
+    margin-left: 14%;
+}
+
+.div-mobile{
+    margin-top: 3.7%;
+    margin-left: 14%;
+}
+
+.div-api{
+    margin-top: 3.3%;
+    margin-left: 14%;
 }
 
 .image-two {
     width: 10%;
     height: 10%;
+    margin-left: 50%;
+    margin-top: -27.5%;
 }
 
-.image-three {
-    width: 10%;
-    height: 10%;
+.div-react{
+    margin-top: -5.2%;
+    margin-left: 59%;
 }
 
-.image-for {
-    width: 10%;
-    height: 10%;
+.div-python{
+    margin-top:3%;
+    margin-left: 59%;
+}
+
+.div-database{
+    margin-top: 3.7%;
+    margin-left: 59%;
+}
+
+.div-ciber{
+    margin-top: 3.3%;
+    margin-left: 59%;
 }
 
 
@@ -1672,6 +1716,53 @@ h4 {
     background: var(--cyan-1, linear-gradient(201deg, #00E8FF 0%, #38BBC8 100%));
 }
 
+.front-image{
+    margin-top: 5%;
+    margin-left: 9%;
+}
+
+.back-image{
+    margin-top: 12%;
+    margin-left: 10%;
+}
+
+.div-end{
+    margin-top: 3%;
+    margin-left: 12%;
+    width: 30%;
+}
+
+.div-endd{
+    margin-top: 3%;
+    margin-left: 12%;
+    width: 80%;
+}
+
+.div-learning{
+    margin-top: 5%;
+    margin-left: 12%;
+    width: 239px;
+}
+.front-text{
+    color: var(--pcv-black, #101010);
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 164.4%; /* 29.592px */ 
+}
+
+.learning-text{
+    color: var(--pcv-black, #101010);
+    font-family: Montserrat;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 164.4%; /* 24.66px */
+    width: 239px; 
+}
+
+
 .curso {
     color: var(--pcv-gray, #E9E9E9);
     text-align: center;
@@ -1726,6 +1817,83 @@ h4 {
     line-height: 164.4%;
     /* 65.76px */
     margin-top: 15%;
+    margin-left: 10%;
+}
+
+.circle-curso-two {
+    margin-top: -24.5%;
+    margin-bottom: 10%;
+    margin-left: 33%;
+}
+
+.div-tema-two{
+    width: 215px;
+    margin-top: -9.2%;
+    margin-left: 31.5%;
+}
+
+.tema{
+    color: var(--pcv-gray, #E9E9E9);
+text-align: center;
+font-family: Montserrat;
+font-size: 21.043px;
+font-style: normal;
+font-weight: 700;
+line-height: 164.4%; /* 34.594px */
+}
+
+.div-videoaula-two{
+    width: 301px;
+    margin-left: -1.6%;
+    margin-left: 28.5%;
+}
+
+.circle-curso-three {
+    margin-top: -24.5%;
+    margin-bottom: 10%;
+    margin-left: 63%;
+}
+
+.div-tema-three{
+    width: 215px;
+    margin-top: -9.2%;
+    margin-left: 61.5%;
+} 
+
+
+.div-videoaula-three{
+    width: 301px;
+    margin-left: -1.6%;
+    margin-left: 58.5%;
+}
+
+.circle-curso-for {
+    margin-top: -24.5%;
+    margin-bottom: 10%;
+    margin-left: 93%;
+}
+
+.div-tema-for{
+    width: 215px;
+    margin-top: -8.7%;
+    margin-left: 91.5%;
+} 
+
+
+.div-videoaula-for{
+    width: 301px;
+    margin-left: -1.6%;
+    margin-left: 88.5%;
+}
+
+.videoaula{
+    color: var(--pcv-gray, #E9E9E9);
+text-align: center;
+font-family: Montserrat;
+font-size: 16.468px;
+font-style: normal;
+font-weight: 400;
+line-height: 164.4%; /* 27.074px */
 }
 
 .circle-curso {
@@ -1733,9 +1901,37 @@ h4 {
     margin-bottom: 10%;
 }
 
-.remove {
-    width: 100%;
+.div-tema{
+    width: 215px;
+    margin-top: -9%;
+    margin-left: 1.5%;
 }
+
+.tema{
+    color: var(--pcv-gray, #E9E9E9);
+text-align: center;
+font-family: Montserrat;
+font-size: 21.043px;
+font-style: normal;
+font-weight: 700;
+line-height: 164.4%; /* 34.594px */
+}
+
+.div-videoaula{
+    width: 301px;
+    margin-left: -1.6%;
+}
+
+.videoaula{
+    color: var(--pcv-gray, #E9E9E9);
+text-align: center;
+font-family: Montserrat;
+font-size: 16.468px;
+font-style: normal;
+font-weight: 400;
+line-height: 164.4%; /* 27.074px */
+}
+
 
 .plano {
     color: var(--pcv-black, #101010);
