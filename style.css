@@ -33,8 +33,7 @@ margin-left: 85.8%;
 
 .rec-bottom{
     position: absolute;
-  margin-top: 12.4%;
-  margin-left: ;
+    margin-top: 12.4%;
   }
 
 #benefits {
@@ -2751,3 +2750,85 @@ line-height: 164.4%; /* 32.88px */
  .accordion-collapse{
     background-color:  #e9e9e9;
  }
+
+ #course-program .table-content {
+    height: 720px;
+    margin-top: 136px;
+    display: flex;
+    flex-direction: row;
+    border: 1px solid  #00E8FF;
+    border-radius: 15px;
+ }
+
+ .table-content .listing {
+    width: 40%;
+ }
+
+ .listing ul {
+    border-radius: 15px 0 0 15px;
+    padding-left: 0;
+ }
+
+ .listing li {
+    padding: 24px;
+    list-style: none;
+    border: 1px solid #00E8FF;
+    color: var(--pcv-gray, #E9E9E9);
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+ }
+
+ .listing li:first-child {
+    border-radius: 15px 0 0 0;
+    background-color: #00E8FF;
+    color: #000;
+ }
+
+ .listing li:last-child {
+    border-radius: 0 0 0 15px;
+ }
+
+ .table-content .informations {
+    padding: 100px 70px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    color: #00E8FF;
+ }
+
+ .informations h2 {
+    margin-bottom: 50px;
+    font-size: 36px;
+    font-weight: 700;
+ }
+
+ .informations p {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 155.4%
+ }
+
+ .informations ul {
+    margin: 75px 0 55px 0;
+ }
+
+ .informations ul li,
+ .informations .text-configure {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 155.4%;
+ }
+
+ .informations span {
+    margin-bottom: 6px;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 155.4%;
+ }
+
