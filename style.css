@@ -122,10 +122,6 @@
         width: 90%;
     }
 
-    .space {
-       
-    }
-
     .space-btn {
         margin-left: 20%;
     }
@@ -2925,7 +2921,7 @@
     }
 
     .background-benefits {
-        padding: 130px 0;
+        padding: 130px 0 190px 0;
         background-color: #e9e9e9;
         position: relative;
     }
@@ -2975,7 +2971,7 @@
         height: 200px;
         bottom: -90px;
         position: absolute;
-        z-index: 2;
+        z-index: -1;
         background-image: url(./images/background-bottom.png);
         background-repeat: no-repeat;
         background-size: cover;
@@ -3354,20 +3350,17 @@
         background: url(<path-to-image>), lightgray -463.976px 0px / 180.488% 100% no-repeat;
     }
 
-    .glassd {
+    .glassd img {
         position: absolute;
-        top: 0px;
-        margin-left: 4%;
-        z-index: 1;
-        margin-top: 2.5%;
+        right: 0;
     }
 
     .card-line {
-        margin-left: 29%;
         position: absolute;
-        top: -17px;
+        right: 0;
+        top: -30px;
         border-radius: 15px 0px 0px 15px;
-        width: 36%;
+        width: 42%;
         height: 65%;
         background-color: transparent;
         border-top: 1px solid;
@@ -3376,14 +3369,19 @@
         border-color: rgb(233, 114, 59) rgb(212, 49, 76);
     }
 
+    .display-btn {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
     .btn-duv {
         border-radius: 53px;
         background: rgba(0, 232, 255, 0.58);
         width: 282px;
         height: 78px;
-        flex-shrink: 0;
         position: absolute;
-        margin-top: 65%;
+        bottom: -130px;
     }
 
     .btn-classt {
@@ -5691,4 +5689,51 @@
 
     .mensais:hover{
         background-color: red;
+    }
+
+    .splide.splide-depositions .splide__pagination,
+    .splide.splide-detailed-depositions .splide__pagination {
+        display: none;
+    }
+
+    .splide.splide-depositions .splide__arrow {
+        width: 7em;
+        background-color: transparent;
+    }
+
+    .splide.splide-depositions .splide__arrow svg {
+        fill: #E9E9E9;
+        height: 6.2em;
+        width: 32.2em;
+    }
+
+    .splide.splide-depositions .splide__arrow--prev {
+        left: -80px;
+    }
+
+    .splide.splide-depositions .splide__arrow--next {
+        right: -70px;
+    }
+
+    .splide.splide-detailed-depositions .splide__arrow {
+        top: 100%
+    }
+
+    .splide.splide-detailed-depositions  .splide__arrow {
+        width: 7em;
+        background-color: transparent;
+    }
+
+    .splide.splide-detailed-depositions  .splide__arrow svg {
+        fill: #E9E9E9;
+        height: 3.2em;
+        width: 3.2em;
+    }
+
+    .splide.splide-detailed-depositions  .splide__arrow--prev {
+        left: 45%;
+    }
+
+    .splide.splide-detailed-depositions  .splide__arrow--next {
+        right: 42%;
     }
