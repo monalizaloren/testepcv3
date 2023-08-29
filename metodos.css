@@ -58,15 +58,42 @@ body {
     width: 90%;
 }
 
-.space {
-    margin-left: 70px;
-}
+
 
 .space-btn {
     margin-left: 6px;
 }
 
 .btnn {
+    display: flex;
+    width: 180px;
+    height: 40px;
+    padding: 9.503px 33.429px;
+    justify-content: center;
+    align-items: center;
+    gap: 7.31px;
+    flex-shrink: 0;
+    border-radius: 23.392px;
+    border-color: #00e8ff;
+    color: var(--pcv-gray, #050505);
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 9.503px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.143px;
+    background-color: #00e8ff !important;
+
+}
+
+
+.btnnn:hover{
+    background-color: #00e8ff !important;
+    color: #000;
+}
+
+.btnnn {
     display: flex;
     width: 150px;
     height: 40px;
@@ -85,6 +112,32 @@ body {
     font-weight: 700;
     line-height: normal;
     letter-spacing: -0.143px;
+
+}
+
+.circulo-one {
+    margin-left: -50%;
+}
+
+.nav-link {
+    color: var(--pcv-gray, #E9E9E9) !important;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 15.336px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.23px;
+
+}
+
+a {
+    text-decoration: none;
+
+}
+
+.nav-link:hover {
+    color: #00e8ff !important;
 }
 
 
@@ -218,6 +271,7 @@ body {
   } */
 
 .card-metodo {
+   
     width: 122px;
     height: 25.351px;
     flex-shrink: 0;
@@ -235,11 +289,12 @@ body {
 }
 
 .space-card {
-    margin-top: 15%;
+    margin-top: 13%;
 }
 
 .metodo {
     width: 520px;
+    margin-top: %;
 }
 
 .metodo-text {
@@ -294,6 +349,7 @@ body {
 .frame {
     margin-left: 50%;
     margin-top: -36%;
+    margin-bottom: 13%;
 }
 
 .color {
@@ -301,13 +357,14 @@ body {
 }
 
 .flip-image {
-    margin-left: 50%;
-    margin-top: -20%;
+    margin-left: 30%;
+    margin-top: -15%;
+    position: absolute;
 }
 
 .flipe-img {
-    height: 80%;
-    width: 100%;
+    height: 120%;
+    width: 110%;
 }
 
 .flip {
@@ -337,13 +394,13 @@ body {
 }
 
 .gami-image {
-    margin-left: -2%;
-    margin-top: -25%;
+    margin-top: -11.5%;
+    position: absolute;
 }
 
 .gami-img {
     height: 80%;
-    width: 45%;
+    width: 100%;
 }
 
 
@@ -375,13 +432,14 @@ body {
 }
 
 .aula-image {
-    margin-left: 60%;
-    margin-top: -25%;
+    margin-left: 35%;
+    margin-top: -11%;
+    position: absolute;
 }
 
 .aula-img {
     height: 100%;
-    width: 110%;
+    width: 100%;
 }
 
 .aula-colaborativa {
@@ -439,27 +497,32 @@ body {
 
 .last-image {
     margin-left: -1%;
-    margin-top: -25%;
+    margin-top: -6%;
+    position: absolute;
 }
 
 .last-img {
     height: 100%;
-    width: 45%;
+    width: 600px;
+    
 
 }
 
-/* .svg {
+.svg {
     width: 657px;
     height: 2458px;
     flex-shrink: 0;
     stroke-width: 5px;
     stroke: rgba(0, 0, 0, 0.62);
     margin-left: 20%;
-    margin-top: -170%;
-    z-index: 999;
-} */
-
+    margin-top: -146%;
+    
+}
+.aula-gratuita{
+    margin-bottom: 5%;
+}
 .aula-gratis {
+    border: none;
     display: flex;
     width: 295px;
     height: 42.986px;

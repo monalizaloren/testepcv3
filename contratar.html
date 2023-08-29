@@ -12,7 +12,7 @@
 </head>
 
 <body>
-    <div class="background-headline">
+    <div class="headline">
         <header>
             <div class="container">
                 <div class="row">
@@ -42,8 +42,13 @@
                                         <li class="nav-item">
                                             <a class="nav-link disabled"></a>
                                         </li>
-
-                                        <button type="button" class="btn btnn space-btn">Quero ser Programador</button>
+                                            <a href="./index.html">
+                                                <button type="button" class="btn btnn space-btn"><span class="ser-programador">Quero ser
+                                                        Programador</span><img
+                                                        id="change-circle" class="circulo-on"
+                                                        src="./images/circulo.png"></img></button>
+                                            </a>
+                                          
                                     </ul>
                                 </div>
                             </div>
@@ -56,19 +61,19 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-6">
-                        <div class="text">
-                            <h4 class="typography"> Aceleração de <span class="text-typography">Carreira</span> para os
-                                <span class="text-type">Programadores</span>
+                        <div class="text-contratar">
+                            <h4 class="typography-contratar"> Aceleração de <span class="text-typography-contratar">Carreira</span> para os
+                                <span class="text-type-contratar">Programadores</span>
                                 da sua Empresa
                             </h4>
                         </div>
-                        <div class="sublimit">
-                            <span class="subtext">Elevamos o nível dos programadores da sua empresa. De Júnior para
+                        <div class="sublimit-contratar">
+                            <span class="subtext-contratar">Elevamos o nível dos programadores da sua empresa. De Júnior para
                                 Pleno e de Pleno para Sênior.</span>
                         </div>
-                        <div class="btnlimit">
+                        <div class="btnlimit-contratar">
                             <a href="#aulas-gratis">
-                                <button class="btn-class">Quero acelerar os meus devs</button>
+                                <button class="btn-class-contratar">Quero acelerar os meus devs</button>
                             </a>
                         </div>
                     </div>
@@ -188,10 +193,14 @@
                         </div>
                         <div>
                             <ul class="exemplos">
-                                <li class="one">Programadores(as) da Programar Com Você têm facilidade em trabalhar em equipe: Priorizamos um ensino através de projetos práticos e em equipe.</li>
-                                <li class="two">Flexibilidade: Nossa metodologia simula o dia a dia de uma empresa e isso inclui se adaptar a mudanças rapidamente.</li>
-                                <li class="three">Uso de metodologias ágeis no dia a dia e no desenvolvimento de projetos para entregas mais rápidas e assertivas.</li>
-                                <li class="for"> Focados no aprender a aprender contínuo: Desenvolvedores(as) da Programar Com Você têm a mentalidade que sempre precisam se aprimorar.</li>
+                                <li class="one">Programadores(as) da Programar Com Você têm facilidade em trabalhar em
+                                    equipe: Priorizamos um ensino através de projetos práticos e em equipe.</li>
+                                <li class="two">Flexibilidade: Nossa metodologia simula o dia a dia de uma empresa e
+                                    isso inclui se adaptar a mudanças rapidamente.</li>
+                                <li class="three">Uso de metodologias ágeis no dia a dia e no desenvolvimento de
+                                    projetos para entregas mais rápidas e assertivas.</li>
+                                <li class="for"> Focados no aprender a aprender contínuo: Desenvolvedores(as) da
+                                    Programar Com Você têm a mentalidade que sempre precisam se aprimorar.</li>
                             </ul>
                         </div>
                         <div class="contract">
@@ -214,25 +223,25 @@
                             devs</h1>
                     </div>
                     <div class="tamanho">
-                    <form>
-                        <div class="mb-3">
-                            <label for="exampleInputEmail1" class="form-label">Nome</label>
-                            <input type="text" class="form-control">
-                        </div>
-                        <div class="mb-3">
-                            <label for="exampleInputPassword1" class="form-label">Email</label>
-                            <input type="email" class="form-control">
-                        </div>
-                        <div class="mb-3">
-                            <label for="exampleInputEmail1" class="form-label">Telefone</label>
-                            <input type="telefone" class="form-control">
-                        </div>
-                        <div class="mb-3">
-                            <label for="exampleInputPassword1" class="form-label">Nome da Empresa</label>
-                            <input type="password" class="form-control" id="exampleInputPassword1">
-                        </div>
-                    </form>
-                </div>
+                        <form>
+                            <div class="mb-3">
+                                <label for="exampleInputEmail1" class="form-label">Nome</label>
+                                <input type="text" class="form-control" placeholder="Digite o seu nome">
+                            </div>
+                            <div class="mb-3">
+                                <label for="exampleInputPassword1" class="form-label">E-mail</label>
+                                <input type="email" class="form-control" placeholder="Digite o seu e-mail">
+                            </div>
+                            <div class="mb-3">
+                                <label for="exampleInputEmail1" class="form-label">Telefone</label>
+                                <input type="telefone" class="form-control" placeholder="Digite o seu telefone">
+                            </div>
+                            <div class="mb-3">
+                                <label for="exampleInputPassword1" class="form-label">Nome da Empresa</label>
+                                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Digite o nome da sua empresa">
+                            </div>
+                        </form>
+                    </div>
                     <div class="especialistas-div">
                         <button class="especialistas">Fale com um dos nossos especialistas</button>
                     </div>
@@ -301,6 +310,14 @@
         integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous">
         </script>
     <script src="js/script.js"></script>
+</script>
+<script src="js/script.js"></script>
+<!-- <script>
+    function Circle (){
+        const Circle = document.getElementById ("change-circle");
+        Circle.classList.add("circle-animation");
+    }
+</script> -->
 </body>
 
 </html>

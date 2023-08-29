@@ -20,7 +20,7 @@ body {
 }
 
 
-.typography {
+.typography-contratar {
     margin-top: 100px;
     color: var(--pcv-black, #101010);
     font-family: Montserrat;
@@ -32,7 +32,7 @@ body {
     width: 120%;
 }
 
-.text-typography {
+.text-typography-contratar {
     background: var(--pcv-rosa-laranja, linear-gradient(208deg, #EB9203 0%, #E50071 100%));
     background-clip: text;
     -webkit-background-clip: text;
@@ -45,7 +45,7 @@ body {
 
 }
 
-.text-type {
+.text-type-contratar {
     background: var(--pcv-rosa-laranja, linear-gradient(208deg, #EB9203 0%, #E50071 100%));
     background-clip: text;
     -webkit-background-clip: text;
@@ -57,7 +57,7 @@ body {
     line-height: 131.9%;
 }
 
-.subtext {
+.subtext-contratar {
     color: var(--pcv-black, #101010);
     font-family: Montserrat;
     font-size: 20.117px;
@@ -68,7 +68,7 @@ body {
     letter-spacing: -0.302px;
 }
 
-.sublimit {
+.sublimit-contratar {
     width: 580px;
     height: 68px;
     flex-shrink: 0;
@@ -115,7 +115,7 @@ body {
     margin-top: 200px;
 }
 
-.background-headline {
+.headline {
     background-image: url(./images/headertest.jpg);
     width: 100%;
     height: 1063px;
@@ -493,6 +493,7 @@ body {
 }
 
 .btnn {
+    width: 805%;
     color: var(--pcv-gray, #E9E9E9);
     text-align: right;
     font-family: Montserrat;
@@ -512,11 +513,16 @@ body {
 
 }
 
+.btn{
+    width: 60%;
+}
+
 .btnlimit {
     margin-top: 4%;
 }
 
-.btn-class {
+.btn-class-contratar {
+    margin-top: 5%;
     color: var(--pcv-gray, #E9E9E9);
     text-align: center;
     font-family: Montserrat;
@@ -810,4 +816,23 @@ input {
     background: #E9E9E9;
     margin-top: 8%;
 }
+
+@keyframes leftToRight1 {
+    0% {
+      transform: translateX(420%);
+      overflow: hidden;
+    }
+  
+    100% {
+      transform: translateX(0);
+    }
+  }
+
+ .circle-animation{
+    animation: 1s ease-out 0s 1 leftToRight1;
+ }
+
+ .circulo-on{
+    filter: invert(100%);
+ }
 

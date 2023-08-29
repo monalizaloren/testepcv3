@@ -26,8 +26,8 @@
                                     <span class="navbar-toggler-icon"></span>
                                 </button>
                                 <div class="collapse  space-ul navbar-collapse" id="navbarNav">
-                                    <ul class="navbar-nav ">
-                                        <li class="nav-item color-nav">
+                                    <ul class="navbar-nav">
+                                        <li class="nav-item color-nav ">
                                             <a class="nav-link text-nav-color" href="./index.html">Inicio</a>
                                         </li>
                                         <li class="nav-item">
@@ -45,9 +45,13 @@
                                         <a href="#aulas-gratis">
                                             <button type="button" class=" btn btnnn ">Sou Aluno</button>
                                         </a>
-                                        <a  href="./contratar.html">
-                                            <button type="button" class="btn btnn space-btn"><img class="circulo-one" src="./images/circulo.png"></img>Quero Contratar</button>
+                                        <a class="thing" href='#' onclick="event.preventDefault()">
+                                            <button onclick="Circle()" type="button" class="btn btnn space-btn"><img
+                                                    id="change-circle" class="circulo-one"
+                                                    src="./images/circulo.png"></img>Quero
+                                                Contratar</button>
                                         </a>
+
                                     </ul>
                                 </div>
                             </div>
@@ -56,28 +60,30 @@
                 </div>
             </div>
         </header>
-        <section id="headline">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-6">
-                        <div class="text">
-                            <h4 class="typography">Dê o <span class="text-typography">Start</span> Perfeito na Sua
-                                Carreira como
-                                Programador</h4>
-                        </div>
-                        <div class="sublimit">
-                            <span class="subtext">Aprenda programação na prática com projetos reais, jogando e se
-                                divertindo</span>
-                        </div>
-                        <div class="btnlimit">
-                            <a href="#aulas-gratis">
-                                <button class="btn-class">Faça já uma aula grátis</button>
-                            </a>
+        <div id="children">
+            <section id="headline">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="text">
+                                <h4 class="typography">Dê o <span class="text-typography">Start</span> Perfeito na Sua
+                                    Carreira como
+                                    Programador</h4>
+                            </div>
+                            <div class="sublimit">
+                                <span class="subtext">Aprenda programação na prática com projetos reais, jogando e se
+                                    divertindo</span>
+                            </div>
+                            <div class="btnlimit">
+                                <a href="#aulas-gratis">
+                                    <button class="btn-class">Faça já uma aula grátis</button>
+                                </a>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
-        </section>
+            </section>
+        </div>
         <section id="numbers">
             <div class="container">
                 <div class="row">
@@ -100,6 +106,34 @@
                 </div>
             </div>
         </section>
+    </div>
+    <div id="second-part" class="headline">
+        <section id="headline">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="text-contratar">
+                            <h4 class="typography-contratar"> Aceleração de <span
+                                    class="text-typography-contratar">Carreira</span> para os
+                                <span class="text-type-contratar">Programadores</span>
+                                da sua Empresa
+                            </h4>
+                        </div>
+                        <div class="sublimit-contratar">
+                            <span class="subtext-contratar">Elevamos o nível dos programadores da sua empresa. De Júnior
+                                para
+                                Pleno e de Pleno para Sênior.</span>
+                        </div>
+                        <div class="btnlimit-contratar">
+                            <a href="#aulas-gratis">
+                                <button class="btn-class-contratar">Quero acelerar os meus devs</button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
     </div>
     <div class="background-benefits">
         <div class="background-top"></div>
@@ -219,11 +253,16 @@
                     </div>
                 </div>
                 <div class="display-btn">
-                    <button class="btn-duv">teste</button>
+                    <button class="btn-duv"></button>
+
+                </div>
+                <div class="display-btnn">
+                    <button class="btn-duv"></button>
+                    <button class="btn-dive">Faça já uma aula grátis</button>
                 </div>
             </div>
             <section>
-            <div class="background-bottom"></div>
+                <div class="background-bottom"></div>
     </div>
     <section class="depositions">
         <div class="container">
@@ -240,6 +279,7 @@
                                     <div class="custom-slide">
                                         <div class="rectangle-blue"></div>
                                         <div class="aspas">"</div>
+                                        <!-- <img src="./images/“.png"> -->
                                         <div class="ski">
                                             <p class="skills">Foi o projeto que me abriu as portas. E que me fez crescer
                                                 muito como
@@ -345,9 +385,13 @@
                         <div class="splide__track">
                             <ul class="splide__list">
                                 <li class="splide__slide">
+                                  
                                     <div class="slide-item">
                                         <div>
                                             <img class="man" src="/pvc-lp/images/man.png" alt="Primeiro Slide">
+                                        </div>
+                                        <div class="dpo">
+                                            <span class="veja-depoimento">Veja o depoimento do pai do Guilherme</span>
                                         </div>
                                         <div>
                                             <h4 class="guilherme-title">Veja o exemplo do<span class="guilherme">
@@ -359,7 +403,7 @@
                                                 conseguiu o seu
                                                 primeiro trabalho com criação de Chatbot
                                             </h4>
-                                            <h4 class="subtext-gustavo">Incrivel né? Você também pode!!</h4>
+                                            <h4 class="subtext-gustavo">Incrivel, né? Você também pode!!</h4>
                                             <a href="#aulas-gratis">
                                                 <button class="btn-gustavo">Faça já uma aula grátis!!</button>
                                             </a>
@@ -392,27 +436,42 @@
                         </div>
                     </div>
                     <section>
-
+                        <div class="ind-curso">
+                            <h1 class="indicado">Para quem <span class="curso-indicado">o nosso curso é indicado?</span>
+                            </h1>
+                        </div>
                         <nav>
                             <div class="nav nav-tabs" id="nav-tab" role="tablist">
-                              <button class="nav-link active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home" aria-selected="true">Jovens</button>
-                              <button class="nav-link" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile" aria-selected="false">Profissionais em transição de carreira</button>
+                                <button class="nav-link active" id="nav-home-tab" data-bs-toggle="tab"
+                                    data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home"
+                                    aria-selected="true">Jovens</button>
+                                <button class="nav-link" id="nav-profile-tab" data-bs-toggle="tab"
+                                    data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile"
+                                    aria-selected="false">Profissionais em transição de carreira</button>
                             </div>
-                          </nav>
-                          <div class="tab-content" id="nav-tabContent">
-                            <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab" tabindex="0">
-                                <img class="pink-rec" src="/images//rec-pink.png"></img>
+                        </nav>
+                        <div class="tab-content" id="nav-tabContent">
+                            <div class="tab-pane fade show active" id="nav-home" role="tabpanel"
+                                aria-labelledby="nav-home-tab" tabindex="0">
+                                <img class="pink-rec" src="/images/rec-pink.png"></img>
+                               
                                 <div class="rectangle-sub"></div>
+                               
                             </div>
-                            <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab" tabindex="0">
-                                <img class="pink-rec" src="/images//rec-pink.png"></img>
+                            <div class="tab-pane fade" id="nav-profile" role="tabpanel"
+                                aria-labelledby="nav-profile-tab" tabindex="0">
+                                
+                                
+                               
+
                             </div>
-                          </div>
+                            
+                        </div>
                     </section>
 
 
                     <div class="title-salario">
-                        <h4 class="Salario">Salário médio <span class="medio"> de um Programador</span></h4>
+                        <h1 class="Salario">Salário médio <span class="medio"> de um Programador</span></h1>
                     </div>
                     <div>
                         <p class="carreiras">
@@ -521,6 +580,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
+                        <img class="bolazul" src="./images/bolaazul.png" alt="">
                         <div class="title-programar">
                             <h1 class="motivo">Por que <span class="escolher">escolher a Programar Com Você?</span></h1>
                         </div>
@@ -655,7 +715,7 @@
                                                         </defs>
                                                     </svg>
                                                 </div>
-                                                <h5 class="formaçao">Especialização em Stacks de Ponta</h5>
+                                                <h5 class="formaçao1">Especialização em Stacks de Ponta</h5>
                                                 <p class="zero">Especialize-se nas stacks mais procuradas pelas empresas
                                                     e se destaque.</p>
                                             </div>
@@ -803,8 +863,8 @@
                                                         </defs>
                                                     </svg>
                                                 </div>
-                                                <h5 class="formaçao">Projetos Reais</h5>
-                                                <p class="zero">Resolva projetos reais, desenvolva a habilidade de
+                                                <h5 class="formaçao4">Projetos Reais</h5>
+                                                <p class="zero4">Resolva projetos reais, desenvolva a habilidade de
                                                     resolver problemas</p>
                                             </div>
                                             <div class="card-align">
@@ -836,7 +896,7 @@
                                             </div>
                                             <div class="card-align">
                                                 <div class="stack">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" width="82" height="82"
+                                                    <svg xmlns="http://www.w3.org/2000/svg" class="a" width="82" height="82"
                                                         viewBox="0 0 82 82" fill="none">
                                                         <g clip-path="url(#clip0_3906_216)">
                                                             <path
@@ -1073,10 +1133,11 @@
             <img class="rec-bottom" src="./images/rec-white.png" alt="">
             <div class="row">
                 <div class="col-md-12">
-                    
+
                     <h1 class="plano">Escolha o plano perfeito para você</h1>
                     <div class="plano-btt">
-                        <button class="mensais"><img class="circulo" src="./images/circulo.png"></img><span class="planos-men">Planos Mensais</span></button>
+                        <button class="mensais"><img class="circulo" src="./images/circulo.png"></img><span
+                                class="planos-men">Planos Mensais</span></button>
                     </div>
                     <div class="card-deck-1">
 
@@ -1117,7 +1178,7 @@
                                 <div class="btn-compra">
                                     <button class="btn-compra-um">Comprar agora</button>
                                 </div>
-                                
+
                             </div>
                         </div>
                     </div>
@@ -1483,6 +1544,20 @@
         integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous">
         </script>
     <script src="js/script.js"></script>
+    <script>
+        function Circle() {
+            const Circle = document.getElementById("change-circle");
+            Circle.classList.add("circle-animation");
+            const SecondCircle = document.getElementById("second-part");
+            SecondCircle.classList.add("headline-animation");
+            document.getElementById("children").classList.add("children-animation");
+
+            // setTimeout(() => {
+            //     window.location.href = "contratar.html";
+            // }, "1000");
+
+        }
+    </script>
 </body>
 
 </html>

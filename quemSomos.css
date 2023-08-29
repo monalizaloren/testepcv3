@@ -12,6 +12,98 @@ body {
 
 
 
+.space-btn {
+    margin-left: 20%;
+}
+
+.btnn {
+    display: flex;
+    width: 180px;
+    height: 40px;
+    padding: 9.503px 33.429px;
+    justify-content: center;
+    align-items: center;
+    gap: 7.31px;
+    flex-shrink: 0;
+    border-radius: 23.392px;
+    border-color: #00e8ff;
+    color: var(--pcv-gray, #050505);
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 9.503px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.143px;
+    background-color: #00e8ff !important;
+
+}
+
+.btnnn {
+    display: flex;
+    width: 150px;
+    height: 40px;
+    padding: 9.503px 33.429px;
+    justify-content: center;
+    align-items: center;
+    gap: 7.31px;
+    flex-shrink: 0;
+    border-radius: 23.392px;
+    border-color: #00e8ff;
+    color: var(--pcv-gray, #E9E9E9);
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 9.503px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.143px;
+
+}
+
+.circulo-one {
+    margin-left: -50%;
+}
+
+.nav-link {
+    color: var(--pcv-gray, #E9E9E9) !important;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 15.336px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.23px;
+
+}
+
+a {
+    text-decoration: none;
+
+}
+
+.nav-link:hover {
+    color: #00e8ff !important;
+}
+
+
+
+.nav-link {
+    color: var(--pcv-gray, #E9E9E9) !important;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 15.336px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.23px;
+    
+}
+
+.nav-link:hover{
+    color: #00e8ff !important;
+}
+
 .typography {
     margin-top: 100px;
 }
@@ -66,26 +158,7 @@ body {
     margin-left: 6px;
 }
 
-.btnn {
-    display: flex;
-    width: 150px;
-    height: 40px;
-    padding: 9.503px 33.429px;
-    justify-content: center;
-    align-items: center;
-    gap: 7.31px;
-    flex-shrink: 0;
-    border-radius: 23.392px;
-    border-color: #00e8ff;
-    color: var(--pcv-gray, #E9E9E9);
-    text-align: center;
-    font-family: Montserrat;
-    font-size: 9.503px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    letter-spacing: -0.143px;
-}
+
 
 
 
@@ -105,6 +178,11 @@ body {
     color: #00e8ff !important;
 }
 
+
+.btnnn:hover{
+    background-color: #00e8ff !important;
+    color: #000;
+}
 .fale {
     width: 651px;
     height: 66px;
