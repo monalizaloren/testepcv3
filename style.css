@@ -762,6 +762,19 @@
     .depositions {
         margin-top: 130px;
         background-color: black;
+        position: relative;
+    }
+
+    .depositions img.background-detail {
+        position: absolute;
+        right: 0;
+    }
+
+    .depositions img.background-detail-2 {
+        width: 500px;
+        position: absolute;
+        left: 40%;
+        top: 40%;
     }
 
 
