@@ -2941,10 +2941,13 @@
     .splide.splide-depositions .splide__slide {
         width: calc(30%) !important;
         margin: 0 20px;
+        height: 520px;
+        display: flex;
+        align-items: flex-end;
     }
 
     .slide-item {
-        height: 700px;
+        height: 885px;
         display: flex;
         flex-direction: row;
         justify-content: center;
@@ -3576,10 +3579,18 @@
     }
 
     .custom-slide {
+        position: relative;
         flex-shrink: 0;
         border-radius: 19px;
         background: var(--pcv-gray, #E9E9E9);
         box-shadow: 0px 4px 26px 0px rgba(0, 0, 0, 0.25);
+    }
+
+
+    .img-aspas {
+        position: absolute;
+        right: 18px;
+        top: -25px;
     }
 
     .blu {
@@ -3593,7 +3604,7 @@
     }
 
     .skills {
-
+        margin-top: 120px;
         color: var(--pcv-black, #101010);
         font-family: Montserrat;
         font-size: 18px;
@@ -3723,7 +3734,7 @@
         width: 127px;
         height: 29px;
         flex-shrink: 0;
-        border-radius: 0px 0px 5px 0px;
+        border-radius: 19px 0px 5px 0px;
         background: var(--cyan-claro, #00E8FF);
         box-shadow: 0px 4px 26px 0px rgba(0, 0, 0, 0.25);
     }
@@ -5588,7 +5599,7 @@
         fill: #E9E9E9;
         height: 3.2em;
         width: 3.2em;
-        margin-top: 140%;
+        margin-top: -30%;
     }
 
     .splide.splide-detailed-depositions .splide__arrow--prev {
@@ -5783,6 +5794,18 @@
         line-height: normal;
     }
 
+    .veja-depoimento.pai {
+        position: absolute;
+        bottom: 0;
+        right: 100px;
+    } 
+
+    .veja-depoimento.guilherme {
+        position: absolute;
+        bottom: 0;
+        left: 217px;
+    }
+
     .bolazul {
         margin-top: -2%;
         position: absolute;
@@ -5790,7 +5813,6 @@
 
 
     .player {
-        position: ;
         width: 1225px;
         margin-left: 3%;
         margin-top: -60%;
