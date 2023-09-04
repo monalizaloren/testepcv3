@@ -39,7 +39,7 @@
 
     .rec-bottom {
         position: absolute;
-        margin-top: 12.4%;
+        margin-top: 15.1%;
     }
 
     #benefits {
@@ -166,7 +166,7 @@
         font-weight: 700;
         line-height: normal;
         letter-spacing: -0.143px;
-        margin-left: 110%;
+        margin-left: 160%;
 
     }
 
@@ -791,6 +791,21 @@
         margin-top: -20%;
     }
 
+    .depositions img.background-detail-5 {
+        position: absolute;
+        right: 0;
+        bottom: 1;
+        margin-top: 15%;
+    }
+
+    .depositions img.background-detail-6 {
+        position: absolute;
+        
+        margin-left: -54 ;
+        bottom: 1;
+        margin-top: 39%;
+    }
+
     .depoimentos {
         color: var(--cyan-claro, #00E8FF);
         text-align: center;
@@ -823,39 +838,9 @@
 
     }
 
-    .custom-slide {
-        flex-shrink: 0;
-        border-radius: 19px;
-        background: var(--pcv-gray, #E9E9E9);
-        box-shadow: 0px 4px 26px 0px rgba(0, 0, 0, 0.25);
-    }
-
-    .blu {
-        width: 394px;
-        height: 120px;
-        flex-shrink: 0;
-        border-radius: 19px;
-        background: var(--cyan-1, linear-gradient(201deg, #00E8FF 0%, #38BBC8 100%));
-        margin-top: -10%;
-        box-shadow: 0px 4px 26px 0px rgba(0, 0, 0, 0.25);
-    }
-
-    .skills {
-
-        color: var(--pcv-black, #101010);
-        font-family: Montserrat;
-        font-size: 18px;
-        font-style: normal;
-        font-weight: 500;
-        line-height: 147.9%;
-        /* 26.622px */
-
-    }
+  
 
     .skills-2 {
-        width: 291px;
-        height: 247px;
-        flex-shrink: 0;
         color: var(--pcv-black, #101010);
         font-family: Montserrat;
         font-size: 18px;
@@ -1571,12 +1556,12 @@
 
     .card-align {
 
-        width: 407px;
-        height: 328px;
+        width: 400px;
+        height: 374px;
         flex-shrink: 0;
         border-radius: 15px;
         background: var(--pcv-black, #050505);
-        box-shadow: 1px 25px 23px 2px rgba(0, 232, 255, 0.05);
+        box-shadow: 6px 49px 23px 7px rgba(0, 232, 255, 0.05);
 
     }
 
@@ -1662,9 +1647,9 @@
         line-height: normal;
         color: #00E8FF;
         background-clip: text;
-        width: 208px;
+        width: 20px;
         margin: 15%;
-        margin-top: -3%;
+        margin-top: -9%;
     }
 
     .zero2 {
@@ -1675,7 +1660,7 @@
         font-weight: 400;
         line-height: 164.4%;
         /* 24.66px */
-        width: 322px;
+        width: 302px;
         margin: 15%;
         margin-top: -9%;
     }
@@ -2889,10 +2874,7 @@
         margin-left: 85.8%;
     }
 
-    .rec-bottom {
-        position: absolute;
-        margin-top: 12.4%;
-    }
+    
 
     #benefits {
         position: relative;
@@ -2990,7 +2972,7 @@
     }
 
     .space-btn {
-        margin-left: 180px;
+        margin-left: 35px;
     }
 
 
@@ -3579,6 +3561,7 @@
     }
 
     .custom-slide {
+        height: 100%;
         position: relative;
         flex-shrink: 0;
         border-radius: 19px;
@@ -3599,7 +3582,7 @@
         flex-shrink: 0;
         border-radius: 19px;
         background: var(--cyan-1, linear-gradient(201deg, #00E8FF 0%, #38BBC8 100%));
-        margin-top: -10%;
+        margin-top: -1%;
         box-shadow: 0px 4px 26px 0px rgba(0, 0, 0, 0.25);
     }
 
@@ -3612,6 +3595,8 @@
         font-weight: 500;
         line-height: 147.9%;
         /* 26.622px */
+        margin-left: -4.5%;
+        width: 110%;
 
     }
 
@@ -3741,7 +3726,7 @@
 
     .aspas {
         width: 142px;
-        height: 181px;
+        height: 191px;
         transform: rotate(179.225deg);
         flex-shrink: 0;
         color: var(--cyan-claro, #00E8FF);
@@ -3750,7 +3735,7 @@
         font-style: normal;
         font-weight: 400;
         line-height: normal;
-        margin-top: -20%;
+        margin-top: -10%;
         margin-left: 60%;
     }
 
@@ -4418,9 +4403,9 @@
         color: #00E8FF;
         background-clip: text;
 
-        width: 208px;
+        width: 20px;
         margin: 15%;
-        margin-top: -8%;
+        margin-top: -11%;
     }
 
     .zero4 {
@@ -4443,10 +4428,7 @@
         margin: 15%;
     }
 
-    .stacks {
-        margin-top: 15%;
-        margin: 15%;
-    }
+   
 
     .stack {
         margin-top: 15%;
