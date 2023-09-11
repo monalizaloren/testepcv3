@@ -59,7 +59,14 @@
 }
 
 .circulo-one {
-    margin-left: -50%;
+    margin-left: -124%;
+}
+
+
+.contract-btn{
+margin-top: 1.3%;
+margin-left: 1%;
+position: absolute;
 }
 
 .nav-link {
