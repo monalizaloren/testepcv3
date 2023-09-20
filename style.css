@@ -38,15 +38,7 @@
         margin-top: 15.5%;
     }
 
-    .row {
-        --bs-gutter-x: 0rem;
-        --bs-gutter-y: 0;
-        display: flex;
-        flex-wrap: wrap;
-        margin-top: calc(-1 * var(--bs-gutter-y));
-        margin-right: calc(-.5 * var(--bs-gutter-x));
-        margin-left: calc(-.5 * var(--bs-gutter-x));
-    }
+ 
 
     #benefits {
         position: relative;
@@ -2967,6 +2959,10 @@
 
     }
 
+    .nav-border{
+        border: none !important; 
+    }
+
     .nav-link:hover {
         color: #00e8ff !important;
     }
@@ -5741,6 +5737,7 @@
 
     .nav-tabs {
         margin-left: 21%;
+        border: none;
 
     }
 
