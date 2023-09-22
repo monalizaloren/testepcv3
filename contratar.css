@@ -286,6 +286,10 @@ body {
     width: 178%;
 }
 
+.principal-logo{
+    width: 133px;
+}
+
 .level-devs {
     color: var(--pcv-gray, #E9E9E9);
     font-family: Montserrat;

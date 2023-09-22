@@ -14,7 +14,9 @@ body {
  .circulo-one {
         margin-left: -124%;
     }
-
+    .principal-logo{
+        width: 133px;
+    }
     
   .contract-btn{
     margin-top: 1.3%;
