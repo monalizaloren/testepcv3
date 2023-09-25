@@ -1270,7 +1270,7 @@ h4 {
     margin-left: 0.9%;
     position: absolute;
 }
-
+@media screen and (max-width: 220px) {
 .title-salario {
     text-align: center;
     margin-top: 15%;
@@ -1605,7 +1605,7 @@ h4 {
     margin-top: -7%;
     margin-left: -1.5%;
 }
-
+}
 .text-why {
     color: var(--cyan-claro, #00E8FF);
     text-align: center;
