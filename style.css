@@ -28,13 +28,7 @@
         width: 10%;
     }
 
-    .btnlimit {
-        display: flex;
-        height: 40%;
-        margin-top: 10%;
-        width: 5%;
-        font-size: 1%;
-    }
+ 
 
     .btnlimitaulagratis {
 
@@ -187,7 +181,7 @@ body {
 }
 
 #numbers {
-    height: 600px;
+    height: 1000px;
 }
 
 .steps {
@@ -1270,342 +1264,344 @@ h4 {
     margin-left: 0.9%;
     position: absolute;
 }
+
 @media screen and (max-width: 220px) {
-.title-salario {
-    text-align: center;
-    margin-top: 15%;
-    width: 50%;
-    margin-left: 25%;
+    .title-salario {
+        text-align: center;
+        margin-top: 15%;
+        width: 50%;
+        margin-left: 25%;
+    }
+
+    .section-card {
+        margin-top: 45%;
+    }
+
+    .h1-programador {
+        color: var(--pcv-gray, #E9E9E9);
+        font-family: Montserrat;
+        font-size: 23.302px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        margin-top: -29.5%;
+        margin-left: 8%;
+    }
+
+    .first-salario {
+        color: var(--pcv-gray, #E9E9E9);
+        font-family: Montserrat;
+        font-size: 81.557px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        margin-left: 7%;
+        margin-top: -1%;
+    }
+
+    .mes {
+        color: var(--pcv-gray, #E9E9E9);
+        font-family: Montserrat;
+        font-size: 23.302px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    }
+
+    .referencia {
+        color: rgba(233, 233, 233, 0.38);
+        font-family: Montserrat;
+        font-size: 17.476px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        margin-top: -1%;
+        margin-left: 8%;
+    }
+
+    .section-card-two {
+        margin-top: 15%;
+    }
+
+    .h1-programador {
+        color: var(--pcv-gray, #E9E9E9);
+        font-family: Montserrat;
+        font-size: 23.302px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        margin-top: -29.5%;
+        margin-left: 8%;
+    }
+
+    .first-salario {
+        color: var(--pcv-gray, #E9E9E9);
+        font-family: Montserrat;
+        font-size: 81.557px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        margin-left: 7%;
+        margin-top: -1%;
+    }
+
+    .mes {
+        color: var(--pcv-gray, #E9E9E9);
+        font-family: Montserrat;
+        font-size: 23.302px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    }
+
+    .referencia {
+        color: rgba(233, 233, 233, 0.38);
+        font-family: Montserrat;
+        font-size: 17.476px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        margin-top: -1%;
+        margin-left: 8%;
+    }
+
+
+    .Salario {
+        background: var(--cyan-1, linear-gradient(201deg, #00E8FF 0%, #38BBC8 100%));
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-family: Montserrat;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 164.4%;
+    }
+
+
+
+    .carreiras {
+        color: var(--pcv-gray, #E9E9E9);
+        text-align: center;
+        font-family: Montserrat;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 164.4%;
+        width: 75%;
+        margin-left: 11%;
+        margin-top: 2%;
+    }
+
+    .card-white {
+        width: 612px;
+        height: 466px;
+        flex-shrink: 0;
+        border-radius: 36px;
+        background: #FFF;
+        margin-top: -55%;
+        margin-left: 90%;
+    }
+
+    .curriculum {
+        font-family: Montserrat;
+        font-size: 27.956px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        background: var(--cyan-1, linear-gradient(201deg, #00E8FF 0%, #38BBC8 100%));
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        margin-top: -4%;
+        margin-left: 41%;
+        position: absolute;
+    }
+
+    .woman {
+        width: 83.351px;
+        height: 83.351px;
+        flex-shrink: 0;
+        border-radius: 66.681px;
+        background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+        margin-left: 7%;
+        margin-top: 5%;
+    }
+
+    .nomer {
+        color: var(--pcv-black, #101010);
+        font-family: Montserrat;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        margin-left: 147px;
+        margin-top: -3%;
+        position: absolute;
+    }
+
+    .programadora {
+        color: var(--pcv-black, #101010);
+        font-family: Montserrat;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin-left: 24%;
+        margin-top: -6%;
+    }
+
+    .card-div {
+        width: 156px;
+        height: 45px;
+        flex-shrink: 0;
+        border-radius: 7px;
+        background: var(--cyan-1, linear-gradient(201deg, #00E8FF 0%, #38BBC8 100%));
+        margin-left: 61%;
+        margin-top: -10%;
+    }
+
+    .salario-woman {
+        color: var(--pcv-black, #101010);
+        font-family: Montserrat;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        align-items: center;
+        text-align: center;
+        margin-left: 20.3%;
+        margin-top: -1.7%;
+        position: absolute;
+    }
+
+    .habilidades {
+        color: var(--pcv-black, #101010);
+        font-family: Montserrat;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        margin-top: 4%;
+        margin-left: 2%;
+        position: absolute;
+    }
+
+    .line {
+        width: 535px;
+        height: 1px;
+        background: rgba(0, 0, 0, 0.17);
+        margin-top: 8%;
+        margin-left: 6%;
+    }
+
+    .image-one {
+        width: 10%;
+        height: 10%;
+        margin-left: 3%;
+    }
+
+    .manual-text {
+        color: var(--pcv-black, #101010);
+        font-family: Montserrat;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+
+    }
+
+    .div-front {
+        margin-top: 6.7%;
+        margin-left: 14%;
+    }
+
+    .div-back {
+        margin-top: 3%;
+        margin-left: 14%;
+    }
+
+    .div-mobile {
+        margin-top: 3.7%;
+        margin-left: 14%;
+    }
+
+    .div-api {
+        margin-top: 3.3%;
+        margin-left: 14%;
+    }
+
+    .image-two {
+        width: 10%;
+        height: 10%;
+        margin-left: 50%;
+        margin-top: -27.5%;
+    }
+
+    .div-react {
+        margin-top: -5.2%;
+        margin-left: 59%;
+    }
+
+    .div-python {
+        margin-top: 3%;
+        margin-left: 59%;
+    }
+
+    .div-database {
+        margin-top: 3.7%;
+        margin-left: 59%;
+    }
+
+    .div-ciber {
+        margin-top: 3.3%;
+        margin-left: 59%;
+    }
+
+
+    .circle-one {
+        margin-top: 80px;
+        margin-left: 25%;
+    }
+
+    .circle-two {
+        margin-top: 10%;
+        margin-left: 5%;
+
+    }
+
+    .circle-three {
+        margin-top: -12%;
+        margin-left: -1.5%;
+    }
+
+    .circle-for {
+        margin-top: 10%;
+        margin-left: 90%;
+    }
+
+    .circle-line-one {
+        margin-top: -22%;
+        margin-left: 11%;
+        position: absolute;
+    }
+
+    .circle-line-two {
+        margin-top: -17%;
+        margin-left: -1.5%;
+    }
+
+    .circle-line-three {
+        margin-top: -12%;
+        margin-left: -1.5%;
+    }
+
+    .circle-line-for {
+        margin-top: -7%;
+        margin-left: -1.5%;
+    }
 }
 
-.section-card {
-    margin-top: 45%;
-}
-
-.h1-programador {
-    color: var(--pcv-gray, #E9E9E9);
-    font-family: Montserrat;
-    font-size: 23.302px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-    margin-top: -29.5%;
-    margin-left: 8%;
-}
-
-.first-salario {
-    color: var(--pcv-gray, #E9E9E9);
-    font-family: Montserrat;
-    font-size: 81.557px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    margin-left: 7%;
-    margin-top: -1%;
-}
-
-.mes {
-    color: var(--pcv-gray, #E9E9E9);
-    font-family: Montserrat;
-    font-size: 23.302px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-}
-
-.referencia {
-    color: rgba(233, 233, 233, 0.38);
-    font-family: Montserrat;
-    font-size: 17.476px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-    margin-top: -1%;
-    margin-left: 8%;
-}
-
-.section-card-two {
-    margin-top: 15%;
-}
-
-.h1-programador {
-    color: var(--pcv-gray, #E9E9E9);
-    font-family: Montserrat;
-    font-size: 23.302px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-    margin-top: -29.5%;
-    margin-left: 8%;
-}
-
-.first-salario {
-    color: var(--pcv-gray, #E9E9E9);
-    font-family: Montserrat;
-    font-size: 81.557px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    margin-left: 7%;
-    margin-top: -1%;
-}
-
-.mes {
-    color: var(--pcv-gray, #E9E9E9);
-    font-family: Montserrat;
-    font-size: 23.302px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-}
-
-.referencia {
-    color: rgba(233, 233, 233, 0.38);
-    font-family: Montserrat;
-    font-size: 17.476px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-    margin-top: -1%;
-    margin-left: 8%;
-}
-
-
-.Salario {
-    background: var(--cyan-1, linear-gradient(201deg, #00E8FF 0%, #38BBC8 100%));
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    font-family: Montserrat;
-    font-size: 40px;
-    font-style: normal;
-    font-weight: 900;
-    line-height: 164.4%;
-}
-
-
-
-.carreiras {
-    color: var(--pcv-gray, #E9E9E9);
-    text-align: center;
-    font-family: Montserrat;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 164.4%;
-    width: 75%;
-    margin-left: 11%;
-    margin-top: 2%;
-}
-
-.card-white {
-    width: 612px;
-    height: 466px;
-    flex-shrink: 0;
-    border-radius: 36px;
-    background: #FFF;
-    margin-top: -55%;
-    margin-left: 90%;
-}
-
-.curriculum {
-    font-family: Montserrat;
-    font-size: 27.956px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    background: var(--cyan-1, linear-gradient(201deg, #00E8FF 0%, #38BBC8 100%));
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    margin-top: -4%;
-    margin-left: 41%;
-    position: absolute;
-}
-
-.woman {
-    width: 83.351px;
-    height: 83.351px;
-    flex-shrink: 0;
-    border-radius: 66.681px;
-    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
-    margin-left: 7%;
-    margin-top: 5%;
-}
-
-.nomer {
-    color: var(--pcv-black, #101010);
-    font-family: Montserrat;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    margin-left: 147px;
-    margin-top: -3%;
-    position: absolute;
-}
-
-.programadora {
-    color: var(--pcv-black, #101010);
-    font-family: Montserrat;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    margin-left: 24%;
-    margin-top: -6%;
-}
-
-.card-div {
-    width: 156px;
-    height: 45px;
-    flex-shrink: 0;
-    border-radius: 7px;
-    background: var(--cyan-1, linear-gradient(201deg, #00E8FF 0%, #38BBC8 100%));
-    margin-left: 61%;
-    margin-top: -10%;
-}
-
-.salario-woman {
-    color: var(--pcv-black, #101010);
-    font-family: Montserrat;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    align-items: center;
-    text-align: center;
-    margin-left: 20.3%;
-    margin-top: -1.7%;
-    position: absolute;
-}
-
-.habilidades {
-    color: var(--pcv-black, #101010);
-    font-family: Montserrat;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    margin-top: 4%;
-    margin-left: 2%;
-    position: absolute;
-}
-
-.line {
-    width: 535px;
-    height: 1px;
-    background: rgba(0, 0, 0, 0.17);
-    margin-top: 8%;
-    margin-left: 6%;
-}
-
-.image-one {
-    width: 10%;
-    height: 10%;
-    margin-left: 3%;
-}
-
-.manual-text {
-    color: var(--pcv-black, #101010);
-    font-family: Montserrat;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-
-}
-
-.div-front {
-    margin-top: 6.7%;
-    margin-left: 14%;
-}
-
-.div-back {
-    margin-top: 3%;
-    margin-left: 14%;
-}
-
-.div-mobile {
-    margin-top: 3.7%;
-    margin-left: 14%;
-}
-
-.div-api {
-    margin-top: 3.3%;
-    margin-left: 14%;
-}
-
-.image-two {
-    width: 10%;
-    height: 10%;
-    margin-left: 50%;
-    margin-top: -27.5%;
-}
-
-.div-react {
-    margin-top: -5.2%;
-    margin-left: 59%;
-}
-
-.div-python {
-    margin-top: 3%;
-    margin-left: 59%;
-}
-
-.div-database {
-    margin-top: 3.7%;
-    margin-left: 59%;
-}
-
-.div-ciber {
-    margin-top: 3.3%;
-    margin-left: 59%;
-}
-
-
-.circle-one {
-    margin-top: 80px;
-    margin-left: 25%;
-}
-
-.circle-two {
-    margin-top: 10%;
-    margin-left: 5%;
-
-}
-
-.circle-three {
-    margin-top: -12%;
-    margin-left: -1.5%;
-}
-
-.circle-for {
-    margin-top: 10%;
-    margin-left: 90%;
-}
-
-.circle-line-one {
-    margin-top: -22%;
-    margin-left: 11%;
-    position: absolute;
-}
-
-.circle-line-two {
-    margin-top: -17%;
-    margin-left: -1.5%;
-}
-
-.circle-line-three {
-    margin-top: -12%;
-    margin-left: -1.5%;
-}
-
-.circle-line-for {
-    margin-top: -7%;
-    margin-left: -1.5%;
-}
-}
 .text-why {
     color: var(--cyan-claro, #00E8FF);
     text-align: center;
@@ -2948,7 +2944,32 @@ a {
 
 }
 
+@media screen and (max-width: 320px) {
+    .btn-class {
+        display: flex;
+        width: 298.817px;
+        height: 56.219px;
+        padding: 15.668px 55.117px;
+        justify-content: center;
+        align-items: center;
+        gap: 12.053px;
+        flex-shrink: 0;
+        border-radius: 38.569px;
+        background: var(--cyan-1, linear-gradient(201deg, #00E8FF 0%, #38BBC8 100%));
+    }
 
+    
+  }
+  
+  @media screen and (max-width: 400px){
+    .subtext {
+    width: 100%;
+    margin: 10px;
+  height: 110px;
+    
+       
+    }
+  }
 
 button {
     border: none;
@@ -2963,9 +2984,7 @@ body {
     margin-top: 100px;
 }
 
-#numbers {
-    height: 600px;
-}
+
 
 .background-benefits {
     padding: 130px 0 190px 0;
@@ -3106,18 +3125,7 @@ h4 {
 
 
 
-.btn-class {
-    display: flex;
-    width: 385.817px;
-    height: 56.219px;
-    padding: 15.668px 55.117px;
-    justify-content: center;
-    align-items: center;
-    gap: 12.053px;
-    flex-shrink: 0;
-    border-radius: 38.569px;
-    background: var(--cyan-1, linear-gradient(201deg, #00E8FF 0%, #38BBC8 100%));
-}
+
 
 
 
@@ -3128,7 +3136,7 @@ h4 {
     justify-content: space-between;
     flex-wrap: wrap;
     margin-bottom: 5%;
-   
+
 }
 
 .carde {
@@ -3141,7 +3149,7 @@ h4 {
     align-items: center;
     display: flex;
     flex-direction: column;
-    
+
 }
 
 .text-card {
@@ -6306,6 +6314,42 @@ h4 {
     font-size: 15px;
 }
 
-.principal-logo{
+.principal-logo {
     width: 133px;
-        }
+}
+
+.father {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.father-left {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+ 
+}
+
+.card-blue-teste {
+    flex: 1 1 150px;
+    margin: 5px;
+    width: 400px;
+    height: 374px;
+    flex-shrink: 0;
+    border-radius: 15px;
+    background: var(--pcv-black, #050505);
+    box-shadow: 6px 49px 23px 7px rgba(0, 232, 255, 0.05);
+    bottom: 90px;
+}
+
+.ask-questions {
+    bottom: 20px;
+    right: 20px;
+    position: fixed;
+    z-index: 2000;
+}
+
+.ask-questions img:hover {
+    animation: pulsate 2s infinite;
+}
