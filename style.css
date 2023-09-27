@@ -6353,3 +6353,123 @@ h4 {
 .ask-questions img:hover {
     animation: pulsate 2s infinite;
 }
+ {
+    
+}
+
+@media screen and (max-width: 400px) {
+   
+   .title-aula{
+    width: 285px;
+   }
+    .svg-card {
+        opacity: 0;
+        width: 1%;
+    }
+
+    .btn-div{
+margin-top: 10px;
+
+    }
+
+    .btn-card{
+        background-color: #fffdfd;
+      width: 298px;
+      border-radius: 0px;
+      margin-top: -1px;
+    }
+
+    .card-grey{
+       width: 100%;
+       background-color: #00E8FF;
+       margin-left: -104px;
+       
+    }
+
+    .card-blue{
+        opacity: 0;
+    }
+
+  
+
+.display-row .form-group {
+    display: block; /* Faz com que as labels ocupem uma linha inteira */
+    margin-bottom: 10px; /* Espaçamento entre labels e inputs */
+    width: 100%; /* Ocupa toda a largura disponível */
+    padding: 5px; /* Adicione algum espaço interno para melhor aparência */
+    margin-bottom: 10px; /* Espaçamento entre inputs */
+    margin: 0 auto; /* Centralize o formulário horizontalmente */
+}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+footer {
+    background: var(--eerie-black);
+    padding: 30px 0;
+  }
+  
+  .footer-category {
+    margin-bottom: 30px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid var(--onyx);
+  }
+  
+  .footer-category-title {
+    color: var(--salmon-pink);
+    font-size: var(--fs-6);
+    font-weight: var(--weight-600);
+    text-transform: uppercase;
+    margin-bottom: 15px;
+  }
+  
+  .footer-category-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    column-gap: 20px;
+    row-gap: 3px;
+    margin-bottom: 15px;
+  }
+  
+  .category-box-title {
+    color: var(--spanish-gray);
+    font-size: var(--fs-8);
+    font-weight: var(--weight-600);
+    text-transform: uppercase;
+  }
+  
+  .footer-category-link {
+    position: relative;
+    color: var(--sonic-silver);
+    font-size: var(--fs-7);
+    text-transform: capitalize;
+    transition: var(--transition-timing);
+  }
+  
+  .footer-category-link:hover { color: var(--spanish-gray); }
+  
+  .footer-category-link:not(:last-child)::after {
+    position: absolute;
+    content: '';
+    top: 3px;
+    right: -10px;
+    background: var(--sonic-silver);
+    width: 1px;
+    height: 15px;
+  }
+  
+  
+  
