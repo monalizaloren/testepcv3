@@ -1612,12 +1612,7 @@ h4 {
 }
 
 @media screen and (max-width: 700px) {
-    .title-salario {
-        text-align: center;
-        margin-top: 15%;
-        width: 50%;
-        margin-left: 25%;
-    }
+  
 
     .section-card {
         margin-top: 45%;
@@ -6669,8 +6664,10 @@ h4 {
         margin-top: -3480px;
     }
 
-    .title-salario {
+    .title-salari {
         margin-top: -3648px;
+        text-align: center !important;
+        
     }
 
     .azul {
