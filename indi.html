@@ -1,159 +1,267 @@
+
+<!-- 
 <!DOCTYPE html>
-<html lang="pt-br">
-
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="./ind.css">
-    <title>Programar Com Vc</title>
+  <style>
+    /* Estilos para o carrossel */
+    .carousel-container {
+      position: relative;
+      width: 600px; /* Largura do carrossel */
+      margin: 0 auto;
+      overflow: hidden;
+    }
+
+    .carousel {
+      display: flex;
+      transition: transform 0.5s ease-in-out;
+    }
+
+    .slide {
+      flex: 0 0 100%;
+      text-align: center;
+      padding: 20px;
+      background-color: rgb(53, 68, 82);
+    }
+
+    /* Estilos para as imagens */
+    .slide img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 10px;
+    }
+
+    /* Estilos para o texto */
+    .slide h2 {
+      font-size: 24px;
+      margin-bottom: 10px;
+    }
+
+    .slide p {
+      font-size: 18px;
+      color: #888;
+    }
+
+    /* Estilos para os botões de navegação */
+    .carousel-navigation {
+      display: flex;
+      justify-content: center;
+      margin-top: 20px;
+    }
+
+    .carousel-navigation button {
+      background-color: #333;
+      color: white;
+      border: none;
+      margin: 0 5px;
+      cursor: pointer;
+      padding: 10px 15px;
+      border-radius: 5px;
+    }
+  </style>
 </head>
-
-<section>
-    <div class="background-headline">
-        <header>
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="tab-pane">
-                            <div class="topo">
-                                <img src="./images/background-top-player-1.png"  class="background-top-player-1">
-                                <h1>Titulo</h1>
-                                <img src="" alt="">
-                            </div>
-                            <div class="body">
-                                 <div class="conteudo"> <!--conteudo esquerda -->
-                                    <div class="card">
-                                        <p>texto</p>
-                                    </div>
-                                    <div class="card">
-                                        <p>texto</p>
-                                    </div>
-                                    <div class="card">
-                                        <p>texto</p>
-                                    </div>
-                                </div>
-
-                                <div class="conteudo"> <!--conteudo direita -->
-                                    <div class="card">
-                                        <p>texto</p>
-                                    </div>
-                                    <div class="card">
-                                        <p>texto</p>
-                                    </div>
-                                    <div class="card">
-                                        <p>texto</p>
-                                    </div>
-
-                                    <button>Quero me tornar um programador</button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </header>
+<body>
+  <div class="carousel-container">
+    <div class="carousel">
+      <div class="slide">
+        <img src="./images/iconadriano.png" alt="Imagem 1">
+        <h2>Bruno Santos</h2>
+        <p>A mentoria proporcionada pelo programa foi fundamental
+            para traçar um direcionamento nos meus estudos e projetos. Foi
+            fundamental para definir uma rota, seguir ela e principalmente deixar de
+            lado a síndrome do impostor.</p>
+      </div>
+      <div class="slide">
+        <img src="./images/iconmari.png" alt="Imagem 1">
+        <h2>Maria Souza</h2>
+        <p>A mentoria proporcionada pelo programa foi fundamental
+            para traçar um direcionamento nos meus estudos e projetos. Foi
+            fundamental para definir uma rota, seguir ela e principalmente deixar de
+            lado a síndrome do impostor.</p>
+      </div>
+      <div class="slide">
+        <img src="./images/iconone.png" alt="Imagem 1">
+        <h2>Gustavo Lacerda</h2>
+        <p>A mentoria proporcionada pelo programa foi fundamental
+            para traçar um direcionamento nos meus estudos e projetos. Foi
+            fundamental para definir uma rota, seguir ela e principalmente deixar de
+            lado a síndrome do impostor.</p>
+      </div>
+      <div class="slide">
+        <img src="imagem4.jpg" alt="Imagem 4">
+        <h2>Slide 4</h2>
+        <p>Texto do Slide 4</p>
+      </div>
+      <div class="slide">
+        <img src="imagem5.jpg" alt="Imagem 5">
+        <h2>Slide 5</h2>
+        <p>Texto do Slide 5</p>
+      </div>
     </div>
-</section>
+  </div>
 
+  <div class="carousel-navigation">
+    <button onclick="prevSlide()">&#10094; Anterior</button>
+    <button onclick="nextSlide()">Próximo &#10095;</button>
+  </div>
 
-<section>
-    <div class="ind-curso">
-        <h1 class="indicado">Para quem <span class="curso-indicado">o nosso curso é indicado?</span>
-        </h1>
+  <script>
+    let currentIndex = 0;
+    const slides = document.querySelectorAll('.slide');
+    const totalSlides = slides.length;
+
+    function showSlide(index) {
+      slides.forEach((slide, i) => {
+        slide.style.transform = `translateX(${100 * (i - index)}%)`;
+      });
+    }
+
+    function nextSlide() {
+      currentIndex = (currentIndex + 1) % totalSlides;
+      showSlide(currentIndex);
+    }
+
+    function prevSlide() {
+      currentIndex = (currentIndex - 1 + totalSlides) % totalSlides;
+      showSlide(currentIndex);
+    }
+
+    showSlide(currentIndex);
+  </script>
+</body>
+</html> -->
+
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    /* Estilos para o carrossel */
+    .carousel-container {
+      position: relative;
+      width: 100%; /* Largura do carrossel */
+      max-width: 1000px; /* Largura máxima do carrossel */
+      margin: 0 auto;
+      overflow: hidden;
+    }
+
+    .carousel {
+      display: flex;
+      transition: transform 0.5s ease-in-out;
+    }
+
+    .slide {
+      flex: 0 0 100%; /* Largura de cada slide */
+      text-align: center;
+      padding: 20px;
+      
+    
+      height: 100%;
+    position: relative;
+    flex-shrink: 0;
+    border-radius: 19px;
+    background: var(--pcv-gray, #E9E9E9);
+    box-shadow: 0px 4px 26px 0px rgba(0, 0, 0, 0.25)
+    }
+
+    /* Estilos para as imagens */
+    .slide img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 10px;
+    }
+
+    /* Estilos para o texto */
+    .slide h2 {
+      font-size: 24px;
+      margin-bottom: 10px;
+    }
+
+    .slide p {
+      font-size: 18px;
+      color: #888;
+     width: 559px;
+     margin-left: 200px;
+    }
+
+    /* Estilos para os botões de navegação */
+    .carousel-navigation {
+      display: flex;
+      justify-content: center;
+      margin-top: 20px;
+    }
+
+    .carousel-navigation button {
+      background-color: #333;
+      color: white;
+      border: none;
+      margin: 0 5px;
+      cursor: pointer;
+      padding: 10px 15px;
+      border-radius: 5px;
+    }
+  </style>
+</head>
+<body>
+  <div class="carousel-container">
+    <div class="carousel">
+      <div class="slide">
+        <img src="./images/iconmari.png" alt="Imagem 1">
+        <h2>Maria Souza</h2>
+        <p>A mentoria proporcionada pelo programa foi fundamental
+            para traçar um direcionamento nos meus estudos e projetos. Foi
+            fundamental para definir uma rota, seguir ela e principalmente deixar de
+            lado a síndrome do impostor.</p>
+      </div>
+      <div class="slide">
+        <img src="./images/iconadriano.png" alt="Imagem 2">
+        <h2>Adriano Santos</h2>
+        <p>A mentoria proporcionada pelo programa foi fundamental
+            para traçar um direcionamento nos meus estudos e projetos. Foi
+            fundamental para definir uma rota, seguir ela e principalmente deixar de
+            lado a síndrome do impostor.</p>
+      </div>
+      <div class="slide">
+        <img src="./images/iconone.png" alt="Imagem 3">
+        <h2>Gustavo Tanaka</h2>
+        <p>A mentoria proporcionada pelo programa foi fundamental
+            para traçar um direcionamento nos meus estudos e projetos. Foi
+            fundamental para definir uma rota, seguir ela e principalmente deixar de
+            lado a síndrome do impostor.</p>
+      </div>
     </div>
-    <nav>
-        <div class="nav nav-tabs" id="nav-tab" role="tablist">
+  </div>
 
-            <button class="nav-link active nav-border" id="nav-home-tab" data-bs-toggle="tab"
-                data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home"
-                aria-selected="true">Jovens</button>
-            <button class="nav-link nav-border" id="nav-profile-tab" data-bs-toggle="tab"
-                data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile"
-                aria-selected="false">Profissionais em transição de carreira</button>
-        </div>
-    </nav>
-    <div class="tab-content" id="nav-tabContent">
-        <div class="tab-pane fade show active" id="nav-home" role="tabpanel"
-            aria-labelledby="nav-home-tab" tabindex="0">
-            <img class="pink-rec" src="./images/rec-pink.png"></img>
-            <div class="tab-pane">
-                <div class="topo">
-                    <img src="./images/background-top-player-1.png"  class="background-top-player-1">
-                    <h1>Titulo</h1>
-                    <img src="" alt="">
-                </div>
-                <div class="body">
-                     <div class="conteudo"> <!--conteudo esquerda -->
-                        <div class="card">
-                            <p>texto</p>
-                        </div>
-                        <div class="card">
-                            <p>texto</p>
-                        </div>
-                        <div class="card">
-                            <p>texto</p>
-                        </div>
-                    </div>
+  <div class="carousel-navigation">
+    <button onclick="prevSlide()">&#10094; Anterior</button>
+    <button onclick="nextSlide()">Próximo &#10095;</button>
+  </div>
 
-                    <div class="conteudo"> <!--conteudo direita -->
-                        <div class="card">
-                            <p>texto</p>
-                        </div>
-                        <div class="card">
-                            <p>texto</p>
-                        </div>
-                        <div class="card">
-                            <p>texto</p>
-                        </div>
+  <script>
+    let currentIndex = 0;
+    const slides = document.querySelectorAll('.slide');
+    const totalSlides = slides.length;
 
-                        <button>Quero me tornar um programador</button>
-                    </div>
-                </div>
-            </div>
-           
-            
-        <div class="tab-pane fade" id="nav-profile" role="tabpanel"
-            aria-labelledby="nav-profile-tab" tabindex="0">
-            <img class="segundo" src="./images/segundo.png"></img>
+    function showSlide(index) {
+      slides.forEach((slide, i) => {
+        slide.style.transform = `translateX(${100 * (i - index)}%)`;
+      });
+    }
 
-            <div>
-                <img src="./images/background-player-2.png" class="player-2">
-                <img class="background-top-player-2" src="./images/background-top-player-2.png">
-                <img src="./images/barra-2.png" class="div-player-glass">
-                <img src="./images/barra-2.png" class="div-player-glass-1">
-                <img src="./images/barra-2.png" class="div-player-glass-2">
-                <img src="./images/barra-left-2.png" class="div-player-glass-0">
-                <img src="./images/barra-left-2.png" class="div-player-glass-01">
-                <img src="./images/barra-left-2.png" class="div-player-glass-02">
-            </div>
-            <div class="div-profissionais-player-glass">
-                <h1 class="profissionais-player">Profissionais em busca de recolocação no mercado
-                    com a profissão do futuro</h1>
-            </div>
-            <div class="div-comunication-player">
-                <span class="comunication-player">Desenvolva a comunicação</span>
-            </div>
-            <div class="div-types-player">
-                <span class="types-player">Compreenda diferentes tipos de linguagem
-                </span>
-            </div>
-            <div class="div-focus-player">
-                <span class="focus-player">Tenha foco e persistência</span>
-            </div>
-            <div class="div-aprenda-player-glass">
-                <span class="aprenda-player-glass">Aprenda a lidar com as frustrações e aumente a resiliência.</span>
-            </div>
-            <div class="div-raciocionio-player">
-                <span class="raciocionio-player">Desenvolva raciocínio lógico e o pensamento matemático.
-                </span>
-            </div>
-            <div class="div-capacidade-player">
-                <span class="capacidade-player">Desenvolva sua capacidade analítica</span>
-            </div>
-            <button class="programador-player-glass-1">Quero me um tornar programador</button>
-        </div>
+    function nextSlide() {
+      currentIndex = (currentIndex + 1) % totalSlides;
+      showSlide(currentIndex);
+    }
 
-    </div>
-</section>
+    function prevSlide() {
+      currentIndex = (currentIndex - 1 + totalSlides) % totalSlides;
+      showSlide(currentIndex);
+    }
+
+    showSlide(currentIndex);
+  </script>
+</body>
+</html>
+
+
+
+

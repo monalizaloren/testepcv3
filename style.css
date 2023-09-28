@@ -6696,7 +6696,7 @@ h4 {
         
     }
 
-   
+    
 
     .contact-us {
         margin-top: -93px;
@@ -6901,3 +6901,69 @@ opacity: 0;
         margin-left: 14px;
     }
 }
+
+
+
+  /* Estilos para o carrossel */
+  .carousel-container {
+    position: relative;
+    width: 100%; /* Largura do carrossel */
+    max-width: 1000px; /* Largura máxima do carrossel */
+    margin: 0 auto;
+    overflow: hidden;
+  }
+
+  .carousel {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+  }
+
+  .slide {
+    flex: 0 0 100%; /* Largura de cada slide */
+    text-align: center;
+    padding: 20px;
+    
+  
+    height: 100%;
+  position: relative;
+  flex-shrink: 0;
+  border-radius: 19px;
+  background: var(--pcv-gray, #E9E9E9);
+  box-shadow: 0px 4px 26px 0px rgba(0, 0, 0, 0.25)
+  }
+
+  /* Estilos para as imagens */
+  .slide img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+
+  /* Estilos para o texto */
+  .slide h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+
+  .slide p {
+    font-size: 18px;
+    color: #888;
+  
+  }
+
+  /* Estilos para os botões de navegação */
+  .carousel-navigation {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+
+  .carousel-navigation button {
+    background-color: #333;
+    color: white;
+    border: none;
+    margin: 0 5px;
+    cursor: pointer;
+    padding: 10px 15px;
+    border-radius: 5px;
+  }
