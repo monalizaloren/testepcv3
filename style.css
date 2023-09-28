@@ -1612,7 +1612,7 @@ h4 {
 }
 
 @media screen and (max-width: 700px) {
-  
+
 
     .section-card {
         margin-top: 45%;
@@ -6664,10 +6664,27 @@ h4 {
         margin-top: -3480px;
     }
 
-    .title-salari {
+    .title-salario {
         margin-top: -3648px;
         text-align: center !important;
-        
+
+    }
+
+    .Salario {
+        width: 100%;
+        font-size: 26px;
+    }
+
+    .carreiras {
+        font-size: 13px;
+    margin-left: 11px;
+    width: 306px;
+    }
+
+    .rec-card {
+        width: 11px;
+        margin-top: -140px;
+        margin-left: 2px;
     }
 
     .azul {
@@ -6711,11 +6728,30 @@ h4 {
         width: 80%;
     }
 
-    .h1-programador{
-        margin-top: 20px;
+    .h1-programador {
+        margin-top: -125px;
+    font-size: 13px;
     }
 
-    */ .logo {
+    .first-salario{
+        font-size: 20px;
+    margin-top: 13px;
+    }
+
+    .referencia{
+        font-size: 13px;
+    }
+
+    .mes{
+        font-size: 20px;
+    
+    }
+
+    .section-card-two {
+        margin-top: 40%;
+    }
+
+    .logo {
         margin-top: -150px;
     }
 
