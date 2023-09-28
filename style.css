@@ -6959,8 +6959,8 @@ opacity: 0;
   }
 
   .carousel-navigation button {
-    background-color: #333;
-    color: white;
+    background-color: #00E8FF;
+    color: rgb(0, 0, 0);
     border: none;
     margin: 0 5px;
     cursor: pointer;
