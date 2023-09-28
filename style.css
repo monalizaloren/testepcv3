@@ -1,8 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow:wght@500;700&family=Montserrat:wght@400;500;600;700;800&display=swap');
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 600px) {
     body {
         width: 100%;
+    }
+
+    .educadores {
+        min-width: 30%;
+        max-width: 30%;
+        display: flex;
     }
 
     .typography {
@@ -10,16 +16,69 @@
         padding-bottom: 10%;
     }
 
+    .impacto-social {
+
+        min-width: 90%;
+        max-width: 90%;
+        display: flex;
+    }
+
+    .objetivo {
+        min-width: 80%;
+        max-width: 30%;
+        display: flex;
+    }
+
+    .impact {
+        height: 100%;
+    }
+
+    .impact1 {
+        width: 100%;
+    }
+
+    .containerInfo {
+        height: 100%;
+    }
+
+    .itens-one {
+        opacity: 0%;
+    }
+
+    .info {
+        padding-top: 10%;
+        padding-left: -100%;
+        left: 100%;
+    }
+
+    .containerInfo {
+        display: flex;
+        height: 100%;
+    }
+
+    .logo {
+
+        padding-top: 100%;
+    }
+
+    .btn-impact {
+        padding-top: 20%;
+    }
 
     .text-typography {
         font-size: 1px;
     }
 
+    .icons {
+        opacity: 0%;
+    }
+
     .subtext {
 
-        padding-top: 4%;
-        width: 5%;
-        font-size: 10%;
+        min-width: 30%;
+        max-width: 30%;
+        display: flex;
+        z-index: 1;
     }
 
     .btn-aulagratis {
@@ -28,7 +87,13 @@
         width: 10%;
     }
 
- 
+    .btnlimit {
+        display: flex;
+        height: 40%;
+        margin-top: 10%;
+        width: 5%;
+        font-size: 1%;
+    }
 
     .btnlimitaulagratis {
 
@@ -61,27 +126,37 @@
     }
 
     .textCard {
-        width: 1%;
-        font-size: 1px;
+        padding: 1%;
+
+        left: 2%;
     }
 
-    .display-card {
-        height: 100%;
-        width: 100%;
-
+    .text-future {
+        padding: 2%;
     }
 
     .subtext-card {
-        font-size: 1px;
-        width: 30%;
+        padding: 2%;
+        max-width: 80%;
+        top: 8%;
     }
 
     .subtext-future {
-        width: 30%;
+        max-width: 80%;
+        padding: 2%;
     }
 
     .subtext-dev {
-        width: 10%;
+        display: flex;
+        max-width: 400px;
+        min-width: 300%;
+        padding: 10%;
+    }
+
+    .textDev {
+
+        padding: 3%;
+
     }
 
     .dev-two {
@@ -89,8 +164,11 @@
     }
 
     .cardd {
-        width: 30%;
-        margin-bottom: 15%;
+        max-width: 70%;
+        padding-bottom: 45%;
+        margin-bottom: 10%;
+
+
     }
 
     .card-line {
@@ -99,7 +177,7 @@
     }
 
     .short-cards {
-        width: 10%;
+
         background-color: #00E8FF;
     }
 
@@ -135,6 +213,68 @@
         left: -35%;
     }
 
+    .card-grey {}
+
+    .card-blue {
+        max-width: 25%;
+    }
+
+    .btn-div {
+        padding-top: 30%;
+        padding-bottom: 5%;
+
+    }
+
+    .card-grey {
+        min-width: 90%;
+    }
+
+    .logo {
+        margin-top: -150px;
+    }
+
+    .principal-logo {
+        margin-left: 5%;
+    }
+
+    .itens-two {}
+
+    .itens-two {
+        margin-left: -47%;
+    }
+
+    .itens-two-sub {
+        margin-left: -22%;
+
+        margin-top: 61px;
+    }
+
+    .line-footer {
+        margin-top: -232px;
+    }
+
+    .direitos {
+        width: 96%;
+        margin-top: -172px;
+        margin-left: 14px;
+    }
+
+    .title-aula {
+        padding-left: 20%;
+    }
+
+    .form {
+        padding-left: 10%;
+    }
+
+    .form-control {}
+
+    .btn-card {
+        padding-top: 100%;
+        position: relative;
+        min-width: 100%;
+    }
+
     .textD2 {
         top: 49%;
         left: -37%;
@@ -162,6 +302,212 @@
         left: 50%;
         padding: 0.1%;
     }
+
+    .short-card {
+        min-height: 100%;
+    }
+
+    .short-card2 {
+        min-height: 100%;
+
+    }
+
+    .short-card3 {
+        min-height: 100%;
+    }
+
+    .glass {
+        width: 1%;
+    }
+
+    .textCard-t {
+        max-width: 10%;
+    }
+
+    .subtext-cards {
+        opacity: 0%;
+    }
+
+    .short-cards2 {
+        background-color: white;
+        max-width: 117px;
+    }
+
+    .text-f {
+        top: 50%;
+        max-width: 40%;
+    }
+
+    .subtext-f {
+        opacity: 0%;
+        top: 50%;
+    }
+
+    .number-two {
+        display: flex;
+    }
+
+    .textD2 {
+        max-width: 40%;
+        top: 19%;
+        min-height: 10%;
+        padding-bottom: 30%;
+    }
+
+    .subtext-d2 {
+        opacity: 0%;
+        top: 50%;
+    }
+
+    .btn-dive {
+        min-width: 50%;
+    }
+
+    .sublimit1 {
+        min-width: 10%;
+        max-width: 10%;
+        display: flex;
+
+    }
+
+    .background-benefits {
+        opacity: 0%;
+        width: 1%;
+        height: 1%;
+    }
+
+    .btn-class {
+        min-width: 80%;
+        max-width: 10%;
+        color: #000;
+        font-weight: 600;
+        z-index: 1;
+        font-size: 20px;
+    }
+
+    .title-aula {
+        width: 285px;
+    }
+
+    .svg-card {
+        opacity: 0;
+        width: 1%;
+    }
+
+    .btn-div {
+        margin-top: 10px;
+
+    }
+
+    .btn-card {
+        background-color: #fffdfd;
+        width: 298px;
+        border-radius: 0px;
+        margin-top: -1px;
+    }
+
+    .card-grey {
+        width: 100%;
+        background-color: #00E8FF;
+        margin-left: -104px;
+
+    }
+
+    .card-blue {
+        opacity: 0;
+    }
+
+
+
+    .display-row .form-group {
+        display: block;
+        /* Faz com que as labels ocupem uma linha inteira */
+        margin-bottom: 10px;
+        /* Espaçamento entre labels e inputs */
+        width: 100%;
+        /* Ocupa toda a largura disponível */
+        padding: 5px;
+        /* Adicione algum espaço interno para melhor aparência */
+        margin-bottom: 10px;
+        /* Espaçamento entre inputs */
+        margin: 0 auto;
+        /* Centralize o formulário horizontalmente */
+    }
+
+    .referencia {
+        max-width: 60%;
+    }
+
+    .curriculum {
+        top: 100%;
+        opacity: 0%;
+    }
+
+    .zero2 {
+        display: flex;
+        max-width: 100%;
+        min-width: 100%;
+
+    }
+
+    .zero22 {
+        display: flex;
+        max-width: 60%;
+        min-width: 60%;
+        right: 20%;
+    }
+
+    .card-aprender {
+        width: 1%;
+        opacity: 0%;
+    }
+
+    .aprender {
+        font-size: 1px;
+        opacity: 0%;
+    }
+
+    .zero4,
+    .zero1,
+    zero {
+        max-width: 60%;
+        min-width: 60%;
+    }
+
+    .card-align {
+
+        left: 60%;
+    }
+
+    .btn-class-blue {
+        min-width: 80%;
+        max-width: 10%;
+        color: #000;
+        font-weight: 600;
+        z-index: 1;
+        font-size: 20px;
+        left: 40%;
+    }
+
+    .b111 {
+        max-width: 80%;
+        min-width: 80%;
+    }
+
+    .column,
+    .itens-three {
+        opacity: 0%;
+        width: 1%;
+    }
+
+    .itens-two-sub {
+        left: 100%;
+    }
+
+    .display-content {
+        padding-top: 80%;
+    }
+
 }
 
 * {
@@ -181,7 +527,7 @@ body {
 }
 
 #numbers {
-    height: 1000px;
+    height: 600px;
 }
 
 .steps {
@@ -372,7 +718,7 @@ h4 {
     line-height: normal;
 }
 
-.subtext {
+.subtext1 {
     color: #fff;
     font-family: Montserrat;
     font-size: 1.26em;
@@ -386,7 +732,7 @@ h4 {
     flex-shrink: 0;
 }
 
-.sublimit {
+.sublimit1 {
     display: flex;
     margin-top: 2%;
     width: 100%;
@@ -1265,7 +1611,7 @@ h4 {
     position: absolute;
 }
 
-@media screen and (max-width: 220px) {
+@media screen and (max-width: 700px) {
     .title-salario {
         text-align: center;
         margin-top: 15%;
@@ -2944,32 +3290,7 @@ a {
 
 }
 
-@media screen and (max-width: 320px) {
-    .btn-class {
-        display: flex;
-        width: 298.817px;
-        height: 56.219px;
-        padding: 15.668px 55.117px;
-        justify-content: center;
-        align-items: center;
-        gap: 12.053px;
-        flex-shrink: 0;
-        border-radius: 38.569px;
-        background: var(--cyan-1, linear-gradient(201deg, #00E8FF 0%, #38BBC8 100%));
-    }
 
-    
-  }
-  
-  @media screen and (max-width: 400px){
-    .subtext {
-    width: 100%;
-    margin: 10px;
-  height: 110px;
-    
-       
-    }
-  }
 
 button {
     border: none;
@@ -2984,7 +3305,9 @@ body {
     margin-top: 100px;
 }
 
-
+#numbers {
+    height: 600px;
+}
 
 .background-benefits {
     padding: 130px 0 190px 0;
@@ -3125,7 +3448,18 @@ h4 {
 
 
 
-
+.btn-class {
+    display: flex;
+    width: 385.817px;
+    height: 56.219px;
+    padding: 15.668px 55.117px;
+    justify-content: center;
+    align-items: center;
+    gap: 12.053px;
+    flex-shrink: 0;
+    border-radius: 38.569px;
+    background: var(--cyan-1, linear-gradient(201deg, #00E8FF 0%, #38BBC8 100%));
+}
 
 
 
@@ -6299,6 +6633,17 @@ h4 {
     font-size: 20px;
 }
 
+.ask-questions {
+    bottom: 20px;
+    right: 20px;
+    position: fixed;
+    z-index: 2000;
+}
+
+.ask-questions img:hover {
+    animation: pulsate 2s infinite;
+}
+
 .gui {
     display: flex;
     top: -30%;
@@ -6318,158 +6663,90 @@ h4 {
     width: 133px;
 }
 
-.father {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
 
-.father-left {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
- 
-}
-
-.card-blue-teste {
-    flex: 1 1 150px;
-    margin: 5px;
-    width: 400px;
-    height: 374px;
-    flex-shrink: 0;
-    border-radius: 15px;
-    background: var(--pcv-black, #050505);
-    box-shadow: 6px 49px 23px 7px rgba(0, 232, 255, 0.05);
-    bottom: 90px;
-}
-
-.ask-questions {
-    bottom: 20px;
-    right: 20px;
-    position: fixed;
-    z-index: 2000;
-}
-
-.ask-questions img:hover {
-    animation: pulsate 2s infinite;
-}
- {
-    
-}
-
-@media screen and (max-width: 400px) {
-   
-   .title-aula{
-    width: 285px;
-   }
-    .svg-card {
-        opacity: 0;
-        width: 1%;
+@media screen and (max-width: 600px) {
+    .text-a {
+        margin-top: -3480px;
     }
 
-    .btn-div{
-margin-top: 10px;
-
+    .title-salario {
+        margin-top: -3648px;
     }
 
-    .btn-card{
-        background-color: #fffdfd;
-      width: 298px;
-      border-radius: 0px;
-      margin-top: -1px;
-    }
-
-    .card-grey{
-       width: 100%;
-       background-color: #00E8FF;
-       margin-left: -104px;
-       
-    }
-
-    .card-blue{
+    .azul {
         opacity: 0;
     }
 
-  
+    .card-aprender {
+        margin-top: -249px;
+    }
 
-.display-row .form-group {
-    display: block; /* Faz com que as labels ocupem uma linha inteira */
-    margin-bottom: 10px; /* Espaçamento entre labels e inputs */
-    width: 100%; /* Ocupa toda a largura disponível */
-    padding: 5px; /* Adicione algum espaço interno para melhor aparência */
-    margin-bottom: 10px; /* Espaçamento entre inputs */
-    margin: 0 auto; /* Centralize o formulário horizontalmente */
+    .contact-us {
+        margin-top: 474px;
+    }
+
+    .display-content {
+        padding: 0;
+    }
+
+    .impacto-social {
+        width: 100%;
+        font-size: 34px;
+    }
+
+    .impact1 {
+        opacity: 0;
+
+    }
+
+    .objetivo {
+        width: 100px;
+        font-size: 23px;
+        margin: 3px;
+    }
+
+    .btn-impact {
+        margin-top: 36px;
+
+    }
+
+    .impact-btn {
+        width: 80%;
+    }
+
+    .h1-programador{
+        margin-top: 20px;
+    }
+
+    */ .logo {
+        margin-top: -150px;
+    }
+
+    .principal-logo {
+        margin-left: 5%;
+    }
+
+    .escola {
+        margin-left: 5%;
+    }
+
+    .itens-two {
+        margin-left: -47%;
+    }
+
+    .itens-two-sub {
+        margin-left: -22%;
+
+        margin-top: 61px;
+    }
+
+    .line-footer {
+        margin-top: -232px;
+    }
+
+    .direitos {
+        width: 96%;
+        margin-top: -172px;
+        margin-left: 14px;
+    }
 }
-
-
-}
-
-
-
-
-
-
-
-
-
-
-
-
-footer {
-    background: var(--eerie-black);
-    padding: 30px 0;
-  }
-  
-  .footer-category {
-    margin-bottom: 30px;
-    padding-bottom: 15px;
-    border-bottom: 1px solid var(--onyx);
-  }
-  
-  .footer-category-title {
-    color: var(--salmon-pink);
-    font-size: var(--fs-6);
-    font-weight: var(--weight-600);
-    text-transform: uppercase;
-    margin-bottom: 15px;
-  }
-  
-  .footer-category-box {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-start;
-    align-items: center;
-    column-gap: 20px;
-    row-gap: 3px;
-    margin-bottom: 15px;
-  }
-  
-  .category-box-title {
-    color: var(--spanish-gray);
-    font-size: var(--fs-8);
-    font-weight: var(--weight-600);
-    text-transform: uppercase;
-  }
-  
-  .footer-category-link {
-    position: relative;
-    color: var(--sonic-silver);
-    font-size: var(--fs-7);
-    text-transform: capitalize;
-    transition: var(--transition-timing);
-  }
-  
-  .footer-category-link:hover { color: var(--spanish-gray); }
-  
-  .footer-category-link:not(:last-child)::after {
-    position: absolute;
-    content: '';
-    top: 3px;
-    right: -10px;
-    background: var(--sonic-silver);
-    width: 1px;
-    height: 15px;
-  }
-  
-  
-  
