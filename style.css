@@ -682,8 +682,7 @@ body {
     font-weight: 700;
     line-height: normal;
     letter-spacing: -0.143px;
-    margin-left: 160%;
-
+    
 }
 
 .circulo-one {
@@ -3414,7 +3413,7 @@ body {
 }
 
 .space-btn {
-    margin-left: 35px;
+    margin-left: 6px;
 }
 
 
@@ -6967,3 +6966,7 @@ opacity: 0;
     padding: 10px 15px;
     border-radius: 5px;
   }
+
+
+
+ 
