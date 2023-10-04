@@ -5,7 +5,7 @@
         --cor-fonte-principal: #FFF;
         --cor-fonte-grandiente: linear-gradient(275deg, #00E8FF 50.8%, #38BBC8 110.76%);
         --Montserrat: 'Montserrat';
-
+        --Barlow: 'Barlow';
     }
 
 * {
@@ -184,13 +184,50 @@ a {
 footer{
     background: var(--pcv-black, #101010);
     width: 100%;
+}
+
+.footer__elementos {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 35px;
+}
+
+.footer__logo-e-direitos{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    gap: 51px;
+}
+
+.footer__elementos__logo{
+    width: 179px;
+}
+
+.footer__direitos{
+    font-family: var(--Barlow);
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.footer__redes-sociais{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.footer__redes-sociais__icone{
+    filter: invert(95%) sepia(0%) saturate(7475%) hue-rotate(77deg) brightness(106%) contrast(108%);
+    width: 24px;
     height: 145px;
     flex-shrink: 0;
     margin-top: 4%;
 }
 
 .logo{
-   margin-top: 4%;
+    margin-top: 4%;
 }
 
 .direitos{
@@ -208,7 +245,7 @@ footer{
 .facebook{
     filter: invert(100%);
     width: 2%;
-   margin-top: 2%;
+    margin-top: 2%;
     margin-left: 80%; 
 }
 
@@ -228,7 +265,6 @@ footer{
 
 .icons{
     margin-top: -5%;
-    
 }
 
 @media screen and (max-width: 1200px){
@@ -237,7 +273,23 @@ footer{
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
     margin: 50px 0;
+    }
 }
+
+@media screen and (max-width: 920px){
+    .footer__elementos{
+        flex-direction: column;
+    }
+
+    .footer__logo-e-direitos{
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .footer__direitos{
+        text-align: center;
+        font-size: 12px;
+    }
 }
 
 @media screen and (max-width: 992px){
@@ -245,9 +297,19 @@ footer{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 20px;
+    margin: 50px 0;  
+    }
+}
+
+@media screen and (max-width: 768px){
+    .membros-lista{
+    display: grid;
+    gap: 35px;
+    grid-template-columns: repeat(1, 1fr);
     margin: 50px 0;
+    }
 }
-}
+
 
 @media screen and (max-width: 767px){
     .membros-lista{
@@ -255,5 +317,5 @@ footer{
     grid-template-columns: repeat(1, 1fr);
     gap: 35px;
     margin: 50px 0;
-}
+    }
 }
