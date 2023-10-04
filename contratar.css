@@ -675,157 +675,118 @@ input {
     line-height: normal;
 }
 
-.logo {
-    margin-top: 4%;
+footer{
+    background: var(--pcv-black, #101010);
+    width: 100%;
+    padding: 50px 0;
 }
 
-.direitos {
-    color: var(--branco, #E9E9E9);
-    font-family: Barlow;
-    font-size: 16.007px;
-    font-style: normal;
+.footer__logo {
+    width: 211px;
+}
+
+.footer__texto{
+    color: #E9E9E9;
+    font-family: var(--fonte-rodape);
+    font-size: 16px;
     font-weight: 500;
-    line-height: normal;
-    width: 40%;
-    margin-top: 3%;
-    margin-left: 30%
+    margin: 23px 0 24px;
 }
 
-.facebook {
-    filter: invert(100%);
-    width: 2%;
-    margin-top: 1%;
-
+.redes-sociais{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
 }
 
-.instagram {
-    filter: invert(100%);
-    width: 2%;
-    margin-top: 1%;
-    margin-left: 2%;
+.redes-sociais__icone{
+    filter: invert(95%) sepia(0%) saturate(7475%) hue-rotate(77deg) brightness(106%) contrast(108%);
+    width: 24px;
 }
 
-.linkedin {
-    filter: invert(100%);
-    width: 2%;
-    margin-top: 1%;
-    margin-left: 2%;
-}
-
-.icons {
-    margin-top: 0;
-
-
-}
-
-.imagine {
-    color: var(--branco, #E9E9E9);
-    font-family: Barlow;
-    font-size: 16.007px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-    width: 308px;
-    height: 75px;
-    flex-shrink: 0;
-    margin-top: 2%;
-}
-
-.column {
+.colunas-rodape{
+    align-items: center;
     display: flex;
     flex-direction: column;
-
-
 }
 
-.info {
-    color: var(--branco, #E9E9E9);
-    font-family: Barlow;
-    font-size: 22.41px;
-    font-style: normal;
+.colunas-rodape>ul{
+    list-style: none;
+}
+
+.colunas-rodape ul li {
+    color: #E9E9E9;
+    font-family: var(--fonte-rodape);
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.colunas-rodape ul a{
+    color: #E9E9E9;
+    text-decoration: none;
+}
+
+.colunas-rodape ul h2{
+    color: #E9E9E9;
+    font-family: var(--fonte-rodape);
+    font-size: 22px;
     font-weight: 700;
-    line-height: normal;
-    margin-left: 28%;
-    margin-top: -15%;
+    margin-bottom: 10px;
 }
 
-.itens-one {
-    color: var(--branco, #E9E9E9);
-    font-family: Barlow;
-    font-size: 17.608px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-    margin-left: 27.5%;
-    margin-top: -11%;
-    width: 22%;
-}
-
-
-.contact {
-    color: var(--branco, #E9E9E9);
-    font-family: Barlow;
-    font-size: 22.41px;
-    font-style: normal;
+.colunas-rodape ul h3{
+    color: #E9E9E9;
+    font-family: var(--fonte-rodape);
+    font-size: 17px;
     font-weight: 700;
-    line-height: normal;
-    margin-left: 47%;
-    margin-top: -15.2%;
 }
 
-.itens-two {
-    color: var(--branco, #E9E9E9);
-    font-family: Barlow;
-    font-size: 17.608px;
-    font-style: normal;
+.item-pagina{
+    margin-bottom: 13px;
+}
+
+.item-contato{
+    margin-bottom: 15px;
+}
+
+.item-juridico{
+    margin-bottom: 6px;
+}
+
+.footer-linha{
+    border: 1px solid #E9E9E9;
+    width: 70vw;
+}
+
+.direitos-autorais{
+    display: flex;
+    border-top: 1px solid #E9E9E9;
+    justify-content: center;
+    margin-top: 116px;
+}
+
+.direitos-autorais span{
+    color: #E9E9E9;
+    font-family: var(--fonte-rodape);
+    font-size: 16px;
     font-weight: 500;
-    line-height: normal;
-    margin-left: 46.3%;
-    margin-top: -11%;
-    width: 22%;
+    margin: 32px;
+    text-align: center;
 }
 
-.itens-two-sub {
-    color: var(--branco, #E9E9E9);
-    font-family: Barlow;
-    font-size: 17.608px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-    margin-left: 46.3%;
-    margin-top: -5.5%;
-    width: 22%;
-}
+@media screen and (max-width: 767px){
+    footer .primeira-coluna{
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-bottom: 20px;
+        text-align: center;
+    }
 
-
-.juridico {
-    color: var(--branco, #E9E9E9);
-    font-family: Barlow;
-    font-size: 22.41px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    margin-left: 78.5%;
-    margin-top: -15.3%;
-}
-
-.itens-three {
-    color: var(--branco, #E9E9E9);
-    font-family: Barlow;
-    font-size: 17.608px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-    margin-left: 77%;
-    margin-top: -11%;
-    width: 22%;
-}
-
-.line-footer {
-    width: 1215.769px;
-    height: 1.601px;
-    background: #E9E9E9;
-    margin-top: 8%;
+    footer .colunas-rodape{
+        align-items: flex-start;
+    }
 }
 
 /* @keyframes leftToRight1 {
