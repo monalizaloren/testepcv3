@@ -244,6 +244,7 @@ footer{
     }
 
     .footer__direitos{
+        text-align: center;
         font-size: 12px;
     }
 }
@@ -257,7 +258,7 @@ footer{
     }
 }
 
-@media screen and (max-width: 767px){
+@media screen and (max-width: 768px){
     .membros-lista{
     display: grid;
     gap: 35px;

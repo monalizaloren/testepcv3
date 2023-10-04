@@ -84,7 +84,6 @@ body {
     line-height: normal;
     letter-spacing: -0.143px;
     background-color: #00e8ff !important;
-
 }
 
 
@@ -112,8 +111,6 @@ body {
     font-weight: 700;
     line-height: normal;
     letter-spacing: -0.143px;
-   
-
 }
 
 
@@ -126,12 +123,10 @@ body {
     font-weight: 700;
     line-height: normal;
     letter-spacing: -0.23px;
-
 }
 
 a {
     text-decoration: none;
-
 }
 
 .nav-link:hover {
@@ -558,13 +553,6 @@ a {
 background: var(--pcv-gray, #E9E9E9);
 box-shadow: 0px 4px 26px 0px rgba(0, 0, 0, 0.25);
 }
-
-
-
-
-
-
-
 
 .footer {
     background: var(--pcv-black, #101010);
