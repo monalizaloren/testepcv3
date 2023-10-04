@@ -7000,8 +7000,13 @@ footer{
 .item-pagina{
     margin-bottom: 13px;
 }
+
+.item-contato{
+    margin-bottom: 15px;
+}
+
 .item-juridico{
-    margin-bottom: 2px;
+    margin-bottom: 6px;
 }
 
 .footer-linha{
