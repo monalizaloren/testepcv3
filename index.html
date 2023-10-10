@@ -65,6 +65,7 @@
             </div>
         </header>
         <div id="children">
+            <!--Primeira section-->
             <section id="headline">
                 <div class="container">
                     <div class="row">
@@ -88,6 +89,7 @@
                 </div>
             </section>
         </div>
+         <!--Segunda section-->
         <section id="numbers">
             <div class="container">
                 <div class="row">
@@ -111,10 +113,10 @@
             </div>
         </section>
     </div>
-
+ <!--Terceira section-->
     <div class="background-benefits">
         <div class="background-top"></div>
-        <section id="benefits">
+            <section id="benefits">
             <div class="container">
                 <div class="row">
                     <div class="col-md-5">
@@ -179,8 +181,6 @@
                     </div>
                 </div>
             </div>
-        </section>
-        <section class="steps" id="steps">
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
@@ -238,9 +238,11 @@
                     <button class="btn-dive">Faça já uma aula grátis</button>
                 </div>
             </div>
-            <section>
-                <div class="background-bottom"></div>
+            </section>
+            <div class="background-bottom"></div>
+        </div>
     </div>
+     <!--Quarta section-->
     <section class="depositions">
         <img src="./images/bolaazul.png" alt="" class="background-detail">
         <img src="./images/bolaazul.png" alt="" class="background-detail-2">
@@ -288,13 +290,14 @@
             </div>
         </div>
     </section>
+     <!--Quinta section-->
     <section id="detailed-depositions" class="depositions">
         <img src="./images/bolaazul.png" alt="" class="background-detail-3">
         <img src="./images/bolaazul.png" alt="" class="background-detail-5">
         <img src="./images/bolaazul.png" alt="" class="background-detail-6">
 
 
-        <section>
+       
 
             </div>
             <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab" tabindex="0">
@@ -341,8 +344,8 @@
 
             </div>
         </section>
-
-
+<!--Sexta section-->
+        <section id="salario">
         <div class="title-salario">
             <h1 class="Salario">Salário médio </h1>
         </div>
@@ -354,7 +357,7 @@
                 remotamente e ganhar bons salários no ano.
             </p>
         </div>
-        <section id="salario">
+       
             <div class="container">
                 <div class="row">
                     <div class="col-md-5">
@@ -449,7 +452,9 @@
             </div>
             </div>
             </div>
-            <section>
+        </section>
+<!--Sétima section-->
+        <section id="numbers">
                 <div class="container">
                     <div class="row">
                         <div class="col-md-12">
@@ -492,7 +497,7 @@
                             </div>
                           </div>
                     </div> -->
-                            <section id="numbers">
+                           
                                 <div class="container">
                                     <div class="row">
                                         <div class="col-md-12">
@@ -695,8 +700,9 @@
                                         <button class="btn-class-blue">Faça já uma aula grátis</button>
                                     </a>
                                 </div>
-                            </section>
-                            <section>
+        </section>
+        <!--Oitava section-->
+        <section>
                                 <div class="container">
                                     <div class="row">
                                         <div class="col-md-12">
@@ -781,21 +787,11 @@
                                                 </div>
                                             </div>
                                         </div>
-                            </section>
+    </section>
 
 
-                        </div>
-                    </div>
-                </div>
-            </section>
-        </section>
-        </div>
-        </div>
-        </div>
-    </section>
-    </div>
-    </div>
-    </section>
+                  
+    
     <!--
     <section class="color">
         <div class="background-benefits">
@@ -900,6 +896,8 @@
         </div>
     </section>
     -->
+    
+    <!--Nona section-->
     <section class="azul">
         <div class="container">
             <div class="row">
@@ -1321,57 +1319,9 @@
                 document.body.style.opacity = "0.1"; // Define a opacidade como 1 após a página ser carregada
             }, 1); // Tempo de atraso para garantir que a transição de opacidade já esteja em andamento
         }
-        // Função para verificar e alternar as classes com base no tamanho da tela
-        function toggleClasses() {
-            const titleElement = document.querySelector('.guilherme-title');
-
-            if (window.innerWidth <= 768) {
-                // Adicionar a classe .gt e remover a classe .guilherme-title
-                titleElement.classList.add('gt');
-                titleElement.classList.remove('guilherme-title');
-            } else {
-                // Adicionar a classe .guilherme-title e remover a classe .gt
-                titleElement.classList.add('guilherme-title');
-                titleElement.classList.remove('gt');
-            }
-        }
-        function nomeGui() {
-            const titleElement = document.querySelector('.guilherme');
-
-            if (window.innerWidth <= 768) {
-                // Adicionar a classe .gt e remover a classe .guilherme-title
-                titleElement.classList.add('gui');
-                titleElement.classList.remove('guilherme');
-            } else {
-                // Adicionar a classe .guilherme-title e remover a classe .gt
-                titleElement.classList.add('guilherme');
-                titleElement.classList.remove('gui');
-            }
-        }
-        function subtextgu() {
-            const titleElement = document.querySelector('.subtext-gustavo');
-
-            if (window.innerWidth <= 768) {
-                // Adicionar a classe .gt e remover a classe .guilherme-title
-                titleElement.classList.add('stg');
-                titleElement.classList.remove('subtext-gustavo');
-            } else {
-                // Adicionar a classe .guilherme-title e remover a classe .gt
-                titleElement.classList.add('subtext-gustavo');
-                titleElement.classList.remove('stg');
-            }
-        }
-
-
-
-
-        // Chamar a função quando a página carregar e redimensionar a tela
-        window.addEventListener('load', toggleClasses);
-        window.addEventListener('resize', toggleClasses);
-        window.addEventListener('load', nomeGui);
-        window.addEventListener('resize', nomeGui);
-        window.addEventListener('load', subtextgu);
-        window.addEventListener('resize', subtextgu);
+ 
+       
+      
         window.addEventListener("scroll", function () {
             var whatsappIcon = document.getElementById("ask-questions");
             var scrollY = window.scrollY || window.pageYOffset;
