@@ -4,32 +4,35 @@
     --fonte-rodape: 'Barlow';
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 767px) {
     body {
         width: 100%;
     }
 
     .educadores {
-        min-width: 30%;
+        font-size: 1px;
         max-width: 30%;
         display: flex;
     }
 
-    .typography {
-        font-size: 39px;
-        padding-bottom: 10%;
+    .subtext1{
+      
     }
 
-    .impacto-social {
+.impacto{
 
-        min-width: 90%;
-        max-width: 90%;
-        display: flex;
-    }
+    padding-top: 40%;
+}
+.impact1{
+
+}
+.impactoSocial{
+  
+}
 
     .objetivo {
-        min-width: 80%;
-        max-width: 30%;
+        
+        max-width: 100%;
         display: flex;
     }
 
@@ -37,9 +40,7 @@
         height: 100%;
     }
 
-    .impact1 {
-        width: 100%;
-    }
+
 
     .containerInfo {
         height: 100%;
@@ -68,6 +69,7 @@
     .btn-impact {
         padding-top: 20%;
     }
+    
 
     .text-typography {
         font-size: 1px;
@@ -171,10 +173,11 @@
         max-width: 70%;
         padding-bottom: 45%;
         margin-bottom: 10%;
-
-
     }
 
+    .azul{
+    
+    }
     .card-line {
         width: 1%;
         height: 1%;
@@ -238,7 +241,8 @@
     }
 
     .principal-logo {
-        margin-left: 5%;
+        max-width: 80%;
+        padding-left: 20%;
     }
 
     .itens-two {}
@@ -367,12 +371,6 @@
         min-width: 50%;
     }
 
-    .sublimit1 {
-        min-width: 10%;
-        max-width: 10%;
-        display: flex;
-
-    }
 
     .background-benefits {
         opacity: 0%;
@@ -380,14 +378,7 @@
         height: 1%;
     }
 
-    .btn-class {
-        min-width: 80%;
-        max-width: 10%;
-        color: #000;
-        font-weight: 600;
-        z-index: 1;
-        font-size: 20px;
-    }
+    
 
     .title-aula {
         width: 285px;
@@ -511,8 +502,11 @@
     .display-content {
         padding-top: 80%;
     }
+    
 
 }
+
+
 
 * {
     box-sizing: border-box;
@@ -523,15 +517,6 @@
 
 body {
     background-color: #000;
-}
-
-
-.typography {
-    margin-top: 100px;
-}
-
-#numbers {
-    height: 600px;
 }
 
 .steps {
@@ -568,7 +553,7 @@ body {
 }
 
 #detailed-depositions {
-    margin-top: 200px;
+    margin-top: 0px;
 }
 
 .background-headline {
@@ -2704,8 +2689,7 @@ h4 {
 }
 
 .azul {
-
-
+   top:50%;
     flex-shrink: 0;
     border-radius: 0px 0px 39px 39px;
     background: var(--cyan-1, linear-gradient(201deg, #00E8FF 0%, #38BBC8 100%));
@@ -2783,7 +2767,7 @@ h4 {
 }
 
 .objetivo-div {
-    width: 40%;
+    max-width: 50%;
     margin-top: 3%;
 }
 
@@ -3300,6 +3284,12 @@ body {
 
 
 .typography {
+    font-size: 50px;;
+    margin-top: 100px;
+}
+
+.typography1{
+    font-size: 50px;;
     margin-top: 100px;
 }
 
@@ -3327,7 +3317,7 @@ body {
 }
 
 #detailed-depositions {
-    margin-top: 200px;
+    margin-top: 0px;
 }
 
 .background-headline {
@@ -3454,6 +3444,8 @@ h4 {
     justify-content: center;
     align-items: center;
     gap: 12.053px;
+    font-weight: 600;
+    font-size: 20px;
     flex-shrink: 0;
     border-radius: 38.569px;
     background: var(--cyan-1, linear-gradient(201deg, #00E8FF 0%, #38BBC8 100%));
@@ -3461,11 +3453,12 @@ h4 {
 
 
 
+
 .display-cards {
     margin-top: 8%;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    padding-left: 10%;
     flex-wrap: wrap;
     margin-bottom: 5%;
 
@@ -3481,9 +3474,9 @@ h4 {
     align-items: center;
     display: flex;
     flex-direction: column;
+    margin-right: 10%;
 
 }
-
 .text-card {
     color: var(--cyan-claro, #00E8FF);
     font-family: Montserrat;
@@ -4513,7 +4506,13 @@ h4 {
     margin-top: 6.7%;
     margin-left: 14%;
 }
+.h4-container {
+    display: none;
+  }
 
+  .text-footer {
+   display: none;
+  }
 .div-back {
     margin-top: 3%;
     margin-left: 14%;
@@ -5373,13 +5372,6 @@ h4 {
     margin-left: 35%;
 }
 
-.azul {
-
-
-    flex-shrink: 0;
-    border-radius: 0px 0px 39px 39px;
-    background: var(--cyan-1, linear-gradient(201deg, #00E8FF 0%, #38BBC8 100%));
-}
 
 .educadores {
     color: var(--pcv-black, #101010);
@@ -6644,7 +6636,7 @@ h4 {
 }
 
 .principal-logo {
-    width: 133px;
+    width: 350px;
 }
 
 
@@ -6675,17 +6667,11 @@ h4 {
         margin-top: -140px;
         margin-left: 2px;
     }
-
-    .azul {
-        opacity: 0;
-    }
-
     .card-aprender {
         margin-top: -249px;
         
     }
 
-    
 
     .contact-us {
         margin-top: -93px;
@@ -6703,8 +6689,7 @@ h4 {
 
     .impact1 {
         width: 300px;
-        margin-left: -170px;
-        margin-top: 90px;
+        
 
     }
 
@@ -6857,9 +6842,7 @@ opacity: 0;
 
 
 
-    .principal-logo {
-        margin-left: 5%;
-    }
+    
 
     .escola {
         margin-left: 5%;
@@ -7038,9 +7021,79 @@ footer{
         justify-content: center;
         margin-bottom: 20px;
         text-align: center;
+        
     }
 
     footer .colunas-rodape{
         align-items: flex-start;
     }
+    .typography1 {
+        font-size: 25px;
+       
+    }
+
+    .text-typography {
+        font-size: 25px;
+    }
+    .display-cards{
+        padding-left: 0;
+    }
+    .educadores{
+        font-size: 18px;
+    }
+    
+    .h4-container {
+        display: flex;
+      }
+    
+      .text-footer {
+       display: none;
+      }
+      .inicieMentoria{
+        
+        font-size: 12px;
+        padding-top: 10px;
+    }
+    .subtext1{
+        font-weight: 800;
+        
+    }
+    #detailed-depositions{
+        margin-top: 0;
+    }
+    .depositions{
+        margin-top: 0;
+    }
+    .azul{
+        margin-top: -100px;
+       padding-top: 5%;
+    }
+    .btn-class {
+        
+        max-width: 70%;
+        color: #000;
+        font-weight: 800;
+        z-index: 1;
+        font-size: 12px;
+background: var(--cyan-1, linear-gradient(201deg, #00E8FF 0%, #38979f 100%));
+    }
+    .btnlimit{
+        padding-left: 70px;
+        
+    }
+    .sublimit1 {
+
+
+        
+        align-items: center;
+        justify-content: center;
+    }
+    .impacto-social {
+       
+        max-width: 80%;
+        display: flex;
+        padding-bottom: 30%;
+        padding-top: 10%;
+    }
 }
+
