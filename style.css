@@ -711,7 +711,7 @@ h4 {
     font-family: Montserrat;
     font-size: 1.26em;
     font-style: normal;
-    font-weight: 500;
+    font-weight: 300;
     line-height: 165.9%;
     /* 33.373px */
     letter-spacing: -0.302px;
@@ -6636,7 +6636,7 @@ h4 {
 }
 
 .principal-logo {
-    width: 350px;
+    width: 150px;
 }
 
 
