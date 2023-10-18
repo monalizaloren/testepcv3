@@ -71,9 +71,6 @@
     }
     
 
-    .text-typography {
-        font-size: 1px;
-    }
 
     .icons {
         opacity: 0%;
@@ -241,8 +238,9 @@
     }
 
     .principal-logo {
-        max-width: 80%;
-        padding-left: 20%;
+        margin-top: 10%;
+        min-width: 70%;
+      padding-left: 30%;
     }
 
     .itens-two {}
@@ -700,7 +698,7 @@ h4 {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-family: Montserrat;
-    font-size: 60px;
+    font-size: 46px;
     font-style: normal;
     font-weight: 800;
     line-height: normal;
@@ -711,7 +709,7 @@ h4 {
     font-family: Montserrat;
     font-size: 1.26em;
     font-style: normal;
-    font-weight: 300;
+    font-weight: 500;
     line-height: 165.9%;
     /* 33.373px */
     letter-spacing: -0.302px;
@@ -3284,13 +3282,14 @@ body {
 
 
 .typography {
-    font-size: 46px;;
+    font-size: 50px;;
     margin-top: 100px;
 }
 
 .typography1{
-    font-size: 46px;;
+    font-size: 46px;
     margin-top: 100px;
+  min-width: 110%;
 }
 
 #numbers {
@@ -3427,7 +3426,7 @@ h4 {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-family: Montserrat;
-    font-size: 60px;
+    font-size: 46px;
     font-style: normal;
     font-weight: 800;
     line-height: normal;
@@ -6027,7 +6026,7 @@ h4 {
     } */
 
 
-
+ 
 .text-typography-contratar {
     background: var(--pcv-rosa-laranja, linear-gradient(208deg, #EB9203 0%, #E50071 100%));
     background-clip: text;
@@ -7028,12 +7027,15 @@ footer{
         align-items: flex-start;
     }
     .typography1 {
-        font-size: 25px;
-       
+        font-size: 28px;
+       min-width: 90%;
+       text-align: center;
+       margin-top: 10%;
     }
 
     .text-typography {
-        font-size: 25px;
+        font-size: 28px;
+        text-align: center;
     }
     .display-cards{
         padding-left: 0;
@@ -7050,9 +7052,10 @@ footer{
        display: none;
       }
       .inicieMentoria{
-        
+        font-weight: 300;
         font-size: 12px;
         padding-top: 10px;
+        text-align: center;
     }
     .subtext1{
         font-weight: 800;
