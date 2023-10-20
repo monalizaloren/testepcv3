@@ -84,6 +84,17 @@
         z-index: 1;
     }
 
+    .entre-na-comunidade {
+        background: var(--cyan-1, linear-gradient(201deg, #00E8FF 0%, #38979f 100%));
+        border-radius: 50px;
+        color: #000;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 12px;
+        font-weight: 700;
+        padding: 14px 51px;
+        text-decoration: none;
+}
+
     .btn-aulagratis {
         background-color: red;
         font-size: 1px;
@@ -240,7 +251,7 @@
     .principal-logo {
         margin-top: 10%;
         min-width: 70%;
-      padding-left: 30%;
+        padding-left: 30%;
     }
 
     .itens-two {}
@@ -3437,12 +3448,9 @@ h4 {
 
 .btn-class {
     display: flex;
-    width: 385.817px;
-    height: 56.219px;
     padding: 15.668px 55.117px;
     justify-content: center;
     align-items: center;
-    gap: 12.053px;
     font-weight: 600;
     font-size: 20px;
     flex-shrink: 0;
@@ -7078,7 +7086,7 @@ footer{
         font-weight: 800;
         z-index: 1;
         font-size: 12px;
-background: var(--cyan-1, linear-gradient(201deg, #00E8FF 0%, #38979f 100%));
+    background: var(--cyan-1, linear-gradient(201deg, #00E8FF 0%, #38979f 100%));
     }
     .btnlimit{
         padding-left: 70px;
