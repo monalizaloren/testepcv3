@@ -1064,6 +1064,7 @@ footer{
     font-family: var(--fonte-rodape);
     font-size: 17px;
     font-weight: 500;
+    word-break: break-word;
 }
 
 .colunas-rodape ul a{
@@ -1906,6 +1907,22 @@ footer{
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    max-width: 450px;
+}
+
+.impacto {
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    height: 100%;
+}
+
+.impact{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 0;
 }
 
 .objetivo-div {
@@ -1921,14 +1938,6 @@ footer{
     font-weight: 400;
     line-height: 164.4%;
     /* 32.88px */
-    width: 529px;
-    height: 161px;
-    flex-shrink: 0;
-}
-
-.impact {
-    margin-left: 45%;
-    margin-top: -30%;
 }
 
 .impact-btn {
@@ -4370,30 +4379,9 @@ h4 {
     margin-top: 10%;
 }
 
-.impacto {
-    width: 50%;
-}
-
-.impact {
-    width: 50%;
-}
-
 .objetivo-div {
     width: 130%;
     margin-top: 3%;
-}
-
-.objetivo {
-    color: var(--pcv-gray, #E9E9E9);
-    font-family: Montserrat;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 164.4%;
-    /* 32.88px */
-    width: 529px;
-    height: 161px;
-    flex-shrink: 0;
 }
 
 .impact-btn {
@@ -5504,24 +5492,11 @@ h4 {
         padding-top: 30px;
         width: auto;
     }
-
-    .impactoSocial{
-        align-items: center;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        text-align: center;
-    }
-
-    .impactoSocial>*,
-    .impacto>*{
-        width: 100%;
-        text-align: center;
-    }
     
     .impact {
         align-items: center;
         display: flex;
+        height: 100%;
         justify-content: center;
         margin: 0;
     }
@@ -5543,7 +5518,20 @@ h4 {
         display: flex;
     }
 
+    .impacto{
+        text-align: center;
+    }
+
+    .impacto-social{
+        max-width: 100%;
+    }
+
+    .impact-btn{
+        margin: 0 auto;
+    }
+
     .impact {
+        margin-top: 50px;
         height: 100%;
     }
 
