@@ -4,517 +4,21 @@
     --fonte-rodape: 'Barlow';
 }
 
-@media screen and (max-width: 767px) {
-    body {
-        width: 100%;
-    }
-
-    .educadores {
-        font-size: 1px;
-        max-width: 30%;
-        display: flex;
-    }
-
-    .subtext1{
-      
-    }
-
-.impacto{
-
-    padding-top: 40%;
-}
-.impact1{
-
-}
-.impactoSocial{
-  
-}
-
-    .objetivo {
-        
-        max-width: 100%;
-        display: flex;
-    }
-
-    .impact {
-        height: 100%;
-    }
-
-
-
-    .containerInfo {
-        height: 100%;
-    }
-
-    .itens-one {
-        opacity: 0%;
-    }
-
-    .info {
-        padding-top: 10%;
-        padding-left: -100%;
-        left: 100%;
-    }
-
-    .containerInfo {
-        display: flex;
-        height: 100%;
-    }
-
-    .logo {
-
-        padding-top: 100%;
-    }
-
-    .btn-impact {
-        padding-top: 20%;
-    }
-    
-
-
-    .icons {
-        opacity: 0%;
-    }
-
-    .subtext {
-
-        min-width: 30%;
-        max-width: 30%;
-        display: flex;
-        z-index: 1;
-    }
-
-    .btn-aulagratis {
-        background-color: red;
-        font-size: 1px;
-        width: 10%;
-    }
-
-    .btnlimit {
-        display: flex;
-        height: 40%;
-        margin-top: 10%;
-        width: 5%;
-        font-size: 1%;
-    }
-
-    .btnlimitaulagratis {
-
-        width: 1%;
-    }
-
-    .carde {
-        flex: 0 0 100%;
-        margin-bottom: 5%;
-
-
-    }
-
-    .background-top {
-        margin-top: 30%;
-    }
-
-    .background-benefits {
-        margin-top: 180%;
-    }
-
-    .text-dv {
-        display: flex;
-        font-size: 0.1em;
-
-    }
-
-    .limitText {
-        width: 20%;
-    }
-
-    .textCard {
-        padding: 1%;
-
-        left: 2%;
-    }
-
-    .text-future {
-        padding: 2%;
-    }
-
-    .subtext-card {
-        padding: 2%;
-        max-width: 80%;
-        top: 8%;
-    }
-
-    .subtext-future {
-        max-width: 80%;
-        padding: 2%;
-    }
-
-    .subtext-dev {
-        display: flex;
-        max-width: 400px;
-        min-width: 300%;
-        padding: 10%;
-    }
-
-    .textDev {
-
-        padding: 3%;
-
-    }
-
-    .dev-two {
-        width: 30%;
-    }
-
-    .cardd {
-        max-width: 70%;
-        padding-bottom: 45%;
-        margin-bottom: 10%;
-    }
-
-    .azul{
-    
-    }
-    .card-line {
-        width: 1%;
-        height: 1%;
-    }
-
-    .short-cards {
-
-        background-color: #00E8FF;
-    }
-
-    .textCard-t {
-        margin-right: -50%;
-        top: 50%;
-        display: flex;
-        left: -35%;
-        z-index: 1;
-        font-size: 10%;
-        position: relative;
-    }
-
-    .one {
-        display: flex;
-
-    }
-
-    .number-one {
-        display: flex;
-        height: 100%;
-    }
-
-    .short-cards {
-        height: 100%;
-        top: 50%;
-        display: flex;
-    }
-
-    .number-two {
-        display: flex;
-        height: 100%;
-        left: -35%;
-    }
-
-    .card-grey {}
-
-    .card-blue {
-        max-width: 25%;
-    }
-
-    .btn-div {
-        padding-top: 30%;
-        padding-bottom: 5%;
-
-    }
-
-    .card-grey {
-        min-width: 90%;
-    }
-
-    .logo {
-        margin-top: -150px;
-    }
-
-    .principal-logo {
-        margin-top: 10%;
-        min-width: 70%;
-      padding-left: 30%;
-    }
-
-    .itens-two {}
-
-    .itens-two {
-        margin-left: -47%;
-    }
-
-    .itens-two-sub {
-        margin-left: -22%;
-
-        margin-top: 61px;
-    }
-
-    .line-footer {
-        margin-top: -232px;
-    }
-
-    .direitos {
-        width: 96%;
-        margin-top: -172px;
-        margin-left: 14px;
-    }
-
-    .title-aula {
-        padding-left: 20%;
-    }
-
-    .form {
-        padding-left: 10%;
-    }
-
-    .form-control {}
-
-    .btn-card {
-        padding-top: 100%;
-        position: relative;
-        min-width: 100%;
-    }
-
-    .textD2 {
-        top: 49%;
-        left: -37%;
-    }
-
-    .guilherme-title {
-        font-size: 2px;
-    }
-
-    .textgustavo {
-        width: 1%;
-        font-size: 1px;
-        display: flex;
-        left: 50%;
-    }
-
-    .subtext-gustavo {
-        display: flex;
-        right: 50%;
-        font-size: 2px;
-    }
-
-    .btn-gustavo {
-        display: flex;
-        left: 50%;
-        padding: 0.1%;
-    }
-
-    .short-card {
-        min-height: 100%;
-    }
-
-    .short-card2 {
-        min-height: 100%;
-
-    }
-
-    .short-card3 {
-        min-height: 100%;
-    }
-
-    .glass {
-        width: 1%;
-    }
-
-    .textCard-t {
-        max-width: 10%;
-    }
-
-    .subtext-cards {
-        opacity: 0%;
-    }
-
-    .short-cards2 {
-        background-color: white;
-        max-width: 117px;
-    }
-
-    .text-f {
-        top: 50%;
-        max-width: 40%;
-    }
-
-    .subtext-f {
-        opacity: 0%;
-        top: 50%;
-    }
-
-    .number-two {
-        display: flex;
-    }
-
-    .textD2 {
-        max-width: 40%;
-        top: 19%;
-        min-height: 10%;
-        padding-bottom: 30%;
-    }
-
-    .subtext-d2 {
-        opacity: 0%;
-        top: 50%;
-    }
-
-    .btn-dive {
-        min-width: 50%;
-    }
-
-
-    .background-benefits {
-        opacity: 0%;
-        width: 1%;
-        height: 1%;
-    }
-
-    
-
-    .title-aula {
-        width: 285px;
-    }
-
-    .svg-card {
-        opacity: 0;
-        width: 1%;
-    }
-
-    .btn-div {
-        margin-top: 10px;
-
-    }
-
-    .btn-card {
-        background-color: #fffdfd;
-        width: 298px;
-        border-radius: 0px;
-        margin-top: -1px;
-    }
-
-    .card-grey {
-        width: 100%;
-        background-color: #00E8FF;
-        margin-left: -104px;
-
-    }
-
-    .card-blue {
-        opacity: 0;
-    }
-
-
-
-    .display-row .form-group {
-        display: block;
-        /* Faz com que as labels ocupem uma linha inteira */
-        margin-bottom: 10px;
-        /* Espaçamento entre labels e inputs */
-        width: 100%;
-        /* Ocupa toda a largura disponível */
-        padding: 5px;
-        /* Adicione algum espaço interno para melhor aparência */
-        margin-bottom: 10px;
-        /* Espaçamento entre inputs */
-        margin: 0 auto;
-        /* Centralize o formulário horizontalmente */
-    }
-
-    .referencia {
-        max-width: 60%;
-    }
-
-    .curriculum {
-        top: 100%;
-        opacity: 0%;
-    }
-
-    .zero2 {
-        display: flex;
-        max-width: 100%;
-        min-width: 100%;
-
-    }
-
-    .zero22 {
-        display: flex;
-        max-width: 60%;
-        min-width: 60%;
-        right: 20%;
-    }
-
-    .card-aprender {
-        width: 1%;
-        opacity: 0%;
-    }
-
-    .aprender {
-        font-size: 1px;
-        opacity: 0%;
-    }
-
-    .zero4,
-    .zero1,
-    zero {
-        max-width: 60%;
-        min-width: 60%;
-    }
-
-    .card-align {
-
-        left: 60%;
-    }
-
-    .btn-class-blue {
-        min-width: 80%;
-        max-width: 10%;
-        color: #000;
-        font-weight: 600;
-        z-index: 1;
-        font-size: 20px;
-        left: 40%;
-    }
-
-    .b111 {
-        max-width: 80%;
-        min-width: 80%;
-    }
-
-    .column,
-    .itens-three {
-        opacity: 0%;
-        width: 1%;
-    }
-
-    .itens-two-sub {
-        left: 100%;
-    }
-
-    .display-content {
-        padding-top: 80%;
-    }
-    
-
-}
-
-
-
 * {
     box-sizing: border-box;
     font-family: 'Montserrat';
-
 }
-
 
 body {
     background-color: #000;
+}
+
+a {
+    text-decoration: none;
+}
+
+button {
+    border: none;
 }
 
 .steps {
@@ -526,8 +30,6 @@ body {
     background-color: #e9e9e9;
     position: relative;
 }
-
-
 
 .rec-bottom {
     position: absolute;
@@ -547,7 +49,6 @@ body {
 
 #benefits {
     position: relative;
-
 }
 
 #detailed-depositions {
@@ -602,7 +103,6 @@ body {
     align-items: center;
 }
 
-
 .nav-link {
     color: var(--pcv-gray, #E9E9E9) !important;
     text-align: center;
@@ -647,7 +147,6 @@ body {
     line-height: normal;
     letter-spacing: -0.143px;
     background-color: #00e8ff !important;
-
 }
 
 .btnnn {
@@ -669,14 +168,11 @@ body {
     font-weight: 700;
     line-height: normal;
     letter-spacing: -0.143px;
-    
 }
 
 .circulo-one {
-
     margin-left: -124%;
 }
-
 
 .btnnn:hover {
     background-color: #00e8ff !important;
@@ -724,17 +220,23 @@ h4 {
     width: 100%;
 }
 
-
-
 .btnlimit {
     margin-top: 2%;
     width: 100%;
     height: 1%;
-
     display: flex;
 }
 
-
+.entre-na-comunidade {
+    background: var(--cyan-1, linear-gradient(201deg, #00E8FF 0%, #38979f 100%));
+    border-radius: 50px;
+    color: #000;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    padding: 14px 51px;
+    text-decoration: none;
+}
 
 .tt {
     text-align: center;
@@ -753,7 +255,6 @@ h4 {
 .rectangle {
     width: 100%;
 }
-
 
 .text-dv {
     color: var(--pcv-black, #101010);
@@ -777,9 +278,6 @@ h4 {
     margin-left: 1%;
 }
 
-
-
-
 .cardd {
     border-radius: 11px 15px 15px 11px;
     background: var(--pcv-gray, #E9E9E9);
@@ -791,19 +289,15 @@ h4 {
     flex-wrap: wrap;
     flex-direction: row;
     position: relative;
-
 }
 
 .dev {
     margin-left: 12%;
     margin-top: 5%;
-
 }
 
 .dev-two {
     margin-left: 12%;
-
-
 }
 
 
@@ -820,7 +314,6 @@ h4 {
     margin-left: 12%;
     margin-top: 3%;
     position: absolute;
-
 }
 
 .subtext-card {
@@ -835,7 +328,6 @@ h4 {
     margin-left: 12%;
     margin-top: 8%;
     position: absolute;
-
 }
 
 .short-card {
@@ -855,11 +347,7 @@ h4 {
     height: 107.779px;
     flex-shrink: 0;
     position: absolute;
-    ;
 }
-
-
-
 
 .textDev {
     color: var(--pcv-black, #101010);
@@ -871,8 +359,6 @@ h4 {
     width: 137px;
     height: 21.171px;
     flex-shrink: 0;
-
-
 }
 
 .subtext-dev {
@@ -884,9 +370,6 @@ h4 {
     line-height: 165.9%;
     /* 21.567px */
     letter-spacing: -0.195px;
-
-
-
 }
 
 .textD2 {
@@ -902,7 +385,6 @@ h4 {
     margin-top: -17%;
     position: absolute;
     width: 684px;
-
 }
 
 .subtext-d2 {
@@ -917,7 +399,6 @@ h4 {
     position: absolute;
     margin-left: 39%;
     margin-top: -6%;
-
 }
 
 .short-card3 {
@@ -930,11 +411,6 @@ h4 {
     left: 0;
 }
 
-
-
-
-
-
 .btn-classt {
     margin-top: 60px;
     padding: 15.668px 55.117px;
@@ -945,7 +421,6 @@ h4 {
     text-align: center;
     font-family: Montserrat;
     font-size: 15.668px;
-
     font-weight: 700;
     line-height: normal;
     letter-spacing: -0.235px;
@@ -979,18 +454,15 @@ h4 {
     border-radius: 21px;
     background: linear-gradient(295deg, #DBE0E0 0%, #FFF 100%);
     box-shadow: 0px 4px 46px 0px rgba(0, 0, 0, 0.25);
-
 }
 
 .dev-t {
     margin-left: 12%;
     margin-top: 5%;
-
 }
 
 .dev-two {
     margin-left: 12%;
-
 }
 
 .textCard-t {
@@ -1005,11 +477,9 @@ h4 {
     width: 668px;
     margin-left: 39%;
     margin-top: -16%;
-
 }
 
 .subtext-cards {
-
     color: var(--pcv-black, #101010);
     font-family: Montserrat;
     font-size: 20px;
@@ -1021,7 +491,6 @@ h4 {
     width: 601px;
     margin-left: 39%;
     margin-top: -7%;
-
 }
 
 .short-cards {
@@ -1042,7 +511,6 @@ h4 {
     box-shadow: 0px 4px 46px 0px rgba(0, 0, 0, 0.25);
     margin-left: 68.1% !important;
 }
-
 
 .text-future {
     color: var(--pcv-black, #101010);
@@ -1071,7 +539,6 @@ h4 {
     margin-left: 12%;
     margin-top: 4%;
     position: absolute;
-
 }
 
 .textDevs {
@@ -1084,8 +551,6 @@ h4 {
     width: 137px;
     height: 21.171px;
     flex-shrink: 0;
-
-
 }
 
 .subtext-d {
@@ -1097,12 +562,7 @@ h4 {
     line-height: 165.9%;
     /* 21.567px */
     letter-spacing: -0.195px;
-
-
-
 }
-
-
 
 .short-cards3 {
     width: 414px;
@@ -1111,8 +571,6 @@ h4 {
     border-radius: 21px;
     background: var(--pcv-laranja, #EB9203);
     box-shadow: 0px 4px 46px 0px rgba(0, 0, 0, 0.25);
-
-
 }
 
 .number-one {
@@ -1123,8 +581,6 @@ h4 {
     font-style: normal;
     font-weight: 800;
     line-height: normal;
-
-
 }
 
 .number-two {
@@ -1135,8 +591,6 @@ h4 {
     font-style: normal;
     font-weight: 800;
     line-height: normal;
-
-
 }
 
 .number-three {
@@ -1147,37 +601,26 @@ h4 {
     font-style: normal;
     font-weight: 800;
     line-height: normal;
-
-
 }
 
-
 .one {
-
     margin-top: -26%;
     margin-left: 13%;
-
 }
 
 .two {
-
     margin-top: -26%;
     margin-left: 80%;
-
 }
 
 .three {
-
     margin-top: -26%;
     margin-left: 12%;
-
 }
 
 .rectanglel {
     width: 100%;
 }
-
-
 
 .btn-finale {
     display: flex;
@@ -1252,7 +695,6 @@ h4 {
 
 .depositions img.background-detail-6 {
     position: absolute;
-
     margin-left: -54;
     bottom: 1;
     margin-top: 39%;
@@ -1287,10 +729,7 @@ h4 {
     font-style: normal;
     font-weight: 400;
     line-height: 155.4%;
-
 }
-
-
 
 .skills-2 {
     color: var(--pcv-black, #101010);
@@ -1321,7 +760,6 @@ h4 {
     flex-shrink: 0;
     margin: 17%;
     margin-top: -8%;
-
 }
 
 .icon-one {
@@ -1353,7 +791,6 @@ h4 {
     margin-left: 10%;
     margin-top: 5%;
 }
-
 
 .icon- {
     width: 83.351px;
@@ -1428,7 +865,6 @@ h4 {
     margin-left: 35%;
 }
 
-
 .al-gustavo {
     color: var(--preto, #0D0D0D);
     font-feature-settings: 'clig' off, 'liga' off;
@@ -1450,8 +886,6 @@ h4 {
     background: var(--cyan-claro, #00E8FF);
     box-shadow: 0px 4px 26px 0px rgba(0, 0, 0, 0.25);
 }
-
-
 
 .espço {
     margin-top: 9%;
@@ -1480,21 +914,13 @@ h4 {
     margin-left: 3%;
 }
 
-
-
 .guilherme {
     color: var(--cyan-claro, #00E8FF);
     font-family: Montserrat;
     font-size: 40px;
     font-style: normal;
     font-weight: 800;
-
-
 }
-
-
-
-
 
 .left-text {
     color: rgba(233, 233, 233, 0.54);
@@ -1545,8 +971,6 @@ h4 {
     flex-shrink: 0;
 }
 
-
-
 .jovens {
     border-radius: 20px 20px 0px 0px;
     background: var(--rosa-rosa-to-dark, linear-gradient(270deg, #E50071 0%, #2D1188 100%));
@@ -1582,7 +1006,6 @@ h4 {
 
 .tab-direction {
     margin-top: 10%;
-
 }
 
 .rectangle-sub {
@@ -1597,336 +1020,104 @@ h4 {
     position: absolute;
 }
 
-@media screen and (max-width: 700px) {
+footer{
+    background: var(--pcv-black, #101010);
+    width: 100%;
+    padding: 50px 0;
+}
 
+.footer__logo {
+    width: 211px;
+}
 
-    .section-card {
-        margin-top: 45%;
-    }
+.footer__texto{
+    color: #E9E9E9;
+    font-family: var(--fonte-rodape);
+    font-size: 16px;
+    font-weight: 500;
+    margin: 23px 0 24px;
+}
 
-    .h1-programador {
-        color: var(--pcv-gray, #E9E9E9);
-        font-family: Montserrat;
-        font-size: 23.302px;
-        font-style: normal;
-        font-weight: 500;
-        line-height: normal;
-        margin-top: -29.5%;
-        margin-left: 8%;
-    }
+.redes-sociais{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
 
-    .first-salario {
-        color: var(--pcv-gray, #E9E9E9);
-        font-family: Montserrat;
-        font-size: 81.557px;
-        font-style: normal;
-        font-weight: 700;
-        line-height: normal;
-        margin-left: 7%;
-        margin-top: -1%;
-    }
+.redes-sociais__icone{
+    filter: invert(95%) sepia(0%) saturate(7475%) hue-rotate(77deg) brightness(106%) contrast(108%);
+    width: 24px;
+}
 
-    .mes {
-        color: var(--pcv-gray, #E9E9E9);
-        font-family: Montserrat;
-        font-size: 23.302px;
-        font-style: normal;
-        font-weight: 500;
-        line-height: normal;
-    }
+.colunas-rodape{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
 
-    .referencia {
-        color: rgba(233, 233, 233, 0.38);
-        font-family: Montserrat;
-        font-size: 17.476px;
-        font-style: normal;
-        font-weight: 500;
-        line-height: normal;
-        margin-top: -1%;
-        margin-left: 8%;
-    }
+.colunas-rodape>ul{
+    list-style: none;
+}
 
-    .section-card-two {
-        margin-top: 15%;
-    }
+.colunas-rodape ul li {
+    color: #E9E9E9;
+    font-family: var(--fonte-rodape);
+    font-size: 17px;
+    font-weight: 500;
+    word-break: break-word;
+}
 
-    .h1-programador {
-        color: var(--pcv-gray, #E9E9E9);
-        font-family: Montserrat;
-        font-size: 23.302px;
-        font-style: normal;
-        font-weight: 500;
-        line-height: normal;
-        margin-top: -29.5%;
-        margin-left: 8%;
-    }
+.colunas-rodape ul a{
+    color: #E9E9E9;
+    text-decoration: none;
+}
 
-    .first-salario {
-        color: var(--pcv-gray, #E9E9E9);
-        font-family: Montserrat;
-        font-size: 81.557px;
-        font-style: normal;
-        font-weight: 700;
-        line-height: normal;
-        margin-left: 7%;
-        margin-top: -1%;
-    }
+.colunas-rodape ul h2{
+    color: #E9E9E9;
+    font-family: var(--fonte-rodape);
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
 
-    .mes {
-        color: var(--pcv-gray, #E9E9E9);
-        font-family: Montserrat;
-        font-size: 23.302px;
-        font-style: normal;
-        font-weight: 500;
-        line-height: normal;
-    }
+.colunas-rodape ul h3{
+    color: #E9E9E9;
+    font-family: var(--fonte-rodape);
+    font-size: 17px;
+    font-weight: 700;
+}
 
-    .referencia {
-        color: rgba(233, 233, 233, 0.38);
-        font-family: Montserrat;
-        font-size: 17.476px;
-        font-style: normal;
-        font-weight: 500;
-        line-height: normal;
-        margin-top: -1%;
-        margin-left: 8%;
-    }
+.item-pagina{
+    margin-bottom: 13px;
+}
 
+.item-contato{
+    margin-bottom: 15px;
+}
 
-    .Salario {
-        background: var(--cyan-1, linear-gradient(201deg, #00E8FF 0%, #38BBC8 100%));
-        background-clip: text;
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-        font-family: Montserrat;
-        font-size: 40px;
-        font-style: normal;
-        font-weight: 900;
-        line-height: 164.4%;
-    }
+.item-juridico{
+    margin-bottom: 6px;
+}
 
+.footer-linha{
+    border: 1px solid #E9E9E9;
+    width: 70vw;
+}
 
+.direitos-autorais{
+    display: flex;
+    border-top: 1px solid #E9E9E9;
+    justify-content: center;
+    margin-top: 116px;
+}
 
-    .carreiras {
-        color: var(--pcv-gray, #E9E9E9);
-        text-align: center;
-        font-family: Montserrat;
-        font-size: 20px;
-        font-style: normal;
-        font-weight: 500;
-        line-height: 164.4%;
-        width: 75%;
-        margin-left: 11%;
-        margin-top: 2%;
-    }
-
-    .card-white {
-        width: 612px;
-        height: 466px;
-        flex-shrink: 0;
-        border-radius: 36px;
-        background: #FFF;
-        margin-top: -55%;
-        margin-left: 90%;
-    }
-
-    .curriculum {
-        font-family: Montserrat;
-        font-size: 27.956px;
-        font-style: normal;
-        font-weight: 700;
-        line-height: normal;
-        background: var(--cyan-1, linear-gradient(201deg, #00E8FF 0%, #38BBC8 100%));
-        background-clip: text;
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-        margin-top: -4%;
-        margin-left: 41%;
-        position: absolute;
-    }
-
-    .woman {
-        width: 83.351px;
-        height: 83.351px;
-        flex-shrink: 0;
-        border-radius: 66.681px;
-        background: url(<path-to-image>), lightgray 50% / cover no-repeat;
-        margin-left: 7%;
-        margin-top: 5%;
-    }
-
-    .nomer {
-        color: var(--pcv-black, #101010);
-        font-family: Montserrat;
-        font-size: 20px;
-        font-style: normal;
-        font-weight: 700;
-        line-height: normal;
-        margin-left: 147px;
-        margin-top: -3%;
-        position: absolute;
-    }
-
-    .programadora {
-        color: var(--pcv-black, #101010);
-        font-family: Montserrat;
-        font-size: 16px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: normal;
-        margin-left: 24%;
-        margin-top: -6%;
-    }
-
-    .card-div {
-        width: 156px;
-        height: 45px;
-        flex-shrink: 0;
-        border-radius: 7px;
-        background: var(--cyan-1, linear-gradient(201deg, #00E8FF 0%, #38BBC8 100%));
-        margin-left: 61%;
-        margin-top: -10%;
-    }
-
-    .salario-woman {
-        color: var(--pcv-black, #101010);
-        font-family: Montserrat;
-        font-size: 16px;
-        font-style: normal;
-        font-weight: 700;
-        line-height: normal;
-        align-items: center;
-        text-align: center;
-        margin-left: 20.3%;
-        margin-top: -1.7%;
-        position: absolute;
-    }
-
-    .habilidades {
-        color: var(--pcv-black, #101010);
-        font-family: Montserrat;
-        font-size: 16px;
-        font-style: normal;
-        font-weight: 700;
-        line-height: normal;
-        margin-top: 4%;
-        margin-left: 2%;
-        position: absolute;
-    }
-
-    .line {
-        width: 535px;
-        height: 1px;
-        background: rgba(0, 0, 0, 0.17);
-        margin-top: 8%;
-        margin-left: 6%;
-    }
-
-    .image-one {
-        width: 10%;
-        height: 10%;
-        margin-left: 3%;
-    }
-
-    .manual-text {
-        color: var(--pcv-black, #101010);
-        font-family: Montserrat;
-        font-size: 16px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: normal;
-
-    }
-
-    .div-front {
-        margin-top: 6.7%;
-        margin-left: 14%;
-    }
-
-    .div-back {
-        margin-top: 3%;
-        margin-left: 14%;
-    }
-
-    .div-mobile {
-        margin-top: 3.7%;
-        margin-left: 14%;
-    }
-
-    .div-api {
-        margin-top: 3.3%;
-        margin-left: 14%;
-    }
-
-    .image-two {
-        width: 10%;
-        height: 10%;
-        margin-left: 50%;
-        margin-top: -27.5%;
-    }
-
-    .div-react {
-        margin-top: -5.2%;
-        margin-left: 59%;
-    }
-
-    .div-python {
-        margin-top: 3%;
-        margin-left: 59%;
-    }
-
-    .div-database {
-        margin-top: 3.7%;
-        margin-left: 59%;
-    }
-
-    .div-ciber {
-        margin-top: 3.3%;
-        margin-left: 59%;
-    }
-
-
-    .circle-one {
-        margin-top: 80px;
-        margin-left: 25%;
-    }
-
-    .circle-two {
-        margin-top: 10%;
-        margin-left: 5%;
-
-    }
-
-    .circle-three {
-        margin-top: -12%;
-        margin-left: -1.5%;
-    }
-
-    .circle-for {
-        margin-top: 10%;
-        margin-left: 90%;
-    }
-
-    .circle-line-one {
-        margin-top: -22%;
-        margin-left: 11%;
-        position: absolute;
-    }
-
-    .circle-line-two {
-        margin-top: -17%;
-        margin-left: -1.5%;
-    }
-
-    .circle-line-three {
-        margin-top: -12%;
-        margin-left: -1.5%;
-    }
-
-    .circle-line-for {
-        margin-top: -7%;
-        margin-left: -1.5%;
-    }
+.direitos-autorais span{
+    color: #E9E9E9;
+    font-family: var(--fonte-rodape);
+    font-size: 16px;
+    font-weight: 500;
+    margin: 32px;
+    text-align: center;
 }
 
 .text-why {
@@ -1982,20 +1173,17 @@ h4 {
 }
 
 .card-align {
-
     width: 400px;
     height: 374px;
     flex-shrink: 0;
     border-radius: 15px;
     background: var(--pcv-black, #050505);
     box-shadow: 6px 49px 23px 7px rgba(0, 232, 255, 0.05);
-
 }
 
 .card-align:hover {
     background-color: #00E8FF;
 }
-
 
 .btn-class-blue {
     border-radius: 38.569px;
@@ -2021,11 +1209,6 @@ h4 {
     letter-spacing: -0.235px;
 }
 
-
-
-
-
-
 .zero {
     color: var(--pcv-gray, #E9E9E9);
     font-family: Montserrat;
@@ -2047,7 +1230,6 @@ h4 {
     line-height: normal;
     color: #00E8FF;
     background-clip: text;
-
     width: 208px;
     margin: 15%;
     margin-top: -13%;
@@ -2140,7 +1322,6 @@ h4 {
     flex-wrap: wrap;
     margin-bottom: 8%;
     gap: 110px;
-
 }
 
 .display-cards-aprender-two {
@@ -2151,7 +1332,6 @@ h4 {
     flex-wrap: wrap;
     margin-bottom: 8%;
     gap: 110px;
-
 }
 
 .display-cards-aprender-three {
@@ -2162,8 +1342,6 @@ h4 {
     flex-wrap: wrap;
     margin-bottom: 8%;
     margin-left: 38%;
-
-
 }
 
 .image-aprender {
@@ -2228,7 +1406,6 @@ h4 {
     width: 239px;
 }
 
-
 .curso {
     color: var(--pcv-gray, #E9E9E9);
     text-align: center;
@@ -2256,7 +1433,6 @@ h4 {
     font-weight: 400;
     line-height: 155.4%;
     /* 31.08px */
-
 }
 
 .list {
@@ -2313,7 +1489,6 @@ h4 {
     width: 301px;
     margin-left: -1.6%;
     margin-left: 28.5%;
-
 }
 
 .video-aula {
@@ -2332,7 +1507,6 @@ h4 {
     margin-left: 61.5%;
 }
 
-
 .div-videoaula-three {
     width: 301px;
     margin-left: -1.6%;
@@ -2350,7 +1524,6 @@ h4 {
     margin-top: -8.7%;
     margin-left: 91.5%;
 }
-
 
 .div-videoaula-for {
     width: 301px;
@@ -2407,7 +1580,6 @@ h4 {
     /* 27.074px */
 }
 
-
 .plano {
     color: var(--pcv-black, #101010);
     text-align: center;
@@ -2425,7 +1597,6 @@ h4 {
     width: 460px;
     height: 686px;
     flex-shrink: 0;
-
     background: var(--pcv-gray, #E9E9E9);
     box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.39);
 }
@@ -2438,7 +1609,6 @@ h4 {
 .card-deck-1 {
     margin-left: 24%;
     margin-top: 8%;
-
 }
 
 .contract-btn {
@@ -2516,7 +1686,6 @@ h4 {
     font-weight: 400;
     line-height: normal;
     letter-spacing: -0.218px;
-
 }
 
 .veri-two {
@@ -2527,7 +1696,6 @@ h4 {
     font-weight: 400;
     line-height: normal;
     letter-spacing: -0.218px;
-
 }
 
 .veri-three {
@@ -2538,7 +1706,6 @@ h4 {
     font-weight: 400;
     line-height: normal;
     letter-spacing: -0.218px;
-
 }
 
 .veri-for {
@@ -2549,7 +1716,6 @@ h4 {
     font-weight: 400;
     line-height: normal;
     letter-spacing: -0.218px;
-
 }
 
 .div-one {
@@ -2602,7 +1768,6 @@ h4 {
     margin-top: 7%;
     margin-left: 30%;
 }
-
 
 .valor-veri-dois {
     color: #000;
@@ -2687,7 +1852,7 @@ h4 {
 }
 
 .azul {
-   top:50%;
+    top:50%;
     flex-shrink: 0;
     border-radius: 0px 0px 39px 39px;
     background: var(--cyan-1, linear-gradient(201deg, #00E8FF 0%, #38BBC8 100%));
@@ -2701,8 +1866,6 @@ h4 {
     font-weight: 800;
     line-height: normal;
     width: 478px;
-    margin-top: 12% !important;
-    margin-left: -0.7% !important;
 }
 
 .btn-white {
@@ -2727,24 +1890,11 @@ h4 {
     letter-spacing: -0.235px;
     margin-top: -7% !important;
     margin-left: -8.6% !important;
-
 }
 
 .btn-white-div {
     margin-left: 7%;
     margin-top: 10%;
-}
-
-
-.group-div {
-    margin-left: 40%;
-    margin-top: -26%;
-}
-
-.educadores {
-    margin-left: 7%;
-    margin-top: 0%;
-
 }
 
 .impacto-social {
@@ -2757,18 +1907,28 @@ h4 {
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    width: 586px;
-    height: 124px;
-    flex-shrink: 0;
-    margin-top: 23%;
+    max-width: 450px;
+}
 
+.impacto {
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    height: 100%;
+}
+
+.impact{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 0;
 }
 
 .objetivo-div {
     max-width: 50%;
     margin-top: 3%;
 }
-
 
 .objetivo {
     color: var(--pcv-gray, #E9E9E9);
@@ -2778,15 +1938,6 @@ h4 {
     font-weight: 400;
     line-height: 164.4%;
     /* 32.88px */
-    width: 529px;
-    height: 161px;
-    flex-shrink: 0;
-
-}
-
-.impact {
-    margin-left: 45%;
-    margin-top: -30%;
 }
 
 .impact-btn {
@@ -2811,7 +1962,6 @@ h4 {
 }
 
 .btn-impact {
-
     margin-top: -9%;
     margin-bottom: 20%;
 }
@@ -2974,12 +2124,10 @@ h4 {
     letter-spacing: -0.235px;
 }
 
-
 .rec-grey {
     border-radius: 77px 77px 0px 16px;
     background: var(--pcv-gray, #E9E9E9);
     box-shadow: 0px 4px 46px 0px rgba(0, 0, 0, 0.25);
-
 }
 
 .common-questions {
@@ -2999,7 +2147,6 @@ h4 {
     line-height: 164.4%;
     /* 65.76px */
 }
-
 
 .logo {
     margin-top: 4%;
@@ -3021,7 +2168,6 @@ h4 {
     filter: invert(100%);
     width: 2%;
     margin-top: 1%;
-
 }
 
 .instagram {
@@ -3040,8 +2186,6 @@ h4 {
 
 .icons {
     margin-top: 0;
-
-
 }
 
 .escola {
@@ -3060,8 +2204,6 @@ h4 {
 .column {
     display: flex;
     flex-direction: column;
-
-
 }
 
 .info {
@@ -3086,7 +2228,6 @@ h4 {
     margin-top: -11%;
     width: 22%;
 }
-
 
 .contact {
     color: var(--branco, #E9E9E9);
@@ -3122,7 +2263,6 @@ h4 {
     margin-top: -5.5%;
     width: 22%;
 }
-
 
 .juridico {
     color: var(--branco, #E9E9E9);
@@ -3258,38 +2398,23 @@ h4 {
     line-height: 155.4%;
 }
 
-
-* {
-    box-sizing: border-box;
-    font-family: 'Montserrat';
-
-}
-
-a {
-    text-decoration: none;
-
-}
-
-
-
-button {
-    border: none;
-}
-
-body {
-    background-color: #000;
-}
-
-
 .typography {
     font-size: 50px;;
     margin-top: 100px;
 }
 
+.content-left {
+    min-height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}   
+
 .typography1{
     font-size: 46px;
     margin-top: 100px;
-  min-width: 110%;
+    min-width: 110%;
 }
 
 #numbers {
@@ -3308,15 +2433,22 @@ body {
     margin-left: 84.4%;
 }
 
-
-
 #benefits {
     position: relative;
-
 }
 
 #detailed-depositions {
     margin-top: 0px;
+}
+
+.azul-container{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+}
+
+#relevancia-social{
+    margin-top: 70px;
 }
 
 .background-headline {
@@ -3390,7 +2522,6 @@ body {
     font-weight: 700;
     line-height: normal;
     letter-spacing: -0.23px;
-
 }
 
 .nav-link:hover {
@@ -3408,8 +2539,6 @@ body {
 .space-btn {
     margin-left: 6px;
 }
-
-
 
 h4 {
     color: var(--pcv-gray, #E9E9E9);
@@ -3432,17 +2561,11 @@ h4 {
     line-height: normal;
 }
 
-
-
-
 .btn-class {
     display: flex;
-    width: 385.817px;
-    height: 56.219px;
     padding: 15.668px 55.117px;
     justify-content: center;
     align-items: center;
-    gap: 12.053px;
     font-weight: 600;
     font-size: 20px;
     flex-shrink: 0;
@@ -3450,20 +2573,17 @@ h4 {
     background: var(--cyan-1, linear-gradient(201deg, #00E8FF 0%, #38BBC8 100%));
 }
 
-
-
-
 .display-cards {
-    margin-top: 8%;
+    margin: 8% 0;
     display: flex;
     flex-direction: row;
-    padding-left: 10%;
+    justify-content: space-evenly;
     flex-wrap: wrap;
-    margin-bottom: 5%;
-
+    gap: 10px;
 }
 
 .carde {
+    padding: 10px;
     background-color: transparent;
     width: 338px;
     height: 217px;
@@ -3473,8 +2593,6 @@ h4 {
     align-items: center;
     display: flex;
     flex-direction: column;
-    margin-right: 10%;
-
 }
 .text-card {
     color: var(--cyan-claro, #00E8FF);
@@ -3485,7 +2603,6 @@ h4 {
     line-height: normal;
     letter-spacing: -1.5px;
     margin-top: 5%;
-
 }
 
 .tt {
@@ -3506,8 +2623,6 @@ h4 {
     width: 100%;
 }
 
-
-
 .textSub-dv {
     color: var(--pcv-black, #101010);
     font-family: Montserrat;
@@ -3520,7 +2635,6 @@ h4 {
     margin-left: 1%;
 }
 
-
 .display-card {
     display: flex;
     flex-direction: column;
@@ -3528,22 +2642,14 @@ h4 {
     margin-top: 50px;
 }
 
-
-
 .dev {
     margin-left: 12%;
     margin-top: 5%;
-
 }
 
 .dev-two {
     margin-left: 12%;
-
-
 }
-
-
-
 
 .short-card {
     border-radius: 11px;
@@ -3565,7 +2671,6 @@ h4 {
     left: 0;
 }
 
-
 .text-f {
     color: var(--pcv-black, #101010);
     font-family: Montserrat;
@@ -3581,7 +2686,6 @@ h4 {
 }
 
 .subtext-f {
-
     margin-left: 6%;
     margin-top: -9.6%;
     position: absolute;
@@ -3594,12 +2698,6 @@ h4 {
     /* 32.88px */
     width: 601px;
 }
-
-
-
-
-
-
 
 .short-card3 {
     border-radius: 11px;
@@ -3709,8 +2807,6 @@ h4 {
     letter-spacing: -0.235px;
 }
 
-
-
 .line {
     stroke-width: 8px;
     stroke: #000;
@@ -3719,7 +2815,6 @@ h4 {
     flex-shrink: 0;
     margin-left: 9%;
     margin-top: -50%;
-
 }
 
 .display-cardt {
@@ -3739,21 +2834,16 @@ h4 {
     border-radius: 21px;
     background: linear-gradient(295deg, #DBE0E0 0%, #FFF 100%);
     box-shadow: 0px 4px 46px 0px rgba(0, 0, 0, 0.25);
-
 }
 
 .dev-t {
     margin-left: 12%;
     margin-top: 5%;
-
 }
 
 .dev-two {
     margin-left: 12%;
-
 }
-
-
 
 .short-cards {
     width: 414px;
@@ -3762,13 +2852,7 @@ h4 {
     border-radius: 21px;
     background: var(--pcv-rosa, #E50071);
     box-shadow: 0px 4px 46px 0px rgba(0, 0, 0, 0.25);
-
 }
-
-
-
-
-
 
 .textDevs {
     color: var(--pcv-black, #101010);
@@ -3780,8 +2864,6 @@ h4 {
     width: 137px;
     height: 21.171px;
     flex-shrink: 0;
-
-
 }
 
 .subtext-d {
@@ -3793,12 +2875,7 @@ h4 {
     line-height: 165.9%;
     /* 21.567px */
     letter-spacing: -0.195px;
-
-
-
 }
-
-
 
 .short-cards3 {
     width: 414px;
@@ -3807,8 +2884,6 @@ h4 {
     border-radius: 21px;
     background: var(--pcv-laranja, #EB9203);
     box-shadow: 0px 4px 46px 0px rgba(0, 0, 0, 0.25);
-
-
 }
 
 .number-one {
@@ -3819,8 +2894,6 @@ h4 {
     font-style: normal;
     font-weight: 800;
     line-height: normal;
-
-
 }
 
 .number-two {
@@ -3831,8 +2904,6 @@ h4 {
     font-style: normal;
     font-weight: 800;
     line-height: normal;
-
-
 }
 
 .number-three {
@@ -3843,37 +2914,26 @@ h4 {
     font-style: normal;
     font-weight: 800;
     line-height: normal;
-
-
 }
 
-
 .one {
-
     margin-top: -26%;
     margin-left: 13%;
-
 }
 
 .two {
-
     margin-top: -26%;
     margin-left: 80%;
-
 }
 
 .three {
-
     margin-top: -26%;
     margin-left: 12%;
-
 }
 
 .rectanglel {
     width: 100%;
 }
-
-
 
 .btn-finale {
     display: flex;
@@ -3904,14 +2964,12 @@ h4 {
     margin-top: 25.4%;
     width: 21%;
     margin-left: 38%;
-
 }
 
 .depositions {
     margin-top: 130px;
     background-color: black;
 }
-
 
 .depoimentos {
     color: var(--cyan-claro, #00E8FF);
@@ -3942,7 +3000,6 @@ h4 {
     font-style: normal;
     font-weight: 400;
     line-height: 155.4%;
-
 }
 
 .custom-slide {
@@ -3953,7 +3010,6 @@ h4 {
     background: var(--pcv-gray, #E9E9E9);
     box-shadow: 0px 4px 26px 0px rgba(0, 0, 0, 0.25);
 }
-
 
 .img-aspas {
     position: absolute;
@@ -3982,7 +3038,6 @@ h4 {
     /* 26.622px */
     margin-left: -4.5%;
     width: 110%;
-
 }
 
 .skills-2 {
@@ -4017,7 +3072,6 @@ h4 {
     flex-shrink: 0;
     margin: 17%;
     margin-top: -8%;
-
 }
 
 .icon-one {
@@ -4157,13 +3211,7 @@ h4 {
     margin-left: 10%;
     margin-top: -9%;
     width: 647px;
-
-
 }
-
-
-
-
 
 .text-gustavo {
     color: var(--pcv-gray, #E9E9E9);
@@ -4190,8 +3238,6 @@ h4 {
     position: absolute;
 }
 
-
-
 .btn-gustavo {
     border-radius: 38.569px;
     background: var(--cyan-claro, #00E8FF);
@@ -4215,8 +3261,6 @@ h4 {
     gap: 12.053px;
     flex-shrink: 0;
 }
-
-
 
 .jovens {
     border-radius: 20px 20px 0px 0px;
@@ -4253,7 +3297,6 @@ h4 {
 
 .tab-direction {
     margin-top: 10%;
-
 }
 
 .rectangle-sub {
@@ -4267,8 +3310,6 @@ h4 {
     margin-left: 0.9%;
     position: absolute;
 }
-
-
 
 .section-card {
     margin-top: 45%;
@@ -4362,29 +3403,6 @@ h4 {
     margin-left: 8%;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .medio {
     color: var(--pcv-gray, #E9E9E9) !important;
     font-family: Montserrat;
@@ -4392,7 +3410,6 @@ h4 {
     font-style: normal;
     font-weight: 900;
     line-height: 164.4%;
-
 }
 
 .carreiras {
@@ -4463,8 +3480,6 @@ h4 {
     margin-top: -6%;
 }
 
-
-
 .habilidades {
     color: var(--pcv-black, #101010);
     font-family: Montserrat;
@@ -4507,11 +3522,12 @@ h4 {
 }
 .h4-container {
     display: none;
-  }
+}
 
-  .text-footer {
-   display: none;
-  }
+.text-footer {
+    display: none;
+}
+
 .div-back {
     margin-top: 3%;
     margin-left: 14%;
@@ -4554,7 +3570,6 @@ h4 {
     margin-left: 59%;
 }
 
-
 .circle-one {
     margin-top: 80px;
     margin-left: 25%;
@@ -4563,7 +3578,6 @@ h4 {
 .circle-two {
     margin-top: 10%;
     margin-left: 5%;
-
 }
 
 .circle-three {
@@ -4649,12 +3663,9 @@ h4 {
     margin-bottom: 8%;
 }
 
-
-
 .card-align:hover {
     background-color: #00E8FF;
 }
-
 
 .btn-class-blue {
     border-radius: 38.569px;
@@ -4680,12 +3691,10 @@ h4 {
     line-height: normal;
     color: #00E8FF;
     background-clip: text;
-
     width: 208px;
     margin: 15%;
     margin-top: -10%;
 }
-
 
 .card-align:hover .zero,
 .card-align:hover .zero1,
@@ -4698,7 +3707,6 @@ h4 {
 .card-align:hover .stacks .svg-filter,
 .card-align:hover .stack .svg-filter {
     color: #000000;
-
 }
 
 .card-align:hover>h5.form-complete {
@@ -4717,13 +3725,9 @@ h4 {
     color: black;
 }
 
-
-
-
 .svg-filter {
     color: #00E8FF;
 }
-
 
 .formaçao1 {
     font-family: Montserrat;
@@ -4759,7 +3763,6 @@ h4 {
     line-height: normal;
     color: #00E8FF;
     background-clip: text;
-
     width: 20px;
     margin: 15%;
     margin-top: -11%;
@@ -4778,14 +3781,10 @@ h4 {
     margin-top: -12%;
 }
 
-
-
 .completa {
     margin-top: 15%;
     margin: 15%;
 }
-
-
 
 .stack {
     margin-top: 15%;
@@ -4825,7 +3824,6 @@ h4 {
     flex-wrap: wrap;
     margin-bottom: 8%;
     gap: 110px;
-
 }
 
 .display-cards-aprender-two {
@@ -4836,7 +3834,6 @@ h4 {
     flex-wrap: wrap;
     margin-bottom: 8%;
     gap: 110px;
-
 }
 
 .display-cards-aprender-three {
@@ -4847,8 +3844,6 @@ h4 {
     flex-wrap: wrap;
     margin-bottom: 8%;
     margin-left: 38%;
-
-
 }
 
 .image-aprender {
@@ -4913,7 +3908,6 @@ h4 {
     width: 239px;
 }
 
-
 .curso {
     color: var(--pcv-gray, #E9E9E9);
     text-align: center;
@@ -4940,8 +3934,7 @@ h4 {
     font-style: normal;
     font-weight: 400;
     line-height: 155.4%;
-    /* 31.08px */
-
+      /* 31.08px */
 }
 
 .list {
@@ -4998,7 +3991,6 @@ h4 {
     width: 301px;
     margin-left: -1.6%;
     margin-left: 28.5%;
-
 }
 
 .video-aula {
@@ -5017,7 +4009,6 @@ h4 {
     margin-left: 61.5%;
 }
 
-
 .div-videoaula-three {
     width: 301px;
     margin-left: -1.6%;
@@ -5035,7 +4026,6 @@ h4 {
     margin-top: -8.7%;
     margin-left: 91.5%;
 }
-
 
 .div-videoaula-for {
     width: 301px;
@@ -5092,7 +4082,6 @@ h4 {
     /* 27.074px */
 }
 
-
 .plano {
     color: var(--pcv-black, #101010);
     text-align: center;
@@ -5110,7 +4099,6 @@ h4 {
     width: 460px;
     height: 686px;
     flex-shrink: 0;
-
     background: var(--pcv-gray, #E9E9E9);
     box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.39);
 }
@@ -5123,7 +4111,6 @@ h4 {
 .card-deck-1 {
     margin-left: 24%;
     margin-top: 8%;
-
 }
 
 .card-deck-2 {
@@ -5200,7 +4187,6 @@ h4 {
     font-weight: 400;
     line-height: normal;
     letter-spacing: -0.218px;
-
 }
 
 .veri-two {
@@ -5211,7 +4197,6 @@ h4 {
     font-weight: 400;
     line-height: normal;
     letter-spacing: -0.218px;
-
 }
 
 .veri-three {
@@ -5222,7 +4207,6 @@ h4 {
     font-weight: 400;
     line-height: normal;
     letter-spacing: -0.218px;
-
 }
 
 .veri-for {
@@ -5233,7 +4217,6 @@ h4 {
     font-weight: 400;
     line-height: normal;
     letter-spacing: -0.218px;
-
 }
 
 .div-one {
@@ -5286,7 +4269,6 @@ h4 {
     margin-top: 7%;
     margin-left: 30%;
 }
-
 
 .valor-veri-dois {
     color: #000;
@@ -5346,7 +4328,6 @@ h4 {
     border-color: none !important;
 }
 
-
 .btn-aula-3 {
     border-radius: 36px;
     background: var(--cyan-claro, #00E8FF);
@@ -5371,19 +4352,6 @@ h4 {
     margin-left: 35%;
 }
 
-
-.educadores {
-    color: var(--pcv-black, #101010);
-    font-family: Montserrat;
-    font-size: 45px;
-    font-style: normal;
-    font-weight: 800;
-    line-height: normal;
-    width: 478px;
-    margin-top: 12% !important;
-    margin-left: -0.7% !important;
-}
-
 .btn-white {
     display: flex;
     width: 360px;
@@ -5404,9 +4372,6 @@ h4 {
     font-weight: 700;
     line-height: normal;
     letter-spacing: -0.235px;
-    margin-top: -7% !important;
-    margin-left: -8.6% !important;
-
 }
 
 .btn-white-div {
@@ -5414,69 +4379,16 @@ h4 {
     margin-top: 10%;
 }
 
-
-.group-div {
-    margin-left: 40%;
-    margin-top: -26%;
-}
-
-.educadores {
-    margin-left: 7%;
-    margin-top: 0%;
-
-}
-
-.impacto-social {
-    font-family: Montserrat;
-    font-size: 53px;
-    font-style: normal;
-    font-weight: 800;
-    line-height: normal;
-    background: var(--cyan-1, linear-gradient(201deg, #00E8FF 0%, #38BBC8 100%));
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    width: 586px;
-    height: 124px;
-    flex-shrink: 0;
-    margin-top: 23%;
-
-}
-
 .objetivo-div {
     width: 130%;
     margin-top: 3%;
 }
 
-
-.objetivo {
-    color: var(--pcv-gray, #E9E9E9);
-    font-family: Montserrat;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 164.4%;
-    /* 32.88px */
-    width: 529px;
-    height: 161px;
-    flex-shrink: 0;
-
-}
-
-.impact {
-    margin-left: 45%;
-    margin-top: -30%;
-}
-
 .impact-btn {
     display: flex;
-    width: 336px;
-    height: 56px;
     padding: 15.668px 55.117px;
     justify-content: center;
     align-items: center;
-    gap: 12.053px;
-    flex-shrink: 0;
     border-radius: 38.569px;
     background: var(--cyan-1, linear-gradient(201deg, #00E8FF 0%, #38BBC8 100%));
     box-shadow: 0px 4px 7px 0px rgba(0, 0, 0, 0.15);
@@ -5490,7 +4402,6 @@ h4 {
 }
 
 .btn-impact {
-
     margin-top: -9%;
     margin-bottom: 20%;
 }
@@ -5653,12 +4564,10 @@ h4 {
     letter-spacing: -0.235px;
 }
 
-
 .rec-grey {
     border-radius: 77px 77px 0px 16px;
     background: var(--pcv-gray, #E9E9E9);
     box-shadow: 0px 4px 46px 0px rgba(0, 0, 0, 0.25);
-
 }
 
 .common-questions {
@@ -5679,7 +4588,6 @@ h4 {
     /* 65.76px */
 }
 
-
 .logo {
     margin-top: 4%;
 }
@@ -5694,33 +4602,6 @@ h4 {
     width: 40%;
     margin-top: 3%;
     margin-left: 30%
-}
-
-.facebook {
-    filter: invert(100%);
-    width: 2%;
-    margin-top: 1%;
-
-}
-
-.instagram {
-    filter: invert(100%);
-    width: 2%;
-    margin-top: 1%;
-    margin-left: 2%;
-}
-
-.linkedin {
-    filter: invert(100%);
-    width: 2%;
-    margin-top: 1%;
-    margin-left: 2%;
-}
-
-.icons {
-    margin-top: 0;
-
-
 }
 
 .escola {
@@ -5739,8 +4620,6 @@ h4 {
 .column {
     display: flex;
     flex-direction: column;
-
-
 }
 
 .info {
@@ -5765,7 +4644,6 @@ h4 {
     margin-top: -11%;
     width: 22%;
 }
-
 
 .contact {
     color: var(--branco, #E9E9E9);
@@ -5802,7 +4680,6 @@ h4 {
     width: 22%;
 }
 
-
 .juridico {
     color: var(--branco, #E9E9E9);
     font-family: Barlow;
@@ -5824,13 +4701,6 @@ h4 {
     margin-left: 77%;
     margin-top: -11%;
     width: 22%;
-}
-
-.line-footer {
-    width: 1215.769px;
-    height: 1.601px;
-    background: #E9E9E9;
-    margin-top: 8%;
 }
 
 .accordion-item {
@@ -5856,7 +4726,6 @@ h4 {
     background-color: #e9e9e9;
 }
 
-
 .plano-btt {
     position: absolute;
     margin-top: 2%;
@@ -5866,7 +4735,6 @@ h4 {
 .circulo {
     margin-left: -11%;
 }
-
 
 .contract-btn {
     margin-top: 1.3%;
@@ -5899,7 +4767,6 @@ h4 {
     border-radius: 39.656px;
     background: var(--pcv-rosa-laranja, linear-gradient(208deg, #EB9203 0%, #E50071 100%));
 }
-
 
 .splide.splide-depositions .splide__pagination,
 .splide.splide-detailed-depositions .splide__pagination {
@@ -5948,7 +4815,6 @@ h4 {
 .splide.splide-detailed-depositions .splide__arrow--next {
     right: 42%;
 }
-
 
 /* 
  @keyframes BottomleftToRightCircle {
@@ -6025,8 +4891,6 @@ h4 {
         animation-fill-mode: forwards;
     } */
 
-
- 
 .text-typography-contratar {
     background: var(--pcv-rosa-laranja, linear-gradient(208deg, #EB9203 0%, #E50071 100%));
     background-clip: text;
@@ -6037,7 +4901,6 @@ h4 {
     font-style: normal;
     font-weight: 800;
     line-height: 131.9%;
-
 }
 
 .text-type-contratar {
@@ -6068,7 +4931,6 @@ h4 {
     height: 68px;
     flex-shrink: 0;
 }
-
 
 .btn-class-contratar {
     color: var(--pcv-gray, #E9E9E9);
@@ -6107,7 +4969,6 @@ h4 {
 .nav-tabs {
     margin-left: 21%;
     border: none;
-
 }
 
 .nav-tabs .nav-item.show .nav-link,
@@ -6115,15 +4976,12 @@ h4 {
     color: var(--bs-nav-tabs-link-active-color);
     background-color: var(--bs-nav-tabs-link-active-bg);
     border-color: var(--bs-nav-tabs-link-active-border-color);
-
 }
-
 
 .navbar-expand-lg .navbar-nav {
     flex-direction: row;
     margin-left: 20%;
 }
-
 
 .veja-depoimento {
     color: rgba(233, 233, 233, 0.54);
@@ -6229,8 +5087,6 @@ h4 {
     margin-top: -9%;
 }
 
-
-
 .div-jovens-player {
     position: absolute;
     margin-top: -44%;
@@ -6250,7 +5106,6 @@ h4 {
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-
 }
 
 .div-estimule-player {
@@ -6266,7 +5121,6 @@ h4 {
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-
 }
 
 .div-criador-player {
@@ -6282,10 +5136,7 @@ h4 {
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-
 }
-
-
 
 .div-lidar-player {
     width: 356px;
@@ -6302,7 +5153,6 @@ h4 {
     line-height: normal;
 }
 
-
 .div-desenvolva-player {
     width: 350px;
     margin-top: 9%;
@@ -6316,7 +5166,6 @@ h4 {
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-
 }
 
 .div-organizar-player {
@@ -6332,7 +5181,6 @@ h4 {
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-
 }
 
 .seta {
@@ -6367,6 +5215,7 @@ h4 {
     margin-left: 39%;
     margin-top: 5%;
 }
+
 .segundo {
     margin: 3%;
     margin-top: -0.1%;
@@ -6377,9 +5226,7 @@ h4 {
     background: var(--pcv-gray, #E9E9E9);
 }
 
-
 .background-top-player-2 {
-
     width: 1300px;
     margin-top: -127%;
 }
@@ -6389,7 +5236,6 @@ h4 {
     width: 1227px;
     margin-left: 1.8%;
     margin-top: -44.4%;
-
 }
 
 .div-player-glass {
@@ -6454,12 +5300,10 @@ h4 {
 }
 
 .div-profissionais-player-glass {
-
     position: absolute;
     margin-top: -48%;
     margin-left: 23.5%;
 }
-
 
 .profissionais-player {
     width: 756px;
@@ -6503,7 +5347,6 @@ h4 {
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-
 }
 
 .div-focus-player {
@@ -6522,6 +5365,7 @@ h4 {
     font-weight: 700;
     line-height: normal;
 }
+
 .div-aprenda-player-glass {
     margin-left: 22%;
     margin-top: -28.8%;
@@ -6537,7 +5381,6 @@ h4 {
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-
 }
 
 .div-raciocionio-player {
@@ -6555,7 +5398,6 @@ h4 {
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-
 }
 
 .div-capacidade-player {
@@ -6573,7 +5415,6 @@ h4 {
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-
 }
 
 .btn-aulagratis {
@@ -6600,7 +5441,6 @@ h4 {
     margin-top: 2%;
     width: 50%;
     height: 10%;
-
     display: flex;
 }
 
@@ -6638,6 +5478,925 @@ h4 {
     width: 150px;
 }
 
+@media (max-width: 992px) {
+
+    .azul-container{
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        width: auto;
+    }
+
+    .educadores{
+        padding-top: 30px;
+        width: auto;
+    }
+    
+    .impact {
+        align-items: center;
+        display: flex;
+        height: 100%;
+        justify-content: center;
+        margin: 0;
+    }
+
+    .btn-impact{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    body {
+        width: 100%;
+    }
+
+    .objetivo { 
+        max-width: 100%;
+        display: flex;
+    }
+
+    .impacto{
+        text-align: center;
+    }
+
+    .impacto-social{
+        max-width: 100%;
+    }
+
+    .impact-btn{
+        margin: 0 auto;
+    }
+
+    .impact {
+        margin-top: 50px;
+        height: 100%;
+    }
+
+    .containerInfo {
+        height: 100%;
+    }
+
+    .itens-one {
+        opacity: 0%;
+    }
+
+    .info {
+        padding-top: 10%;
+        padding-left: -100%;
+        left: 100%;
+    }
+
+    .containerInfo {
+        display: flex;
+        height: 100%;
+    }
+
+    .logo {
+        padding-top: 100%;
+    }
+
+    .btn-impact {
+        padding-top: 20%;
+    }
+
+    .icons {
+        opacity: 0%;
+    }
+
+    .subtext {
+        min-width: 30%;
+        max-width: 30%;
+        display: flex;
+        z-index: 1;
+    }
+
+    .entre-na-comunidade {
+        background: var(--cyan-1, linear-gradient(201deg, #00E8FF 0%, #38979f 100%));
+        border-radius: 50px;
+        color: #000;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 12px;
+        font-weight: 700;
+        padding: 14px 51px;
+        text-decoration: none;
+    }
+
+    .btn-aulagratis {
+        background-color: red;
+        font-size: 1px;
+        width: 10%;
+    }
+
+    .btnlimit {
+        display: flex;
+        height: 40%;
+        margin-top: 10%;
+        width: 5%;
+        font-size: 1%;
+    }
+
+    .btnlimitaulagratis {
+        width: 1%;
+    }
+
+    .background-top {
+        margin-top: 30%;
+    }
+
+    .background-benefits {
+        margin-top: 180%;
+    }
+
+    .text-dv {
+        display: flex;
+        font-size: 0.1em;
+    }
+
+    .limitText {
+        width: 20%;
+    }
+
+    .textCard {
+        padding: 1%;
+        left: 2%;
+    }
+
+    .text-future {
+        padding: 2%;
+    }
+
+    .subtext-card {
+        padding: 2%;
+        max-width: 80%;
+        top: 8%;
+    }
+
+    .subtext-future {
+        max-width: 80%;
+        padding: 2%;
+    }
+
+    .subtext-dev {
+        display: flex;
+        max-width: 400px;
+        min-width: 300%;
+        padding: 10%;
+    }
+
+    .textDev {
+        padding: 3%;
+    }
+
+    .dev-two {
+        width: 30%;
+    }
+
+    .cardd {
+        max-width: 70%;
+        padding-bottom: 45%;
+        margin-bottom: 10%;
+    }
+
+    .card-line {
+        width: 1%;
+        height: 1%;
+    }
+
+    .short-cards {
+        background-color: #00E8FF;
+    }
+
+    .textCard-t {
+        margin-right: -50%;
+        top: 50%;
+        display: flex;
+        left: -35%;
+        z-index: 1;
+        font-size: 10%;
+        position: relative;
+    }
+
+    .one {
+        display: flex;
+    }
+
+    .number-one {
+        display: flex;
+        height: 100%;
+    }
+
+    .short-cards {
+        height: 100%;
+        top: 50%;
+        display: flex;
+    }
+
+    .number-two {
+        display: flex;
+        height: 100%;
+        left: -35%;
+    }
+
+    .card-blue {
+        max-width: 25%;
+    }
+
+    .btn-div {
+        padding-top: 30%;
+        padding-bottom: 5%;
+    }
+
+    .card-grey {
+        min-width: 90%;
+    }
+
+    .logo {
+        margin-top: -150px;
+    }
+
+    .principal-logo {
+        margin-top: 10%;
+        min-width: 70%;
+        padding-left: 30%;
+    }
+
+    .itens-two {
+        margin-left: -47%;
+    }
+
+    .itens-two-sub {
+        margin-left: -22%;
+
+        margin-top: 61px;
+    }
+
+    .line-footer {
+        margin-top: -232px;
+    }
+
+    .direitos {
+        width: 96%;
+        margin-top: -172px;
+        margin-left: 14px;
+    }
+
+    .title-aula {
+        padding-left: 20%;
+    }
+
+    .form {
+        padding-left: 10%;
+    }
+
+    .btn-card {
+        padding-top: 100%;
+        position: relative;
+        min-width: 100%;
+    }
+
+    .textD2 {
+        top: 49%;
+        left: -37%;
+    }
+
+    .guilherme-title {
+        font-size: 2px;
+    }
+
+    .textgustavo {
+        width: 1%;
+        font-size: 1px;
+        display: flex;
+        left: 50%;
+    }
+
+    .subtext-gustavo {
+        display: flex;
+        right: 50%;
+        font-size: 2px;
+    }
+
+    .btn-gustavo {
+        display: flex;
+        left: 50%;
+        padding: 0.1%;
+    }
+
+    .short-card {
+        min-height: 100%;
+    }
+
+    .short-card2 {
+        min-height: 100%;
+    }
+
+    .short-card3 {
+        min-height: 100%;
+    }
+
+    .glass {
+        width: 1%;
+    }
+
+    .textCard-t {
+        max-width: 10%;
+    }
+
+    .subtext-cards {
+        opacity: 0%;
+    }
+
+    .short-cards2 {
+        background-color: white;
+        max-width: 117px;
+    }
+
+    .text-f {
+        top: 50%;
+        max-width: 40%;
+    }
+
+    .subtext-f {
+        opacity: 0%;
+        top: 50%;
+    }
+
+    .number-two {
+        display: flex;
+    }
+
+    .textD2 {
+        max-width: 40%;
+        top: 19%;
+        min-height: 10%;
+        padding-bottom: 30%;
+    }
+
+    .subtext-d2 {
+        opacity: 0%;
+        top: 50%;
+    }
+
+    .btn-dive {
+        min-width: 50%;
+    }
+
+    .background-benefits {
+        opacity: 0%;
+        width: 1%;
+        height: 1%;
+    }
+
+    .title-aula {
+        width: 285px;
+    }
+
+    .svg-card {
+        opacity: 0;
+        width: 1%;
+    }
+
+    .btn-div {
+        margin-top: 10px;
+    }
+
+    .btn-card {
+        background-color: #fffdfd;
+        width: 298px;
+        border-radius: 0px;
+        margin-top: -1px;
+    }
+
+    .card-grey {
+        width: 100%;
+        background-color: #00E8FF;
+        margin-left: -104px;
+    }
+
+    .card-blue {
+        opacity: 0;
+    }
+
+    .display-row .form-group {
+        display: block;
+        /* Faz com que as labels ocupem uma linha inteira */
+        margin-bottom: 10px;
+        /* Espaçamento entre labels e inputs */
+        width: 100%;
+        /* Ocupa toda a largura disponível */
+        padding: 5px;
+        /* Adicione algum espaço interno para melhor aparência */
+        margin-bottom: 10px;
+        /* Espaçamento entre inputs */
+        margin: 0 auto;
+        /* Centralize o formulário horizontalmente */
+    }
+
+    .referencia {
+        max-width: 60%;
+    }
+
+    .curriculum {
+        top: 100%;
+        opacity: 0%;
+    }
+
+    .zero2 {
+        display: flex;
+        max-width: 100%;
+        min-width: 100%;
+    }
+
+    .zero22 {
+        display: flex;
+        max-width: 60%;
+        min-width: 60%;
+        right: 20%;
+    }
+
+    .card-aprender {
+        width: 1%;
+        opacity: 0%;
+    }
+
+    .aprender {
+        font-size: 1px;
+        opacity: 0%;
+    }
+
+    .zero4,
+    .zero1,
+    zero {
+        max-width: 60%;
+        min-width: 60%;
+    }
+
+    .card-align {
+        left: 60%;
+    }
+
+    .btn-class-blue {
+        min-width: 80%;
+        max-width: 10%;
+        color: #000;
+        font-weight: 600;
+        z-index: 1;
+        font-size: 20px;
+        left: 40%;
+    }
+
+    .b111 {
+        max-width: 80%;
+        min-width: 80%;
+    }
+
+    .column,
+    .itens-three {
+        opacity: 0%;
+        width: 1%;
+    }
+
+    .itens-two-sub {
+        left: 100%;
+    }
+
+    .display-content {
+        padding-top: 80%;
+    }
+
+    .azul-container{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .educadores {
+        font-size: 18px;
+        margin: 0;
+        max-width: 100%;
+        text-align: center;
+    }
+
+    .group-div {
+        margin: 0;
+    }
+
+    footer .primeira-coluna{
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-bottom: 20px;
+        text-align: center; 
+    }
+
+    footer .colunas-rodape{
+        align-items: flex-start;
+    }
+}
+
+@media screen and (max-width: 767px){
+    .content-left {
+        min-height: 350px;
+        align-items: center;
+    }
+
+    .carde {
+        width: 90%;
+    }
+
+    .text-card {
+        font-size: 69px;
+    }
+
+    .typography1 {
+        font-size: 28px;
+        min-width: 90%;
+        text-align: center;
+        margin-top: 10%;
+    }
+
+    .text-typography {
+        font-size: 28px;
+        text-align: center;
+    }
+
+    .display-cards{
+        padding-left: 0;
+    }
+    
+    .h4-container {
+        display: flex;
+    }
+    
+    .text-footer {
+        display: none;
+    }
+
+    .inicieMentoria{
+        font-weight: 300;
+        font-size: 12px;
+        padding-top: 10px;
+        text-align: center;
+    }
+
+    .subtext1{
+        font-weight: 800;
+    }
+
+    #detailed-depositions{
+        margin-top: 0;
+    }
+
+    .depositions{
+        margin-top: 0;
+    }
+    
+    .btn-class {
+        max-width: 70%;
+        color: #000;
+        font-weight: 800;
+        z-index: 1;
+        font-size: 12px;
+        background: var(--cyan-1, linear-gradient(201deg, #00E8FF 0%, #38979f 100%));
+    }
+
+    .btnlimit{
+        padding-left: 70px;
+    }
+
+    .sublimit1 {
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .section-card {
+        margin-top: 45%;
+    }
+
+    .h1-programador {
+        color: var(--pcv-gray, #E9E9E9);
+        font-family: Montserrat;
+        font-size: 23.302px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        margin-top: -29.5%;
+        margin-left: 8%;
+    }
+
+    .first-salario {
+        color: var(--pcv-gray, #E9E9E9);
+        font-family: Montserrat;
+        font-size: 81.557px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        margin-left: 7%;
+        margin-top: -1%;
+    }
+
+    .mes {
+        color: var(--pcv-gray, #E9E9E9);
+        font-family: Montserrat;
+        font-size: 23.302px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    }
+
+    .referencia {
+        color: rgba(233, 233, 233, 0.38);
+        font-family: Montserrat;
+        font-size: 17.476px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        margin-top: -1%;
+        margin-left: 8%;
+    }
+
+    .section-card-two {
+        margin-top: 15%;
+    }
+
+    .h1-programador {
+        color: var(--pcv-gray, #E9E9E9);
+        font-family: Montserrat;
+        font-size: 23.302px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        margin-top: -29.5%;
+        margin-left: 8%;
+    }
+
+    .first-salario {
+        color: var(--pcv-gray, #E9E9E9);
+        font-family: Montserrat;
+        font-size: 81.557px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        margin-left: 7%;
+        margin-top: -1%;
+    }
+
+    .mes {
+        color: var(--pcv-gray, #E9E9E9);
+        font-family: Montserrat;
+        font-size: 23.302px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    }
+
+    .referencia {
+        color: rgba(233, 233, 233, 0.38);
+        font-family: Montserrat;
+        font-size: 17.476px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        margin-top: -1%;
+        margin-left: 8%;
+    }
+
+
+    .Salario {
+        background: var(--cyan-1, linear-gradient(201deg, #00E8FF 0%, #38BBC8 100%));
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-family: Montserrat;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 164.4%;
+    }
+
+    .carreiras {
+        color: var(--pcv-gray, #E9E9E9);
+        text-align: center;
+        font-family: Montserrat;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 164.4%;
+        width: 75%;
+        margin-left: 11%;
+        margin-top: 2%;
+    }
+
+    .card-white {
+        width: 612px;
+        height: 466px;
+        flex-shrink: 0;
+        border-radius: 36px;
+        background: #FFF;
+        margin-top: -55%;
+        margin-left: 90%;
+    }
+
+    .curriculum {
+        font-family: Montserrat;
+        font-size: 27.956px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        background: var(--cyan-1, linear-gradient(201deg, #00E8FF 0%, #38BBC8 100%));
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        margin-top: -4%;
+        margin-left: 41%;
+        position: absolute;
+    }
+
+    .woman {
+        width: 83.351px;
+        height: 83.351px;
+        flex-shrink: 0;
+        border-radius: 66.681px;
+        background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+        margin-left: 7%;
+        margin-top: 5%;
+    }
+
+    .nomer {
+        color: var(--pcv-black, #101010);
+        font-family: Montserrat;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        margin-left: 147px;
+        margin-top: -3%;
+        position: absolute;
+    }
+
+    .programadora {
+        color: var(--pcv-black, #101010);
+        font-family: Montserrat;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin-left: 24%;
+        margin-top: -6%;
+    }
+
+    .card-div {
+        width: 156px;
+        height: 45px;
+        flex-shrink: 0;
+        border-radius: 7px;
+        background: var(--cyan-1, linear-gradient(201deg, #00E8FF 0%, #38BBC8 100%));
+        margin-left: 61%;
+        margin-top: -10%;
+    }
+
+    .salario-woman {
+        color: var(--pcv-black, #101010);
+        font-family: Montserrat;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        align-items: center;
+        text-align: center;
+        margin-left: 20.3%;
+        margin-top: -1.7%;
+        position: absolute;
+    }
+
+    .habilidades {
+        color: var(--pcv-black, #101010);
+        font-family: Montserrat;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        margin-top: 4%;
+        margin-left: 2%;
+        position: absolute;
+    }
+
+    .line {
+        width: 535px;
+        height: 1px;
+        background: rgba(0, 0, 0, 0.17);
+        margin-top: 8%;
+        margin-left: 6%;
+    }
+
+    .image-one {
+        width: 10%;
+        height: 10%;
+        margin-left: 3%;
+    }
+
+    .manual-text {
+        color: var(--pcv-black, #101010);
+        font-family: Montserrat;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+    .div-front {
+        margin-top: 6.7%;
+        margin-left: 14%;
+    }
+
+    .div-back {
+        margin-top: 3%;
+        margin-left: 14%;
+    }
+
+    .div-mobile {
+        margin-top: 3.7%;
+        margin-left: 14%;
+    }
+
+    .div-api {
+        margin-top: 3.3%;
+        margin-left: 14%;
+    }
+
+    .image-two {
+        width: 10%;
+        height: 10%;
+        margin-left: 50%;
+        margin-top: -27.5%;
+    }
+
+    .div-react {
+        margin-top: -5.2%;
+        margin-left: 59%;
+    }
+
+    .div-python {
+        margin-top: 3%;
+        margin-left: 59%;
+    }
+
+    .div-database {
+        margin-top: 3.7%;
+        margin-left: 59%;
+    }
+
+    .div-ciber {
+        margin-top: 3.3%;
+        margin-left: 59%;
+    }
+
+    .circle-one {
+        margin-top: 80px;
+        margin-left: 25%;
+    }
+
+    .circle-two {
+        margin-top: 10%;
+        margin-left: 5%;
+    }
+
+    .circle-three {
+        margin-top: -12%;
+        margin-left: -1.5%;
+    }
+
+    .circle-for {
+        margin-top: 10%;
+        margin-left: 90%;
+    }
+
+    .circle-line-one {
+        margin-top: -22%;
+        margin-left: 11%;
+        position: absolute;
+    }
+
+    .circle-line-two {
+        margin-top: -17%;
+        margin-left: -1.5%;
+    }
+
+    .circle-line-three {
+        margin-top: -12%;
+        margin-left: -1.5%;
+    }
+
+    .circle-line-for {
+        margin-top: -7%;
+        margin-left: -1.5%;
+    }
+}
 
 @media screen and (max-width: 600px) {
     .text-a {
@@ -6647,7 +6406,6 @@ h4 {
     .title-salario {
         margin-top: -3648px;
         text-align: center !important;
-
     }
 
     .Salario {
@@ -6666,11 +6424,10 @@ h4 {
         margin-top: -140px;
         margin-left: 2px;
     }
+
     .card-aprender {
         margin-top: -249px;
-        
     }
-
 
     .contact-us {
         margin-top: -93px;
@@ -6683,29 +6440,22 @@ h4 {
     .impacto-social {
         width: 100%;
         font-size: 27px;
-        margin-top: -122px;
     }
 
     .impact1 {
         width: 300px;
-        
-
     }
 
     .objetivo {
-       
         font-size: 15px;
-        margin: 3px;
-        margin-top: -52px;
+    }
+
+    #relevancia-social{
+        margin-bottom: 30px;
     }
 
     .btn-impact {
-        opacity: 0;
-
-    }
-
-    .impact-btn {
-        width: 80%;
+        display: none;
     }
 
     .h1-programador {
@@ -6724,7 +6474,6 @@ h4 {
 
     .mes {
         font-size: 20px;
-
     }
 
     .section-card-two {
@@ -6751,7 +6500,6 @@ h4 {
     .programadora {
         margin-top: -12%;
         margin-left: 99px;
-
     }
 
     .card-div {
@@ -6760,20 +6508,16 @@ h4 {
 
     .salario-woman {
         opacity: 0;
-
     }
 
     .line {
         margin-top: 16%;
         margin-left: 0px;
-    
-        
     }
 
     .image-one{
         margin-left: -6%;
         margin-top: -73px;
-    
     }
 
     .div-front{
@@ -6820,283 +6564,87 @@ h4 {
     .div-ciber {
         margin-top: 6%;
         margin-left: 59%;
-       
     }
-.title-programar{
-    width: 225px;
-    margin-left: 36px;
-}
+
+    .title-programar{
+        width: 225px;
+        margin-left: 36px;
+    }
     .motivo{
-font-size: 17px;
+        font-size: 17px;
     }
 
-.escolher{
-    font-size: 17px;
-}
+    .escolher{
+        font-size: 17px;
+    }
 
-.line-cards-blue{
-width: 1px;
-opacity: 0;
-}
-
-
-
-    
+    .line-cards-blue{
+    width: 1px;
+    opacity: 0;
+    }
 
     .escola {
         margin-left: 5%;
     }
 
   /* Estilos para o carrossel */
-.carousel-container {
-    position: relative;
-    width: 100%; /* Largura do carrossel */
-    max-width: 1000px; /* Largura máxima do carrossel */
-    margin: 0 auto;
-    overflow: hidden;
-}
+    .carousel-container {
+        position: relative;
+        width: 100%; /* Largura do carrossel */
+        max-width: 1000px; /* Largura máxima do carrossel */
+        margin: 0 auto;
+        overflow: hidden;
+    }
 
-  .carousel {
-    display: flex;
-    transition: transform 0.5s ease-in-out;
-  }
-
-  .slide {
-    flex: 0 0 100%; /* Largura de cada slide */
-    text-align: center;
-    padding: 20px;
-    
-  
-    height: 100%;
-  position: relative;
-  flex-shrink: 0;
-  border-radius: 19px;
-  background: var(--pcv-gray, #E9E9E9);
-  box-shadow: 0px 4px 26px 0px rgba(0, 0, 0, 0.25)
-  }
-
-  /* Estilos para as imagens */
-  .slide img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 10px;
-  }
-
-  /* Estilos para o texto */
-  .slide h2 {
-    font-size: 24px;
-    margin-bottom: 10px;
-  }
-
-  .slide p {
-    font-size: 18px;
-    color: #888;
-  
-  }
-
-  /* Estilos para os botões de navegação */
-  .carousel-navigation {
-    display: flex;
-    justify-content: center;
-    margin-top: 20px;
-  }
-
-  .carousel-navigation button {
-    background-color: #00E8FF;
-    color: rgb(0, 0, 0);
-    border: none;
-    margin: 0 5px;
-    cursor: pointer;
-    padding: 10px 15px;
-    border-radius: 5px;
-  }
-
-}
-
-footer{
-    background: var(--pcv-black, #101010);
-    width: 100%;
-    padding: 50px 0;
-}
-
-.footer__logo {
-    width: 211px;
-}
-
-.footer__texto{
-    color: #E9E9E9;
-    font-family: var(--fonte-rodape);
-    font-size: 16px;
-    font-weight: 500;
-    margin: 23px 0 24px;
-}
-
-.redes-sociais{
-    display: flex;
-    flex-direction: row;
-    gap: 20px;
-}
-
-.redes-sociais__icone{
-    filter: invert(95%) sepia(0%) saturate(7475%) hue-rotate(77deg) brightness(106%) contrast(108%);
-    width: 24px;
-}
-
-.colunas-rodape{
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-}
-
-.colunas-rodape>ul{
-    list-style: none;
-}
-
-.colunas-rodape ul li {
-    color: #E9E9E9;
-    font-family: var(--fonte-rodape);
-    font-size: 17px;
-    font-weight: 500;
-}
-
-.colunas-rodape ul a{
-    color: #E9E9E9;
-    text-decoration: none;
-}
-
-.colunas-rodape ul h2{
-    color: #E9E9E9;
-    font-family: var(--fonte-rodape);
-    font-size: 22px;
-    font-weight: 700;
-    margin-bottom: 10px;
-}
-
-.colunas-rodape ul h3{
-    color: #E9E9E9;
-    font-family: var(--fonte-rodape);
-    font-size: 17px;
-    font-weight: 700;
-}
-
-.item-pagina{
-    margin-bottom: 13px;
-}
-
-.item-contato{
-    margin-bottom: 15px;
-}
-
-.item-juridico{
-    margin-bottom: 6px;
-}
-
-.footer-linha{
-    border: 1px solid #E9E9E9;
-    width: 70vw;
-}
-
-.direitos-autorais{
-    display: flex;
-    border-top: 1px solid #E9E9E9;
-    justify-content: center;
-    margin-top: 116px;
-}
-
-.direitos-autorais span{
-    color: #E9E9E9;
-    font-family: var(--fonte-rodape);
-    font-size: 16px;
-    font-weight: 500;
-    margin: 32px;
-    text-align: center;
-}
-
-@media screen and (max-width: 767px){
-    footer .primeira-coluna{
-        align-items: center;
+    .carousel {
         display: flex;
-        flex-direction: column;
-        justify-content: center;
-        margin-bottom: 20px;
-        text-align: center;
-        
+        transition: transform 0.5s ease-in-out;
     }
 
-    footer .colunas-rodape{
-        align-items: flex-start;
-    }
-    .typography1 {
-        font-size: 28px;
-       min-width: 90%;
-       text-align: center;
-       margin-top: 10%;
+    .slide {
+        flex: 0 0 100%; /* Largura de cada slide */
+        text-align: center;
+        padding: 20px;
+        height: 100%;
+        position: relative;
+        flex-shrink: 0;
+        border-radius: 19px;
+        background: var(--pcv-gray, #E9E9E9);
+        box-shadow: 0px 4px 26px 0px rgba(0, 0, 0, 0.25)
     }
 
-    .text-typography {
-        font-size: 28px;
-        text-align: center;
+    /* Estilos para as imagens */
+    .slide img {
+        max-width: 100%;
+        height: auto;
+        border-radius: 10px;
     }
-    .display-cards{
-        padding-left: 0;
+
+    /* Estilos para o texto */
+    .slide h2 {
+        font-size: 24px;
+        margin-bottom: 10px;
     }
-    .educadores{
+
+    .slide p {
         font-size: 18px;
+        color: #888;
     }
-    
-    .h4-container {
+
+    /* Estilos para os botões de navegação */
+    .carousel-navigation {
         display: flex;
-      }
-    
-      .text-footer {
-       display: none;
-      }
-      .inicieMentoria{
-        font-weight: 300;
-        font-size: 12px;
-        padding-top: 10px;
-        text-align: center;
-    }
-    .subtext1{
-        font-weight: 800;
-        
-    }
-    #detailed-depositions{
-        margin-top: 0;
-    }
-    .depositions{
-        margin-top: 0;
-    }
-    .azul{
-        margin-top: -100px;
-       padding-top: 5%;
-    }
-    .btn-class {
-        
-        max-width: 70%;
-        color: #000;
-        font-weight: 800;
-        z-index: 1;
-        font-size: 12px;
-background: var(--cyan-1, linear-gradient(201deg, #00E8FF 0%, #38979f 100%));
-    }
-    .btnlimit{
-        padding-left: 70px;
-        
-    }
-    .sublimit1 {
-
-
-        
-        align-items: center;
         justify-content: center;
+        margin-top: 20px;
     }
-    .impacto-social {
-       
-        max-width: 80%;
-        display: flex;
-        padding-bottom: 30%;
-        padding-top: 10%;
+
+    .carousel-navigation button {
+        background-color: #00E8FF;
+        color: rgb(0, 0, 0);
+        border: none;
+        margin: 0 5px;
+        cursor: pointer;
+        padding: 10px 15px;
+        border-radius: 5px;
     }
 }
-
