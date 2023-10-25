@@ -1942,9 +1942,7 @@ footer{
 
 .impact-btn {
     display: flex;
-    width: 336px;
-    height: 56px;
-    padding: 15.668px 55.117px;
+    padding: 14px 51px;
     justify-content: center;
     align-items: center;
     gap: 12.053px;
@@ -1954,7 +1952,7 @@ footer{
     box-shadow: 0px 4px 7px 0px rgba(0, 0, 0, 0.15);
     color: #0E0E0E;
     font-family: Montserrat;
-    font-size: 15.668px;
+    font-size: 12px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -4382,23 +4380,6 @@ h4 {
 .objetivo-div {
     width: 130%;
     margin-top: 3%;
-}
-
-.impact-btn {
-    display: flex;
-    padding: 15.668px 55.117px;
-    justify-content: center;
-    align-items: center;
-    border-radius: 38.569px;
-    background: var(--cyan-1, linear-gradient(201deg, #00E8FF 0%, #38BBC8 100%));
-    box-shadow: 0px 4px 7px 0px rgba(0, 0, 0, 0.15);
-    color: #0E0E0E;
-    font-family: Montserrat;
-    font-size: 15.668px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    letter-spacing: -0.235px;
 }
 
 .btn-impact {
