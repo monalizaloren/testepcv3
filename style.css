@@ -21,6 +21,81 @@ button {
     border: none;
 }
 
+/* 
+ @keyframes BottomleftToRightCircle {
+        0% {
+            transform: translateX(0);
+            overflow: hidden;
+        }
+
+        100% {
+            transform: translateX(420%);
+        }
+    }
+
+    @keyframes HeadlineLeftToRightCircle {
+        0% {
+            transform: translateX(-5%);
+            overflow: hidden;
+        }
+
+        100% {
+            transform: translateX(0);
+            opacity: 100%;
+        }
+    }
+
+
+    @keyframes HeaderContractLeftToRightCircle {
+        0% {
+            transform: translateX(-5%);
+            overflow: hidden;
+            display: none;
+        }
+
+        100% {
+            transform: translateX(0);
+            opacity: 100%;
+        }
+    }
+
+    @keyframes ChildrenLeftToRightCircle {
+        0% {
+            transform: translateX(0);
+            overflow: hidden;
+
+        }
+
+        100% {
+            transform: translateX(5%);
+            opacity: 0;
+        }
+    }
+
+    .circle-animation {
+        animation: 1s ease-out 0s 1 BottomleftToRightCircle;
+        animation-fill-mode: forwards;
+    }
+
+    .headline-animation {
+        animation: 1s ease-out 0s 1 HeadlineLeftToRightCircle;
+        animation-fill-mode: forwards;
+    }
+
+    .header-animation {
+        animation: 1s ease-out 0s 1 HeadlineLeftToRightCircle;
+        animation-fill-mode: forwards;
+        
+    }
+
+    .header-before-animation {
+        display: none;
+    }
+    .children-animation {
+        animation: 1s ease-out 0s 1 ChildrenLeftToRightCircle;
+        animation-fill-mode: forwards;
+    } */
+
 .steps {
     margin-top: -8.5%;
 }
@@ -4796,81 +4871,6 @@ h4 {
 .splide.splide-detailed-depositions .splide__arrow--next {
     right: 42%;
 }
-
-/* 
- @keyframes BottomleftToRightCircle {
-        0% {
-            transform: translateX(0);
-            overflow: hidden;
-        }
-
-        100% {
-            transform: translateX(420%);
-        }
-    }
-
-    @keyframes HeadlineLeftToRightCircle {
-        0% {
-            transform: translateX(-5%);
-            overflow: hidden;
-        }
-
-        100% {
-            transform: translateX(0);
-            opacity: 100%;
-        }
-    }
-
-
-    @keyframes HeaderContractLeftToRightCircle {
-        0% {
-            transform: translateX(-5%);
-            overflow: hidden;
-            display: none;
-        }
-
-        100% {
-            transform: translateX(0);
-            opacity: 100%;
-        }
-    }
-
-    @keyframes ChildrenLeftToRightCircle {
-        0% {
-            transform: translateX(0);
-            overflow: hidden;
-
-        }
-
-        100% {
-            transform: translateX(5%);
-            opacity: 0;
-        }
-    }
-
-    .circle-animation {
-        animation: 1s ease-out 0s 1 BottomleftToRightCircle;
-        animation-fill-mode: forwards;
-    }
-
-    .headline-animation {
-        animation: 1s ease-out 0s 1 HeadlineLeftToRightCircle;
-        animation-fill-mode: forwards;
-    }
-
-    .header-animation {
-        animation: 1s ease-out 0s 1 HeadlineLeftToRightCircle;
-        animation-fill-mode: forwards;
-        
-    }
-
-    .header-before-animation {
-        display: none;
-    }
-    .children-animation {
-        animation: 1s ease-out 0s 1 ChildrenLeftToRightCircle;
-        animation-fill-mode: forwards;
-    } */
 
 .text-typography-contratar {
     background: var(--pcv-rosa-laranja, linear-gradient(208deg, #EB9203 0%, #E50071 100%));
