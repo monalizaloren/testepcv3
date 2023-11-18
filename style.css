@@ -2506,9 +2506,6 @@ footer{
     margin-left: 84.4%;
 }
 
-#benefits {
-    position: relative;
-}
 
 #detailed-depositions {
     margin-top: 0px;
@@ -2790,6 +2787,7 @@ h4 {
 .glassd img {
     position: absolute;
     right: 0;
+    width: 50%;
 }
 
 .card-line {
@@ -5584,16 +5582,16 @@ h4 {
     }
 
     .background-top {
-        margin-top: 30%;
+       margin-top: 21%;
     }
 
-    .background-benefits {
-        margin-top: 180%;
-    }
+   
 
     .text-dv {
         display: flex;
-        font-size: 0.1em;
+        font-size: 40px;
+        text-align: center;
+        padding-left: 28%;
     }
 
     .limitText {
@@ -5639,6 +5637,7 @@ h4 {
         max-width: 70%;
         padding-bottom: 45%;
         margin-bottom: 10%;
+        left: 14%;
     }
 
     .card-line {
@@ -5669,11 +5668,7 @@ h4 {
         height: 100%;
     }
 
-    .short-cards {
-        height: 100%;
-        top: 50%;
-        display: flex;
-    }
+    
 
     .number-two {
         display: flex;
@@ -5779,7 +5774,7 @@ h4 {
     }
 
     .glass {
-        width: 1%;
+       display: none;
     }
 
     .textCard-t {
@@ -5787,7 +5782,7 @@ h4 {
     }
 
     .subtext-cards {
-        opacity: 0%;
+        display: none;
     }
 
     .short-cards2 {
@@ -5801,8 +5796,7 @@ h4 {
     }
 
     .subtext-f {
-        opacity: 0%;
-        top: 50%;
+      display: none;
     }
 
     .number-two {
@@ -5817,20 +5811,14 @@ h4 {
     }
 
     .subtext-d2 {
-        opacity: 0%;
-        top: 50%;
+        display: none;
     }
 
     .btn-dive {
         min-width: 50%;
     }
 
-    .background-benefits {
-        opacity: 0%;
-        width: 1%;
-        height: 1%;
-    }
-
+    
     .title-aula {
         width: 285px;
     }
@@ -5857,9 +5845,7 @@ h4 {
         margin-left: -104px;
     }
 
-    .card-blue {
-        opacity: 0;
-    }
+   
 
     .display-row .form-group {
         display: block;
@@ -5880,10 +5866,6 @@ h4 {
         max-width: 60%;
     }
 
-    .curriculum {
-        top: 100%;
-        opacity: 0%;
-    }
 
     .zero2 {
         display: flex;
@@ -5898,16 +5880,7 @@ h4 {
         right: 20%;
     }
 
-    .card-aprender {
-        width: 1%;
-        opacity: 0%;
-    }
-
-    .aprender {
-        font-size: 1px;
-        opacity: 0%;
-    }
-
+   
     .zero4,
     .zero1,
     zero {
@@ -6628,4 +6601,36 @@ h4 {
         padding: 10px 15px;
         border-radius: 5px;
     }
+    .lineu{
+        display: none;
+    }
+    .short-cards{
+        display: none;
+    }
+    .short-cards3{
+        display: none;
+    }
+    .textSub-dv{
+        text-align: center;
+        display: flex;
+    }
+    .btn2{
+        padding-left: 13%;
+    }
+    .background-bottom{
+        display: none;
+    }
+    .textDev2  {
+        color: var(--pcv-black, #101010);
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    width: 137px;
+    height: 21.171px;
+    flex-shrink: 0;
+    padding-left: 30%;
+    }
+    
 }
