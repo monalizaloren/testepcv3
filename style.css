@@ -5287,7 +5287,7 @@ line-height: normal;
 width: 137px;
 height: 21.171px;
 flex-shrink: 0;
-padding-left: 30%;
+margin-left: 0%;
 
 }
 
@@ -6643,7 +6643,7 @@ padding-left: 30%;
     width: 137px;
     height: 21.171px;
     flex-shrink: 0;
-    padding-left: 5%;
+    padding-left: 30%;
     }
     
 }
