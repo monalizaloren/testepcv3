@@ -5277,6 +5277,18 @@ h4 {
     background: var(--cyan-cyan-para-roxo-2, linear-gradient(201deg, #7200CC 0%, #00E8FF 100%));
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.67);
 }
+.textDev2  {
+    color: var(--pcv-black, #101010);
+font-family: Montserrat;
+font-size: 20px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+width: 137px;
+height: 21.171px;
+flex-shrink: 0;
+
+}
 
 .div-profissionais-player-glass {
     position: absolute;
@@ -6630,7 +6642,7 @@ h4 {
     width: 137px;
     height: 21.171px;
     flex-shrink: 0;
-    padding-left: 30%;
+    padding-left: 5%;
     }
     
 }
