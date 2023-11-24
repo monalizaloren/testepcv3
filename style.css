@@ -501,6 +501,66 @@ h4 {
     letter-spacing: -0.235px;
 }
 
+/* CARD BY EMY */
+.card-programadores {
+    display: flex; 
+    margin-bottom: 20px; 
+    background: var(--pcv-gray, #E9E9E9);
+    box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.59);
+    border: 1px solid #ccc;
+    border-radius: 11px 15px 15px 11px;
+    overflow: hidden; 
+    width: 100%; 
+    position: relative;
+  }
+
+
+
+  /* Estilo para a div colorida */
+  .card-color-div-1 {
+    background-color: #3498db; 
+    border-radius: 11px;
+    width: 36px;
+    height: 130.779px;
+    flex-shrink: 0;
+   
+  }
+
+  .card-color-div-2 {
+    border-radius: 11px;
+    width: 36px;
+    height: 130.779px;
+    flex-shrink: 0;
+    background-color: rgb(219, 133, 52); 
+  }
+
+  .card-color-div-3 {
+    border-radius: 11px;
+    width: 36px;
+    height: 133.779px;
+    flex-shrink: 0;
+    background: var(--pcv-rosa, #E50071);
+  }
+
+  .card-title {
+    flex-grow: 1;
+    padding: 10px;
+  }
+
+  .card-text {
+   
+  }
+
+  
+/* CARD BY EMY */
+
+
+
+
+
+
+
+
 .lineu {
     stroke-width: 8px;
     stroke: #000;
@@ -5277,19 +5337,6 @@ h4 {
     background: var(--cyan-cyan-para-roxo-2, linear-gradient(201deg, #7200CC 0%, #00E8FF 100%));
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.67);
 }
-.textDev2  {
-    color: var(--pcv-black, #101010);
-font-family: Montserrat;
-font-size: 20px;
-font-style: normal;
-font-weight: 800;
-line-height: normal;
-width: 137px;
-height: 21.171px;
-flex-shrink: 0;
-margin-left: 0%;
-
-}
 
 .div-profissionais-player-glass {
     position: absolute;
@@ -5604,7 +5651,7 @@ margin-left: 0%;
         display: flex;
         font-size: 40px;
         text-align: center;
-        padding-left: 28%;
+        padding-left: 40px;
     }
 
     .limitText {
@@ -6038,6 +6085,18 @@ margin-left: 0%;
         align-items: center;
         justify-content: center;
     }
+
+      .card-color-div-1 { 
+        height: 153.779px;
+      }
+    
+      .card-color-div-2 {
+        height: 151.779px;
+      }
+    
+      .card-color-div-3 {
+        height: 178.779px;
+      }
 }
 
 @media screen and (max-width: 700px) {
@@ -6643,7 +6702,7 @@ margin-left: 0%;
     width: 137px;
     height: 21.171px;
     flex-shrink: 0;
-    padding-left: 30%;
+    padding-left: 5%;
     }
     
 }
