@@ -5376,7 +5376,9 @@ h4 {
     line-height: normal;
     width: 342.857px;
 }
-
+.mensagemDeErro{
+    display: none;
+}
 .div-types-player {
     width: 311px;
     margin-left: 45%;

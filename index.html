@@ -1288,7 +1288,7 @@
                     </div>
                     
   <div id="mensagemErro" style="display: none;">
-    <!-- Mensagem de erro -->
+    <!-- Mensagem de erro será exibida aqui -->
     <h1>Erro: Página não encontrada!</h1>
     <p>Desculpe, a página que você está tentando acessar não existe.</p>
   </div>
@@ -1396,8 +1396,6 @@
         }
 
         showSlide(currentIndex);
-
-
         document.addEventListener('DOMContentLoaded', function () {
       // Verifica se a URL é igual à página principal
       if (window.location.pathname === 'https://www.programar.com.vc/') {
@@ -1406,6 +1404,7 @@
       } else {
         // Exibe a mensagem de erro na div apropriada
         window.location.pathname === 'https://www.programar.com.vc/'
+        document.getElementById('conteudoNormal').style.display = 'none';
         document.getElementById('mensagemErro').style.display = 'block';
         
       }
