@@ -1396,13 +1396,17 @@
         }
 
         showSlide(currentIndex);
-     /*   document.addEventListener('DOMContentLoaded', function () {
+     /*  
+     
+     document.addEventListener('DOMContentLoaded', function () {
       // Verifica se a URL é igual à página principal
+
       if (window.location.pathname === 'https://www.programar.com.vc') {
         window.location.pathname === 'https://www.programar.com.vc';
         document.getElementById('mensagemErro').style.display = 'none';
         console.log("Conteúdo normal");
-      } else {
+      }
+       else {
         // Exibe a mensagem de erro na div apropriada
         window.location.pathname === 'https://www.programar.com.vc/';
         console.log("Tela de erro.")
@@ -1415,19 +1419,18 @@
     if (!response.ok) {
       throw new Error(`Erro ${response.status}: ${response.statusText}`);
     }
-    return response.json();  // ou response.text() se você estiver lidando com texto
+    return response.json(); 
   })
   .then(data => {
-    // Processar os dados se a solicitação for bem-sucedida
     console.log(data);
   })
   .catch(error => {
     if (error.message.includes('404')) {
-      // Tratar especificamente o erro 404
+      
       alert('Recurso não encontrado!'); 
     } else {
-      // Tratar outros erros
-      console.error('Erro:', error.message);
+    
+      console.error('Erro aqui:', error.message);
     }
   });
 
