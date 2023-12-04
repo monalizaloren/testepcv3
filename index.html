@@ -1414,25 +1414,26 @@
         
       }
     }); */
-    fetch('https://www.programar.com.vc')
-  .then(response => {
-    if (!response.ok) {
-      throw new Error(`Erro ${response.status}: ${response.statusText}`);
+    document.addEventListener("DOMContentLoaded", function () {
+    // URL válida do seu site
+    var urlValida = "https://www.programar.com.vc";
+
+    // Verifica se a rota existe
+    if (!rotaExiste(urlValida)) {
+        // Redireciona para a página de erro 404
+        window.location.href = "/404.html";
     }
-    return response.json(); 
-  })
-  .then(data => {
-    console.log(data);
-  })
-  .catch(error => {
-    if (error.message.includes('404')) {
-      
-      alert('Recurso não encontrado!'); 
-    } else {
-    
-      console.error('Erro aqui:', error.message);
-    }
-  });
+});
+
+// Função para verificar se a rota existe
+function rotaExiste(urlValida) {
+    // Obtenha a URL atual
+    var urlAtual = window.location.href;
+
+    // Verifica se a URL atual é igual à URL válida do seu site
+    return urlAtual === urlValida;
+}
+
 
       
     </script>
