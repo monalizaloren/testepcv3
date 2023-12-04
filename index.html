@@ -1413,7 +1413,7 @@
         document.getElementById('mensagemErro').style.display = 'block';
         
       }
-    }); */
+    }); 
     document.addEventListener("DOMContentLoaded", function () {
     // URL válida do seu site
     var urlValida = "https://www.programar.com.vc";
@@ -1432,8 +1432,12 @@ function rotaExiste(urlValida) {
 
     // Verifica se a URL atual é igual à URL válida do seu site
     return urlAtual === urlValida;
+}*/
+var urlAtual = window.location.href;
+var urlValida = "https://www.programar.com.vc";
+if (urlAtual !== urlValida){
+    window.location.href = "/telaErro.html";
 }
-
 
       
     </script>
