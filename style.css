@@ -1224,6 +1224,12 @@ footer{
 
 .item-pagina{
     margin-bottom: 13px;
+    color: var(--Branco, #E9E9E9);
+font-family: Barlow;
+font-size: 16.007px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
 }
 
 .item-contato{
@@ -5377,7 +5383,10 @@ h4 {
     margin-top: -22.3%;
     position: absolute;
 }
-
+.itemBarlow{
+    font-family: var(--fonte-rodape);
+    
+}
 .types-player {
     color: var(--pcv-gray, #E9E9E9);
     text-align: center;
@@ -6704,5 +6713,5 @@ h4 {
     flex-shrink: 0;
     padding-left: 5%;
     }
-    
+   
 }
