@@ -1410,6 +1410,27 @@
         
       }
     }); */
+    fetch('https://www.programar.com.vc')
+  .then(response => {
+    if (!response.ok) {
+      throw new Error(`Erro ${response.status}: ${response.statusText}`);
+    }
+    return response.json();  // ou response.text() se você estiver lidando com texto
+  })
+  .then(data => {
+    // Processar os dados se a solicitação for bem-sucedida
+    console.log(data);
+  })
+  .catch(error => {
+    if (error.message.includes('404')) {
+      // Tratar especificamente o erro 404
+      alert('Recurso não encontrado!'); 
+    } else {
+      // Tratar outros erros
+      console.error('Erro:', error.message);
+    }
+  });
+
       
     </script>
 </body>
