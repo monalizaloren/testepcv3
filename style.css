@@ -6443,6 +6443,7 @@ h4 {
     }
 }
 
+
 @media screen and (max-width: 600px) {
     .text-a {
         margin-top: -3480px;
@@ -6724,4 +6725,10 @@ h4 {
     padding-left: 5%;
     }
    
+}
+
+@media screen and (min-width: 376px) {
+    .text-dv{
+        padding-left: 0px;
+    }
 }
