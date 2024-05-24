@@ -45,6 +45,7 @@ button {
   position: absolute;
   top: 2rem;
   width: 100%;
+  z-index: 5;
 }
 
 #logo-header {
@@ -149,13 +150,36 @@ nav > ul {
 
 .home-one-container {
   width: 100%;
-  height: 100vh;
-  background-image: url(./images/bg-img-home-one.png);
+  background-image: url(./images/night-with-stars.jpg);
   background-size: cover;
+}
+
+.bg-shadow-content-one-home {
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.887);
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  position: relative;
+}
+
+.bg-shadow-content-one-home #ellipse-effect-62 {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.bg-shadow-content-one-home #circle-effect-01 {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.bg-shadow-content-one-home #x-effect-01 {
+  position: absolute;
+  bottom: 0;
+  right: 0;
 }
 
 .home-one-container .main-text {
@@ -163,7 +187,7 @@ nav > ul {
   font-size: 3rem;
   font-weight: 800;
   text-align: center;
-  margin-top: 13rem;
+  margin-top: 18rem;
   padding: 0 13rem;
 }
 
