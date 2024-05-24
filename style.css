@@ -551,14 +551,6 @@ h4 {
     padding: 10px;
   }
 
-
-
-
-
-
-
-
-
 .lineu {
     stroke-width: 8px;
     stroke: #000;
@@ -6069,6 +6061,8 @@ h4 {
 display: none;
 }
 
+
+
 /* css Section progrmar com agente*/
 
 .programar_com_agente{
@@ -6135,6 +6129,98 @@ display: none;
 /* fim do css progrmar com a gente */
 
 
+ /* css Section canal discord */
+ .discord {
+    background-image: url(images/background_nuvem.png);
+    background-repeat: no-repeat;
+    background-size: cover; 
+    height: 292px;
+}
+
+.discord .texto_section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 292px;
+}
+
+.discord .texto_section h3{
+    padding-top: 41px;
+    margin-bottom: 0px;
+    text-align: center;
+    font-size: 1rem;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    color: #FAF1F1;
+    line-height: 26.54px;
+    margin-bottom: 0;
+}
+
+.discord .texto_section p{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 800;
+    color: #FAF1F1;
+    font-size: 2.62rem;
+    text-align: center;
+    width: 606px;
+    line-height: 51.2px;
+}
+
+.discord .texto_section button{
+    border: none;
+    width: 310px;
+    height: 55px;
+    background-color: #212121;
+    border-radius: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 9px;
+    font-size: 0.87rem;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+}
+
+.discord .texto_section button a{
+    color: #FFFFFF;
+}
+
+/* fim Section canal discord */
+
+/* section imapacto social */ 
+
+.impacto_social{
+    background-color: #141414;
+    width: 100%;
+    height: 700px;
+    display: flex;
+    
+}
+
+.texto-impacto-social{
+    
+    width: 50%;
+    padding: 192.5px 0  0 158px;
+}
+
+.texto-impacto-social h1{
+   
+    width: 65%;
+    font-size: 2.97rem;
+    color: #FAF1F1;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 800;
+}
+
+.img-impacto{
+    width: 50%;
+}
+
+.img-impacto img{
+    width: 100%;
+}
+
+/* fim da section impacto social */
 
 
 @media (max-width: 1440px) {
@@ -6148,7 +6234,7 @@ display: none;
     width: 100%;
     height: 666px;
     background-color: #FAF1F1;
-    border: red solid;
+    
 }
 
 .container-conteudo{
@@ -6204,10 +6290,9 @@ display: none;
     height: 55px;
     border-radius: 38.57px;
     padding:15.67px 55.12px 15.67px 55.12px;
-   
 }
-
 /* fim do css progrmar com a gente */
+
     #programar_para_empresas{
         padding-top: 151px; 
         background-color: #FAF1F1;
@@ -6314,7 +6399,14 @@ display: none;
         
     }
 
+    
+
 }
+
+
+
+
+
 
 @media (max-width: 1200px) {
     .card-performace{
@@ -7255,8 +7347,7 @@ display: none;
    padding: 0;
 }
 
-/* fim do css progrmar com a gente */
-}
+/*fim da section programar com voce*/
 
 @media (max-width: 768px){
     .content-left {
