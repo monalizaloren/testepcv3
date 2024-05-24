@@ -6061,8 +6061,11 @@ h4 {
 display: none;
 }
 
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> 1b03406e5585bdc6a14915c539bc86df4f5e570b
 /* css Section progrmar com agente*/
 
 .programar_com_agente{
@@ -6129,6 +6132,7 @@ display: none;
 /* fim do css progrmar com a gente */
 
 
+<<<<<<< HEAD
  /* css Section canal discord */
  .discord {
     background-image: url(images/background_nuvem.png);
@@ -6221,6 +6225,8 @@ display: none;
 }
 
 /* fim da section impacto social */
+=======
+>>>>>>> 1b03406e5585bdc6a14915c539bc86df4f5e570b
 
 
 @media (max-width: 1440px) {
@@ -6290,9 +6296,16 @@ display: none;
     height: 55px;
     border-radius: 38.57px;
     padding:15.67px 55.12px 15.67px 55.12px;
+<<<<<<< HEAD
 }
 /* fim do css progrmar com a gente */
 
+=======
+   
+}
+
+/* fim do css progrmar com a gente */
+>>>>>>> 1b03406e5585bdc6a14915c539bc86df4f5e570b
     #programar_para_empresas{
         padding-top: 151px; 
         background-color: #FAF1F1;
@@ -7313,6 +7326,44 @@ display: none;
     width: 100%;
     height: 666px;
     background-color: #FAF1F1;
+<<<<<<< HEAD
+=======
+}
+
+.container-conteudo{
+    width: 95%;
+    height: 666px;
+}
+
+.container-conteudo h3{
+    font-size: 1rem;
+    margin-bottom: 0;
+}
+
+.container-conteudo h1{
+    text-align: center;
+    font-size: 1.8rem;
+    margin-bottom: 0;
+}
+
+.container-conteudo p{
+    width: 90%;
+    text-align: center;
+    font-size: 1.0rem;
+   
+}
+
+.container-conteudo button{
+
+    font-size: 0..97rem;
+    color: #FAF1F1;
+    width: 280px;
+    height: 55px;
+   padding: 0;
+}
+
+/* fim do css progrmar com a gente */
+>>>>>>> 1b03406e5585bdc6a14915c539bc86df4f5e570b
 }
 
 .container-conteudo{
