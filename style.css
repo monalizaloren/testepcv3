@@ -42,6 +42,9 @@ button {
   justify-content: space-around;
   align-items: center;
   gap: 0.5rem;
+  position: absolute;
+  top: 2rem;
+  width: 100%;
 }
 
 #logo-header {
@@ -59,6 +62,7 @@ nav > ul {
 .item-nav .link-nav {
   color: var(--color-font-primary);
   font-weight: 700;
+  transition: color 0.4s ease-in-out;
 }
 
 .item-nav .link-nav:hover {
@@ -110,7 +114,7 @@ nav > ul {
   border-radius: 1.5rem;
   padding: 2px; /* Tamanho da borda */
   background: var(--gradient-primary);
-  -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
   -webkit-mask-composite: xor;
   mask-composite: exclude;
   z-index: -1;
@@ -141,6 +145,62 @@ nav > ul {
   height: 2.4rem;
   border-radius: 50%;
   background-color: var(--color-font-primary);
+}
+
+.home-one-container {
+  width: 100%;
+  height: 100vh;
+  background-image: url(./images/bg-img-home-one.png);
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.home-one-container .main-text {
+  color: var(--color-font-primary);
+  font-size: 3rem;
+  font-weight: 800;
+  text-align: center;
+  margin-top: 13rem;
+  padding: 0 13rem;
+}
+
+.text-emphasis-one {
+  background-image: var(--gradient-primary);
+  background-clip: text;
+  color: transparent;
+}
+
+.home-one-container .text-secundary {
+  color: var(--color-font-primary);
+  font-weight: 500;
+}
+
+.home-one-container #btn-start-free {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: var(--gradient-primary);
+  border-radius: 1.5rem;
+  font-size: 1em;
+  width: 18rem;
+  height: 3.5rem;
+  color: var(--color-font-primary);
+  font-weight: 700;
+  margin-bottom: 5rem;
+}
+
+.home-one-container .text-tertiary {
+  color: var(--color-font-primary);
+  font-size: 1.2em;
+  font-weight: 700;
+}
+
+.home-one-container .link-hire-programmers {
+  text-decoration: underline;
+  color: var(--color-font-primary);
 }
 
 /* 
