@@ -298,6 +298,7 @@ nav > ul {
   color: var(--color-font-primary);
   font-size: 2.5em;
   font-weight: 800;
+  margin-bottom: 2rem;
 }
 
 .perfect-path-and-for-whom .cards-programming-everyone {
@@ -328,6 +329,19 @@ nav > ul {
   gap: 2rem;
   padding-right: 1rem;
   justify-content: center;
+  position: relative;
+}
+
+#ellipse-right-top-63 {
+  position: absolute;
+  right: 0;
+  top: -28rem;
+}
+
+#ellipse-right-top-9 {
+  position: absolute;
+  right: 0;
+  top: -25rem;
 }
 
 #image-high-performance-programmer {
@@ -338,10 +352,6 @@ nav > ul {
 
 .perfomace-card-group {
   width: 50%;
-}
-
-#sucess-stories {
-  color: var(--color-font-primary);
 }
 
 .performance-cards {
@@ -535,7 +545,87 @@ nav > ul {
   height: 3.5rem;
   color: var(--color-font-primary);
   font-weight: 700;
+  margin-bottom: 5rem;
 }
+
+.sucess-stories {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+#text-sucess-stories {
+  font-weight: 500;
+}
+
+#title-sucess-stories {
+  font-weight: 800;
+}
+
+#text-this-commitment {
+  width: 32rem;
+  text-align: center;
+}
+
+.videos-commitment-container {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+  justify-content: center;
+  margin: 5rem auto;
+}
+
+#ellipse-left-top-83 {
+  position: absolute;
+  top: -28rem;
+  left: 0;
+}
+
+#ellipse-right-top-81 {
+  position: absolute;
+  top: -28rem;
+  right: 0;
+}
+
+#shadow-pvc {
+  position: absolute;
+  object-fit: cover;
+  width: 100%;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#ellipse-left-center-82 {
+  position: absolute;
+  left: 0;
+}
+
+#ellipse-right-center-14 {
+  position: absolute;
+  right: 0;
+}
+
+#ellipse-right-center-25 {
+  position: absolute;
+  right: 0;
+}
+
+.video-commitment {
+  border-radius: 0.6rem;
+  border: 1px solid var(--color-primary);
+}
+
+.video-no-focus {
+  height: 20rem;
+  filter: blur(2px);
+}
+
+.video-focus {
+  height: 30rem;
+}
+
 /* 
  @keyframes BottomleftToRightCircle {
         0% {
