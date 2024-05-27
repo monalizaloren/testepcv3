@@ -5,6 +5,8 @@
 
   --color-font-primary: #faf1f1;
   --color-primary: #e50071;
+  --color-secundary: #ed6d1d;
+  --color-tertiary: #7404bf;
   --gradient-primary: linear-gradient(
     267.73deg,
     #ed6d1d -4.01%,
@@ -203,7 +205,7 @@ nav > ul {
   right: 13rem;
 }
 
-.perfect-path-and-for-whom .main-title {
+.perfect-path-and-for-whom .title-primary {
   color: var(--color-font-primary);
   font-size: 3rem;
   font-weight: 800;
@@ -325,6 +327,7 @@ nav > ul {
   display: flex;
   gap: 2rem;
   padding-right: 1rem;
+  justify-content: center;
 }
 
 #image-high-performance-programmer {
@@ -391,6 +394,147 @@ nav > ul {
 #shadow-ellipse-btn {
   position: absolute;
   width: 23rem;
+}
+
+.salary {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+  position: relative;
+}
+
+.salary #ellipse-center-top-17 {
+  width: 50rem;
+  position: absolute;
+  top: -9rem;
+}
+
+.salary #ellipse-left-center-66 {
+  position: absolute;
+  left: 0;
+  top: 8rem;
+}
+
+.salary #ellipse-left-bottom-68 {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+.title-secondary {
+  color: var(--color-font-primary);
+  font-size: 2.6em;
+  font-weight: 800;
+}
+
+.salary .title-secondary {
+  width: 50rem;
+  text-align: center;
+}
+
+.text-emphasis-two {
+  background-image: var(--gradient-tertiary);
+  background-clip: text;
+  color: transparent;
+}
+
+#text-highest-paid-career {
+  padding: 1rem;
+  font-size: 1.3em;
+  font-weight: 500;
+}
+
+.values-and-curriculum {
+  display: flex;
+  align-items: center;
+}
+
+.salary .junior,
+.salary .senior {
+  position: relative;
+  padding-left: 20px;
+}
+
+.salary .junior::before,
+.salary .senior::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 5px;
+  height: 100%;
+  background: var(--gradient-tertiary);
+}
+
+.salary .values {
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+}
+
+.salary .level-text {
+  font-weight: 500;
+  /* reset necessário por conta do bootstrap */
+  margin-bottom: 0rem;
+}
+
+.value-frequence-container {
+  display: flex;
+  align-items: flex-end;
+}
+
+.salary .value {
+  font-size: 3em;
+  font-weight: 700;
+  /* reset necessário por conta do bootstrap */
+  margin-bottom: 0rem;
+}
+
+.salary .frequence {
+  font-size: 1em;
+  padding-bottom: 1rem;
+  font-weight: 500;
+}
+
+.data-reference {
+  color: #e9e9e980;
+  font-weight: 500;
+}
+
+.curriculum-salary {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.curriculum-salary p {
+  position: absolute;
+  top: 3rem;
+  font-size: 1.3em;
+  font-weight: 700;
+
+  /* reset necessário por conta do bootstrap */
+  margin-bottom: 0rem;
+}
+
+.curriculum-salary img {
+  width: 100%;
+  object-fit: contain;
+}
+
+#link-btn-start-journey {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: var(--gradient-tertiary);
+  border-radius: 1.5rem;
+  font-size: 1em;
+  width: 18rem;
+  height: 3.5rem;
+  color: var(--color-font-primary);
+  font-weight: 700;
 }
 /* 
  @keyframes BottomleftToRightCircle {
