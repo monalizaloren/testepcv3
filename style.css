@@ -44,14 +44,14 @@ button {
 
 #header-home {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   gap: 0.5rem;
   position: absolute;
   top: 2rem;
   width: 100%;
   z-index: 5;
-  padding: 0 1rem;
+  padding: 0 4rem;
 }
 
 #logo-header {
@@ -66,24 +66,16 @@ nav > ul {
   margin: initial;
 }
 
-.item-nav .link-nav {
-  color: var(--color-font-primary);
-  font-weight: 700;
-  transition: color 0.4s ease-in-out;
-}
-
-.item-nav .link-nav:hover {
-  color: var(--color-primary);
-}
-
 .btn-group {
   display: flex;
   gap: 1rem;
 }
 
-#btn-sou-aluno {
+#link-btn-sou-aluno {
   position: relative;
-  display: inline-block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 11rem;
   height: 2.8rem;
   background: transparent;
@@ -96,9 +88,11 @@ nav > ul {
   font-weight: 700;
 }
 
-#btn-sou-aluno:hover {
+#link-btn-sou-aluno:hover {
   position: relative;
-  display: inline-block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 11rem;
   height: 2.8rem;
   background: var(--gradient-tertiary);
@@ -111,7 +105,7 @@ nav > ul {
   font-weight: 700;
 }
 
-#btn-sou-aluno::before {
+#link-btn-sou-aluno::before {
   content: "";
   position: absolute;
   top: 0;
@@ -127,7 +121,7 @@ nav > ul {
   z-index: -1;
 }
 
-#btn-sou-aluno:hover:before {
+#link-btn-sou-aluno:hover:before {
   display: none;
 }
 
@@ -417,7 +411,7 @@ nav > ul {
 .salary #ellipse-center-top-17 {
   width: 50rem;
   position: absolute;
-  top: -9rem;
+  top: -4.5rem;
 }
 
 .salary #ellipse-left-center-66 {
