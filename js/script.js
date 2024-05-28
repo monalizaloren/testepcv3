@@ -15,3 +15,4 @@ var splide = new Splide('.splide-detailed-depositions', {
 } );
 
 splide.mount();
+
