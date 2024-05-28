@@ -7236,6 +7236,76 @@ h4 {
 
 
 @media (max-width: 1440px) {
+    
+ /* css Section progrmar com agente*/
+
+.programar_com_agente{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 666px;
+    background-color: #FAF1F1;
+    
+}
+
+.container-conteudo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 95%;
+    height: 666px;
+    align-items: center;
+}
+
+.container-conteudo h3{
+    font-size: 1rem;
+    color: linear-gradient(90deg, #212121 100%, #3d3d3d 10%);
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    line-height: 26.3px;
+    margin-bottom: 0;
+}
+
+.container-conteudo h1{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 800;
+    font-size: 2.5rem;
+    background: linear-gradient(180deg, rgba(33, 33, 33, 1), rgba(61, 61, 61, 1));
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    margin-bottom: 0;
+}
+
+.container-conteudo p{
+    white-space: pre-line;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0px;
+    width: 49%;
+    height:66px;
+    text-align: center;
+    margin-bottom: 33px;
+    font-size: 1.25rem;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+}
+
+.container-conteudo button{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 0..97rem;
+    color: #FAF1F1;
+    width: 320px;
+    height: 55px;
+    border-radius: 38.57px;
+    padding:15.67px 55.12px 15.67px 55.12px;
+   
+}
+
+/* fim do css progrmar com a gente */
     #programar_para_empresas{
         padding-top: 151px; 
         background-color: #FAF1F1;
@@ -8225,6 +8295,51 @@ h4 {
     footer .colunas-rodape{
         align-items: flex-start;
     }
+
+    /* css Section progrmar com agente*/
+
+.programar_com_agente{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 666px;
+    background-color: #FAF1F1;
+}
+
+.container-conteudo{
+    width: 95%;
+    height: 666px;
+}
+
+.container-conteudo h3{
+    font-size: 1rem;
+    margin-bottom: 0;
+}
+
+.container-conteudo h1{
+    text-align: center;
+    font-size: 1.8rem;
+    margin-bottom: 0;
+}
+
+.container-conteudo p{
+    width: 90%;
+    text-align: center;
+    font-size: 1.0rem;
+   
+}
+
+.container-conteudo button{
+
+    font-size: 0..97rem;
+    color: #FAF1F1;
+    width: 280px;
+    height: 55px;
+   padding: 0;
+}
+
+/* fim do css progrmar com a gente */
 }
 
 @media (max-width: 768px) {
