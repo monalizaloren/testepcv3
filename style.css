@@ -43,7 +43,7 @@ a {
 button {
   border: none;
 }
-
+/* CABEÇALHO */
 #header-home {
   display: flex;
   justify-content: space-between;
@@ -58,19 +58,6 @@ button {
 
 #logo-header {
   width: 10rem;
-}
-
-nav > ul {
-  list-style: none;
-  display: flex;
-  align-items: center;
-  gap: 2rem;
-  margin: initial;
-}
-
-.btn-group {
-  display: flex;
-  gap: 1rem;
 }
 
 #link-btn-sou-aluno {
@@ -124,6 +111,11 @@ nav > ul {
 }
 
 #link-btn-sou-aluno:hover:before {
+  display: none;
+}
+
+/* PRIMEIRA SESSÃO */
+.cards-programming-everyone-mobile {
   display: none;
 }
 
@@ -298,6 +290,10 @@ nav > ul {
   top: 12rem;
 }
 
+/* SEGUNDA SESSÃO */
+.high-performance-programmer-mobile {
+  display: none;
+}
 .high-performance-programmer {
   display: flex;
   gap: 2rem;
@@ -380,6 +376,7 @@ nav > ul {
   width: 23rem;
 }
 
+/* TERCEIRA SESSÃO */
 .salary {
   display: flex;
   flex-direction: column;
@@ -522,6 +519,7 @@ nav > ul {
   margin-bottom: 5rem;
 }
 
+/* QUARTA SESSÃO */
 .sucess-stories {
   display: flex;
   flex-direction: column;
@@ -598,6 +596,11 @@ nav > ul {
 
 .video-focus {
   height: 30rem;
+}
+
+/* QUINTA SESSÃO */
+.cards-journey-mobile {
+  display: none;
 }
 
 .journey {
@@ -748,6 +751,357 @@ nav > ul {
   margin-bottom: 0rem;
 }
 
+/* MEDIA QUERIES - Medium Devices */
+@media (max-width: 768px) {
+  .perfect-path-and-for-whom .title-primary {
+    padding: 0;
+  }
+
+  .perfect-path-and-for-whom #text-primary {
+    font-size: 1.5rem;
+    text-align: center;
+    padding: 1rem 6rem;
+  }
+
+  .perfect-path-and-for-whom .text-secundary {
+    font-size: 2em;
+  }
+
+  .perfect-path-and-for-whom .link-hire-programmers {
+    font-size: 1.5rem;
+  }
+
+  .cards-programming-everyone {
+    max-width: 100vw;
+    overflow-x: auto;
+  }
+
+  /* SEGUNDA SESSÃO */
+  .high-performance-programmer-mobile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .high-performance-programmer-mobile .title-tertiary {
+    text-align: center;
+    padding: 0 4rem;
+    font-size: 3.5em;
+  }
+
+  .high-performance-programmer-mobile #image-high-performance-programmer {
+    align-self: initial;
+    object-fit: contain;
+    width: 40rem;
+    margin: 5rem 0;
+  }
+
+  .high-performance-programmer-mobile .performance-cards {
+    max-width: 100vw;
+    overflow-x: auto;
+    padding: 0 4rem;
+  }
+
+  .high-performance-programmer-mobile .perfomace-card-group {
+    width: initial;
+  }
+
+  .high-performance-programmer-mobile .perfomace-card {
+    display: flex;
+    align-items: center;
+    width: 40rem;
+  }
+
+  .high-performance-programmer-mobile .perfomace-card::before {
+    border-radius: 1.5rem;
+    padding: 2px;
+  }
+
+  .high-performance-programmer-mobile .perfomace-card img {
+    height: 5rem;
+    width: 6rem;
+    object-fit: contain;
+  }
+
+  .high-performance-programmer-mobile .perfomace-card p {
+    font-size: 1.5em;
+    padding: 0 1rem;
+  }
+
+  .high-performance-programmer {
+    display: none;
+  }
+
+  /* TERCEIRA SESSÃO */
+  .salary #text-highest-paid-career {
+    text-align: center;
+  }
+
+  .salary .values-and-curriculum {
+    flex-direction: column-reverse;
+  }
+
+  .salary .values {
+    width: 100%;
+    align-items: center;
+    margin-bottom: 5rem;
+  }
+
+  .salary .value {
+    font-size: 6em;
+  }
+
+  .salary .frequence {
+    font-size: 1.5em;
+    padding-bottom: 1.5rem;
+  }
+
+  #ellipse-left-bottom-68 {
+    z-index: -1;
+  }
+
+  #ellipse-left-top-83 {
+    z-index: -1;
+  }
+
+  .high-performance-programmer {
+    width: 100vw;
+    flex-direction: column-reverse;
+    padding-right: 0;
+  }
+
+  .high-performance-programmer .title-tertiary {
+    text-align: center;
+  }
+
+  .salary .title-secondary {
+    width: 48rem;
+  }
+
+  .cards-journey {
+    max-width: 100vw;
+    overflow-x: auto;
+  }
+
+  #lozenge-top-center-01,
+  #ellipse-right-top-81,
+  #ellipse-center-top-17,
+  #ellipse-center-top-24,
+  #ellipse-right-top-63,
+  #ellipse-right-top-9 {
+    display: none;
+  }
+}
+
+/* MEDIA QUERIES - Medium Devices */
+@media (max-width: 576px) {
+  /* CABEÇALHO */
+  #header-home {
+    justify-content: center;
+  }
+
+  .btn-group {
+    display: none;
+  }
+
+  /* PRIMEIRA SESSÃO */
+  .bg-shadow-content-one-home #circle-effect-01 {
+    width: 10rem;
+    left: -2rem;
+  }
+
+  .perfect-path-and-for-whom .title-primary {
+    font-size: 1.8rem;
+    margin-top: 12rem;
+  }
+
+  .perfect-path-and-for-whom #text-primary {
+    font-size: 1rem;
+    padding: 1rem 2rem;
+  }
+
+  .perfect-path-and-for-whom .text-tertiary {
+    font-weight: 500;
+  }
+
+  .perfect-path-and-for-whom .title-tertiary {
+    font-size: 1.8em;
+    text-align: center;
+  }
+
+  .cards-programming-everyone-mobile {
+    display: flex;
+    max-width: 100vw;
+    overflow-x: auto;
+    margin-bottom: 5rem;
+  }
+
+  .card-programming-everyone {
+    width: initial;
+    object-fit: contain;
+  }
+
+  .bg-shadow-content-one-home #x-effect-01 {
+    width: 3.5rem;
+    bottom: 38rem;
+  }
+
+  .perfect-path-and-for-whom .cards-programming-everyone,
+  #rectangle-left-center-01,
+  #rectangle-left-center-02,
+  .perfect-path-and-for-whom .text-secundary,
+  .perfect-path-and-for-whom .link-hire-programmers,
+  #shadow-ellipse-btn,
+  #ellipse-right-top-62,
+  #ellipse-left-center-50,
+  #rectangle-center-top-01,
+  #rectangle-center-top-02 {
+    display: none;
+  }
+  /* SEGUNDA SESSÃO */
+  .high-performance-programmer-mobile #image-high-performance-programmer {
+    width: 20rem;
+    margin: 0 0 3rem 0;
+  }
+
+  .high-performance-programmer-mobile .title-tertiary {
+    font-size: 1.8em;
+    padding: 0 1rem;
+  }
+
+  .high-performance-programmer-mobile .performance-cards {
+    padding: 0px 1.5rem;
+  }
+
+  .high-performance-programmer-mobile .perfomace-card {
+    padding: 0.5rem;
+    height: initial;
+    width: 16rem;
+  }
+
+  .high-performance-programmer-mobile .perfomace-card::before {
+    border-radius: 0.5rem;
+  }
+
+  .high-performance-programmer-mobile .perfomace-card img {
+    height: initial;
+    width: initial;
+  }
+
+  .high-performance-programmer-mobile .perfomace-card p {
+    font-size: 0.8em;
+    padding-left: 0.5rem;
+  }
+
+  /* TERCEIRA SESSÃO */
+  .salary .title-secondary {
+    width: initial;
+    font-size: 1.6em;
+  }
+
+  .salary #text-highest-paid-career {
+    font-size: 0.8em;
+  }
+
+  .curriculum-salary p {
+    top: 1rem;
+    font-size: 0.8em;
+  }
+
+  .salary .value {
+    font-size: 3em;
+  }
+
+  .salary .frequence {
+    font-size: 0.8em;
+    padding-bottom: 1rem;
+  }
+
+  .salary .data-reference {
+    font-size: 0.6em;
+  }
+
+  .salary #ellipse-left-center-66 {
+    display: none;
+  }
+
+  /* QUARTA SESSÃO */
+  #text-sucess-stories {
+    font-size: 0.8rem;
+  }
+
+  #title-sucess-stories {
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+
+  #text-this-commitment {
+    width: initial;
+    text-align: center;
+    font-size: 0.8rem;
+    padding: 0 2.5rem;
+  }
+
+  .video-focus {
+    height: 16rem;
+  }
+
+  .video-no-focus {
+    height: 11rem;
+    filter: blur(2px);
+  }
+
+  #ellipse-right-center-14,
+  #ellipse-left-top-83,
+  #ellipse-left-center-82,
+  #ellipse-right-center-25,
+  #shadow-pvc {
+    display: none;
+  }
+
+  /* QUINTA SESSÃO */
+  .cards-journey-mobile {
+    display: flex;
+    max-width: 100vw;
+    overflow-x: auto;
+  }
+
+  .journey .text-tertiary {
+    font-weight: 500;
+  }
+
+  .journey .title-journey {
+    font-size: 1.8em;
+    text-align: center;
+  }
+
+  .journey .card-journey {
+    width: 18rem;
+    height: 5rem;
+  }
+
+  .journey .number-card-journey {
+    width: 18rem;
+    font-size: 1.8em;
+    border-radius: 0.2rem;
+  }
+
+  .journey .title-desc-card-journey-container {
+    display: flex;
+    align-items: center;
+  }
+
+  .journey .title-card-journey {
+    font-size: 0.8em;
+  }
+
+  .journey .description-card-journey,
+  .cards-journey,
+  #abstract-right-bottom-16,
+  #abstract-left-top-15 {
+    display: none;
+  }
+}
 /* 
  @keyframes BottomleftToRightCircle {
         0% {
