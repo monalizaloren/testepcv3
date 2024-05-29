@@ -6367,10 +6367,81 @@ display: none;
 
 /* fim da section rotina mentoria*/
 
+/* section imapacto social */ 
+
+.impacto_social{
+    background-color: #141414;
+    width: 100%;
+    height: 700px;
+    display: flex;
+    
+}
+
+.texto-impacto-social{
+    
+    width: 50%;
+    padding: 192.5px 0  0 158px;
+}
+
+.texto-impacto-social h1{
+   
+    width: 65%;
+    font-size: 2.97rem;
+    color: #FAF1F1;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 800;
+}
+
+.img-impacto{
+    width: 50%;
+}
+
+.img-impacto img{
+    width: 100%;
+}
+
+/* fim da section impacto social */
+
+
 
 
 
 @media (max-width: 1440px) {
+    /* section imapacto social */ 
+
+.impacto_social{
+    background-color: #141414;
+    width: 100%;
+    height: 700px;
+    display: flex;
+    
+}
+
+.texto-impacto-social{
+    
+    width: 50%;
+    padding: 192.5px 0  0 158px;
+}
+
+.texto-impacto-social h1{
+   
+    width: 65%;
+    font-size: 2.97rem;
+    color: #FAF1F1;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 800;
+}
+
+.img-impacto{
+    width: 50%;
+}
+
+.img-impacto img{
+    width: 100%;
+}
+
+/* fim da section impacto social */
+
     
  /* css Section progrmar com agente*/
 
@@ -6442,7 +6513,7 @@ display: none;
 
 
 
-/* fim do css progrmar com a gente */
+
 
 /*Section como é a rotina na mentoria*/
 
@@ -6546,8 +6617,6 @@ display: none;
   
 
 /* fim da section rotina mentoria*/
-
-
 
     #programar_para_empresas{
         padding-top: 151px; 
@@ -6654,8 +6723,6 @@ display: none;
         display: none;
         
     }
-
-    
 
 }
 
