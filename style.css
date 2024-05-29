@@ -6264,6 +6264,111 @@ display: none;
 
 /* fim da section impacto social */
 
+/*Section como é a rotina na mentoria*/
+
+.carrossel-mobile{
+    display: none;
+}
+
+.rotina-mentoria{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 950px;
+    
+}
+
+.container-rotina-mentoria{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 10px;
+    column-count: 2;
+    justify-content: space-around;
+}
+
+
+.rotina-mentoria h1{
+    margin-top: 50px;
+}
+
+.rotina-mentoria h1 span{
+     color: #d1007d;
+}
+
+.container-number{
+    width: 339px;
+    height: 311px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.number{
+    width: 120px;
+    height: 120px;
+    font-size: 5.25rem;
+    border-radius: 50%;
+    background: linear-gradient(273.16deg, #E50071 10.31%, #7404BF 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    }
+
+
+.texto-number{
+    white-space: pre-line;
+    color: #FAF1F1;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    margin-top: 5px;
+    margin-bottom: 10.2px;
+    
+}
+
+
+.descricao{
+    display: flex;
+            flex-direction: column;
+            align-items: flex-start; 
+            justify-content: flex-start; 
+            white-space: pre-line;
+            text-align: center;
+            color: #FAF1F1;
+            font-family: "Montserrat", sans-serif;
+            font-size: 0.87rem;
+            font-weight: 400;
+           height: auto;
+}
+
+
+.rotina-mentoria .comece-gratuitamente{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 0..97rem;
+    color: #FAF1F1;
+    width: 320px;
+    height: 60px;
+    border-radius: 38.57px;
+    padding:9px;
+    background: linear-gradient(273.16deg, #E50071 10.31%, #7404BF 100%);
+    margin-top: 40px;
+    box-shadow: 20px 20px 120px rgba(229, 0, 113, 0.7);
+}
+
+.rotina-mentoria .comece-gratuitamente a{
+    color: #FAF1F1;
+}
+  
+
+/* fim da section rotina mentoria*/
+
+
+
 
 @media (max-width: 1440px) {
     
@@ -6338,6 +6443,111 @@ display: none;
 
 
 /* fim do css progrmar com a gente */
+
+/*Section como é a rotina na mentoria*/
+
+.carrossel-mobile{
+    display: none;
+}
+
+.rotina-mentoria{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 950px;
+    
+}
+
+.container-rotina-mentoria{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 10px;
+    column-count: 2;
+    justify-content: space-around;
+}
+
+
+.rotina-mentoria h1{
+    margin-top: 50px;
+}
+
+.rotina-mentoria h1 span{
+     color: #d1007d;
+}
+
+.container-number{
+    width: 339px;
+    height: 311px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.number{
+    width: 120px;
+    height: 120px;
+    font-size: 5.25rem;
+    border-radius: 50%;
+    background: linear-gradient(273.16deg, #E50071 10.31%, #7404BF 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    }
+
+
+.texto-number{
+    white-space: pre-line;
+    color: #FAF1F1;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    margin-top: 5px;
+    margin-bottom: 10.2px;
+    
+}
+
+
+.descricao{
+    display: flex;
+            flex-direction: column;
+            align-items: flex-start; 
+            justify-content: flex-start; 
+            white-space: pre-line;
+            text-align: center;
+            color: #FAF1F1;
+            font-family: "Montserrat", sans-serif;
+            font-size: 0.87rem;
+            font-weight: 400;
+           height: auto;
+}
+
+
+.rotina-mentoria .comece-gratuitamente{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 0..97rem;
+    color: #FAF1F1;
+    width: 320px;
+    height: 60px;
+    border-radius: 38.57px;
+    padding:9px;
+    background: linear-gradient(273.16deg, #E50071 10.31%, #7404BF 100%);
+    margin-top: 40px;
+    box-shadow: 20px 20px 120px rgba(229, 0, 113, 0.7);
+}
+
+.rotina-mentoria .comece-gratuitamente a{
+    color: #FAF1F1;
+}
+  
+
+/* fim da section rotina mentoria*/
+
+
 
     #programar_para_empresas{
         padding-top: 151px; 
