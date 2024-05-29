@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Programar Para Empresas</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="./styles/empresas.css">
+    
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+<body>
+  <nav>
+    <div class="menu-icon" onclick="toggleMenu()">
+      &#9776;
+    </div>
+    <div class="div-image">
+        <img src="./imagesPPV/menu.png" alt="">
+        <div class="vertical-line"></div>
+        <div class="frase-header gradiente-texto">
+          <span>Para</span>
+          <span>Empresas</span>
+        </div>
+      </div>
+    <ul class="menu">
+      <li><a href="#">Início</a></li>
+      <li><a href="#">Você precisa</a></li>
+      <li><a href="#">Diferencial</a></li>
+      <li><a href="#">O processo</a></li>
+      <li><a href="#">Serviços</a></li>
+    </ul>
+    <div class="button-toggle">
+        <button class="button-header"><span>Quero ser Programador</span> <div class="circle"></div></button>
+      </div>
+  </nav>
+
+  <div class="container div-principal">
+    <header>
+      <div class="div-header-home">
+        <div class="div-image">
+         
+      </div>
+    </header>
+    <div class="content d-flex">
+      <div class="text-content w-50">
+        <span>Do 100 ao Milhão</span>
+        <h1>Desenvolvimento de software do tamanho do seu problema</h1>
+        <p>Economize sem sacrificar a qualidade: obtenha soluções inovadoras e confiáveis.</p>
+        <div class="text-infos d-flex justify-content-between">
+          <div>
+            <h1>+500</h1>
+            <span>empresas atendidas</span>
+          </div>
+          <div>
+            <h1>+1200</h1>
+            <span>devs ativos</span>
+          </div>
+          <div>
+            <h1>+150</h1>
+            <span>projetos desenvolvidos</span>
+          </div>
+        </div>
+      </div>
+      <div class="img-content w-50">
+        <img src="./imagesPPV/Group 5.png" alt="">
+      </div>
+    </div>
+  </div>
+  <section id="expertise">
+    <div class="container">
+      <div id="expertise_desktop" class="row">
+        <div class="col-md-12">
+          <div class="expertise_desktop_content">
+            <h2>
+              Temos o expertise que você<br> precisa para dar certo
+            </h2>
+            <img src="./images/budget_large_image.svg" alt="" class="img-fluid expertise_desktop_img">
+            <img src="./images/expertise_img.svg" alt="" class="img-fluid expertise_mobile_img"> 
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  <script>
+    function toggleMenu() {
+      const menu = document.querySelector('.menu');
+      menu.classList.toggle('active');
+    }
+  </script>
+</body>
+</html>

@@ -7236,76 +7236,6 @@ h4 {
 
 
 @media (max-width: 1440px) {
-    
- /* css Section progrmar com agente*/
-
-.programar_com_agente{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: 666px;
-    background-color: #FAF1F1;
-    
-}
-
-.container-conteudo{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 95%;
-    height: 666px;
-    align-items: center;
-}
-
-.container-conteudo h3{
-    font-size: 1rem;
-    color: linear-gradient(90deg, #212121 100%, #3d3d3d 10%);
-    font-family: "Montserrat", sans-serif;
-    font-weight: 400;
-    line-height: 26.3px;
-    margin-bottom: 0;
-}
-
-.container-conteudo h1{
-    font-family: "Montserrat", sans-serif;
-    font-weight: 800;
-    font-size: 2.5rem;
-    background: linear-gradient(180deg, rgba(33, 33, 33, 1), rgba(61, 61, 61, 1));
-    -webkit-background-clip: text;
-    background-clip: text;
-    color: transparent;
-    margin-bottom: 0;
-}
-
-.container-conteudo p{
-    white-space: pre-line;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 0px;
-    width: 49%;
-    height:66px;
-    text-align: center;
-    margin-bottom: 33px;
-    font-size: 1.25rem;
-    font-family: "Montserrat", sans-serif;
-    font-weight: 400;
-}
-
-.container-conteudo button{
-    font-family: "Montserrat", sans-serif;
-    font-weight: 700;
-    font-size: 0..97rem;
-    color: #FAF1F1;
-    width: 320px;
-    height: 55px;
-    border-radius: 38.57px;
-    padding:15.67px 55.12px 15.67px 55.12px;
-   
-}
-
-/* fim do css progrmar com a gente */
     #programar_para_empresas{
         padding-top: 151px; 
         background-color: #FAF1F1;
@@ -7820,6 +7750,282 @@ h4 {
 }
 
 @media (max-width: 768px) {
+    /* css Section canal discord */
+ .discord {
+    background: linear-gradient(273.16deg, #E50071 10.31%, #7404BF 100%);
+    background-repeat: no-repeat;
+    background-size: cover; 
+    height: 292px;
+}
+
+.discord .texto_section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 292px;
+    width: 100%;
+}
+
+.discord .texto_section h3{
+    padding-top: 10px;
+    margin-bottom: 0px;
+    text-align: center;
+    font-size: 1rem;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    color: #FAF1F1;
+    line-height: 26.54px;
+    margin-bottom: 0;
+}
+
+.discord .texto_section p{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 800;
+    color: #FAF1F1;
+    font-size: 1.5rem;
+    text-align: center;
+    width: 100%;
+    line-height: 29px;
+}
+
+.discord .texto_section button{
+    border: none;
+    width: 290px;
+    height: 55px;
+    background-color: #212121;
+    border-radius: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 9px;
+    font-size: 0.87rem;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+}
+
+.discord .texto_section button a{
+    color: #FFFFFF;
+}
+
+/* fim Section canal discord */
+
+ /* css Section Empresa que contrataram nossos alunos */
+    .contratam-alunos{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 656px;
+        background: linear-gradient(273.16deg, #E50071 10.31%, #7404BF 100%);
+     }
+
+     h1{
+        font-family: "Montserrat", sans-serif;
+        font-weight: 800;
+        color: #FAF1F1;
+        white-space:normal;
+        text-align: center;
+        width: 98%;
+        font-size: 1.75rem;
+        margin-top: -90px;
+        padding: 0;
+        
+     }
+
+     .containerLogo{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        width: 90%;
+        height: 300px;
+        padding-bottom: 70px;
+     }
+
+     .containerLogo > div {
+        flex: 0 1 calc(50% - 10px);
+        width: 163px;
+        height: 65px;
+        background: rgba(249, 248, 248, 0.2);
+        border-radius: 5px;
+        margin-bottom: 15px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        padding: 5px;
+    }
+
+    .containerLogo > div > img {
+        max-width: 100%;
+        max-height: 40px; 
+        height: auto;
+        width: auto; 
+    }
+
+/* fim da Section Section Empresa que contrataram nossos alunos */
+
+
+
+
+
+/*Section como é a rotina na mentoria*/
+
+.container-rotina-mentoria{
+    display: none;
+}
+
+    .carrossel-mobile{
+        display: inline-block;
+        width: 100%;
+    }
+
+    .rotina-mentoria{
+        height: 600px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        
+
+
+    }
+    .rotina-mentoria h1{
+        margin-top: 40px;
+        
+    }
+
+    .rotina-mentoria h1 span{
+        color: #E50071;
+            
+    }
+
+   .number{
+    width: 120px;
+    height: 120px;
+    font-size: 5.25rem;
+    border-radius: 50%;
+    background: linear-gradient(273.16deg, #E50071 10.31%, #7404BF 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+   }
+
+   .texto-number{
+     color: #FAF1F1;
+     white-space: pre-line;
+     text-align: center;
+     font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    margin-top: 20px;
+   }
+
+    .container-number{
+        width: 100%;
+        height: 300px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .rotina-mentoria .comece-gratuitamente{
+        font-family: "Montserrat", sans-serif;
+        font-weight: 700;
+        font-size: 0..97rem;
+        color: #FAF1F1;
+        width: 270px;
+        height: 55px;
+        border-radius: 38.57px;
+        padding:9px;
+        background: linear-gradient(273.16deg, #E50071 10.31%, #7404BF 100%);
+        margin-top: 26.93px;
+        margin: 0 auto;
+    }
+
+    .rotina-mentoria .comece-gratuitamente a{
+        color: #FAF1F1;
+    }
+      
+    
+/* fim da section rotina mentoria*/
+
+
+/* section imapacto social */ 
+
+.impacto_social{
+    height:949px;
+    background-color: #000000;
+    background-image: url(images/foto-impacto2.png);
+    background-repeat: no-repeat;
+    background-size: 100% 80vh;
+    background-position: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding-top: 191px;
+ }
+
+ .img-desktop{
+    display: none;
+ }
+ 
+ .texto-impacto-social{
+    width: 100%;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 0px;
+
+ 
+ }
+ 
+.button-p{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 400px;
+
+}
+ 
+ .texto-impacto-social h1{
+    text-align: center;
+    font-size: 2.97rem;
+    white-space: pre-line;
+    margin: 0;
+ }
+ 
+ .texto-impacto-social p{
+    width: 600px;
+    color: #FAF1F1;
+    font-size: 1.12rem;
+ }
+ 
+ .texto-impacto-social p span{
+     font-family: "Montserrat", sans-serif;
+     font-weight: 700;
+ }
+ 
+
+ 
+  .texto-impacto-social button{
+     font-family: "Montserrat", sans-serif;
+     font-weight: 700;
+     font-size: 0..97rem;
+     color: #FAF1F1;
+     width: 270px;
+     height: 55px;
+     border-radius: 38.57px;
+     padding:9px;
+     background: linear-gradient(273.16deg, #E50071 10.31%, #7404BF 100%);
+     margin-top: 26.93px;
+ }
+ 
+ /* fim da section impacto social */
+
+
   body {
     width: 100%;
   }
@@ -8295,51 +8501,6 @@ h4 {
     footer .colunas-rodape{
         align-items: flex-start;
     }
-
-    /* css Section progrmar com agente*/
-
-.programar_com_agente{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: 666px;
-    background-color: #FAF1F1;
-}
-
-.container-conteudo{
-    width: 95%;
-    height: 666px;
-}
-
-.container-conteudo h3{
-    font-size: 1rem;
-    margin-bottom: 0;
-}
-
-.container-conteudo h1{
-    text-align: center;
-    font-size: 1.8rem;
-    margin-bottom: 0;
-}
-
-.container-conteudo p{
-    width: 90%;
-    text-align: center;
-    font-size: 1.0rem;
-   
-}
-
-.container-conteudo button{
-
-    font-size: 0..97rem;
-    color: #FAF1F1;
-    width: 280px;
-    height: 55px;
-   padding: 0;
-}
-
-/* fim do css progrmar com a gente */
 }
 
 @media (max-width: 768px) {

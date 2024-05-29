@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap');
+
+body {
+  background-color: #FBF7FD;
+  font-family: "Montserrat", sans-serif;
+}
+
+nav {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 1rem;
+  background-color: #fff;
+
+}
+
+.menu-icon {
+  display: none;
+}
+
+.menu {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 1rem;
+}
+
+.menu li {
+  margin: 0;
+}
+
+.menu a {
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 15.34px;
+  line-height: 18.69px;
+  letter-spacing: -1.5%;
+  color: #000;
+  text-align: center;
+  display: block;
+  padding: 0.5rem 1rem;
+}
+
+.div-principal {
+  margin-top: 50px;
+}
+
+.div-image {
+  display: flex;
+}
+
+/* Linha vertical */
+.vertical-line {
+  margin-left: 10px;
+  border-left: 1px solid #7404BF;
+  height: 50px;
+  background-image: linear-gradient(to bottom, #E50071 0%, #7404BF 100%, #5271DC 100%);
+}
+
+/* Texto gradiente */
+.div-image span {
+  margin-left: 10px;
+  display: block;
+}
+
+.gradiente-texto {
+  background-image: linear-gradient(to bottom, #E50071 0%, #7404BF 100%, #5271DC 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  font-weight: 500;
+}
+
+.div-header-home {
+  display: flex;
+  justify-content: space-between;
+}
+
+.button-header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 42px;
+  border: solid 0.5px black;
+  width: 234px;
+  height: 40px;
+  background: linear-gradient(90deg, #212121 0%, #3D3D3D 100%);
+}
+
+.button-header span {
+  font-weight: 700;
+  color: #EFE1EE;
+  margin-left: 15px;
+  font-size: 13px;
+}
+
+.circle {
+  background-color: #EFE1EE;
+  border-radius: 50px;
+  width: 33px;
+  height: 33px;
+  margin-right: 0;
+}
+
+/* content */
+.content {
+  margin-top: 50px;
+  display: flex;
+}
+
+.content .text-content h1 {
+  font-weight: 700;
+}
+
+.img-content img {
+  margin-top: -230px;
+  width: 758px;
+  
+  margin-left: -99px;
+}
+
+.text-infos div span {
+  margin-top: 5px !important;
+}
+
+.div-informacoes-experiencia {
+  text-align: center;
+}
+
+.div-informacoes-experiencia .text h1 {
+  font-weight: 800;
+}
+
+/* Cards divs info */
+.divs-info-cards {
+  background-color: #ECE7EF;
+  width: 100%;
+  margin-top: 30px;
+  border-radius: 8px;
+  height: 450px;
+}
+
+.info-principal-cards {
+  margin-top: 20px;
+  text-transform: uppercase;
+  padding-top: 2.5em;
+  padding-bottom: 2.5em;
+}
+
+.cards {
+  display: flex;
+  margin: 0 50px;
+}
+
+.cards div {
+  display: flex;
+  height: 200px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+}
+
+.cards .primeiro-card {
+  background-color: #FAF1F1;
+  justify-content: center;
+  margin-top: 10px;
+  border-radius: 8px 0 0 8px;
+}
+
+.cards .segungo-card {
+  background-image: linear-gradient(to bottom, #E50071 0%, #7404BF 100%, #5271DC 100%);
+  height: 220px;
+  border-radius: 8px;
+}
+
+.cards .terceiro-card {
+  background-color: #212121;
+  color: #fff;
+  margin-top: 10px;
+  border-radius: 0 8px 8px 0;
+}
+
+.div-afimacao-info {
+  margin-top: 5em;
+  border-radius: 8px;
+  display: flex;
+  color: rgba(250, 241, 241, 1);
+  background: linear-gradient(to left, rgba(116, 4, 191, 1) 20%, rgba(82, 113, 220, 1) 100%);
+  text-align: center;
+  height: 140px;
+  align-items: center;
+  justify-content: center;
+}
+
+.expertise_desktop_content img {
+  width: 100%;
+}
+
+.expertise_mobile_img {
+  display: none;
+}
+
+@media only screen and (max-width: 780px) {
+  .menu-icon {
+    display: block;
+    cursor: pointer;
+    font-size: 1.5rem;
+    color: #000;
+  }
+
+  .menu {
+    display: none;
+    flex-direction: column;
+    gap: 0;
+    background-color: #fff;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    width: 100%;
+  }
+
+  .menu.active {
+    display: flex;
+  }
+
+  .menu li {
+    margin: 0;
+    border-bottom: 1px solid #eee;
+  }
+
+  .menu a {
+    padding: 1rem;
+  }
+
+  .expertise_desktop_img {
+    display: none;
+  }
+
+  .expertise_mobile_img {
+    display: block;
+    width: 100%;
+  }
+}
