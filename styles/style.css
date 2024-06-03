@@ -7230,11 +7230,48 @@ h4 {
     background: linear-gradient(273.16deg, #E50071 10.31%, #7404BF 100%);
 }
 
+
 /* fim do css progrmar com a gente */
 
+/*Section Impacto social */
 
+.impacto_social{
+  height:949px;
+  background-image: url('../imagesPPV/impacto\ social\ bg.svg');
+  background-color: #000000;
+  background-repeat: no-repeat;
 
+  background-position: right;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding-top: 191px;
+}
+.class-impacto-social{
+  background-image: url('../imagesPPV/impacto\ social\ bg.svg');
+}
+.texto-impacto-social{
+  margin-top: -15%;
+}
+.texto-impacto-social h1{
+  font-family: Montserrat;
+font-size: 47.58px;
+font-weight: 800;
+line-height: 58px;
+text-align: left;
 
+}
+.comece-gratuitamente{
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 0..97rem;
+  color: #FAF1F1;
+  width: 270px;
+  height: 55px;
+  border-radius: 38.57px;
+  padding:9px;
+  background: linear-gradient(273.16deg, #E50071 10.31%, #7404BF 100%);
+  margin-top: 26.93px;
+  margin: 0 auto;
+}
 @media (max-width: 1440px) {
     #programar_para_empresas{
         padding-top: 151px; 
@@ -7954,18 +7991,6 @@ h4 {
 /* fim da section rotina mentoria*/
 
 
-/* section imapacto social */ 
-
-.impacto_social{
-    height:949px;
-    background-color: #000000;
-    background-image: url(images/foto-impacto2.png);
-    background-repeat: no-repeat;
-    background-size: 100% 80vh;
-    background-position: center;
-    background-color: rgba(0, 0, 0, 0.5);
-    padding-top: 191px;
- }
 
  .img-desktop{
     display: none;
@@ -7977,8 +8002,6 @@ h4 {
     display: flex;
     flex-direction: column;
     margin-left: 0px;
-
- 
  }
  
 .button-p{

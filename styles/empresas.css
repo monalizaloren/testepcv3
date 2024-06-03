@@ -394,6 +394,53 @@ line-height:24.38px;
   margin-top: 10px;
 }
 /*Fim da section servicos*/
+/*Início section processos*/
+.processo {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+
+
+.processo img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 15px;
+}
+
+.processo span {
+  display: block;
+  font-size: 20px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+ 
+}
+
+.btn-solicitar {
+  display: block;
+  margin: 0 auto;
+  width: 334px;
+  height: 56px;
+  border-radius: 38.57px;
+  margin-top: 70px;
+  border: none;
+  background: linear-gradient(284.22deg, #E50071 -49.78%, #7404BF 29.51%, #5271DC 89.33%);
+}
+.text-center{
+  margin-bottom: 80px;
+  font-size: 43px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 800;
+}
+.centralizarButton{
+  display: flex;
+  justify-content: center;
+}
+/*Fim da section serviços*/
 /*Estilos Footer*/
 footer {
   width: 100%;
@@ -453,6 +500,51 @@ footer {
 }
 
 @media (max-width: 768px) {
+  
+  .processo {
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    scroll-snap-type: x mandatory;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    padding-left: 100px;
+    
+}
+
+h1{
+    font-size: 30px;
+}
+
+.processo img {
+    max-width: 100%;
+    height: auto;
+}
+
+.processo::-webkit-scrollbar {
+    display: none;
+}
+
+.processo .col-md-3 {
+    flex: 0 0 100%;
+    scroll-snap-align: start;
+}
+
+
+.processo span {
+    display: block;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+.btn-solicitar {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    height: 56px;
+
+}
   .footer-container {
       flex-direction: column;
       align-items: flex-start;
