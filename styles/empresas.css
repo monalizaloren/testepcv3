@@ -817,11 +817,58 @@ font-weight: 400;
       width: 40px;
       height: 40px;
      }
-
-
-
   /* fim section serviços */
+
+  /* section cases */
+
+  #cases{
+    padding-bottom: 34px;
+  }
+
+  #cases .section_title {
+    color: #212121;
+    font-family: Montserrat;
+    font-size: 43px;
+    font-weight: 800;
+    margin-bottom: 17px;
+    padding-top: 25px;
+    text-align: center;
 }
+
+  #cases .cases_desktop_container {
+    display:none;
+    justify-content: space-between;
+  }
+
+  #cases #cases_desktop {
+    display: none;
+}
+
+#cases #cases_mobile {
+    display: block;
+}
+
+#cases #cases_mobile #cases_carousel{
+    transform: translateX(0%) !important;
+    -webkit-transform: translateX(0%) !important;
+    -moz-transform: translateX(0%) !important;
+    -ms-transform: translateX(0%) !important;
+    -o-transform: translateX(0%) !important;
+}
+
+#cases .case_mobile {
+    display: flex;
+    justify-content: center;
+}
+
+.button-case{
+  display: none;
+}
+
+}
+
+
+  /* fim section cases */
 
 
 
@@ -1007,7 +1054,89 @@ font-weight: 400;
  .circle-container span img {
   
  }
-
-   
    /* fim da section serviços */
+
+   /* section cases */
+
+   #cases {
+    padding-bottom: 113px;
+}
+
+#cases .section_title {
+    color: #212121;
+    font-family: Montserrat;
+    font-size: 43px;
+    font-weight: 800;
+    margin-bottom: 87px;
+    padding-top: 25px;
+    text-align: center;
+}
+
+#cases .cases_desktop_container {
+    display: flex;
+    justify-content: space-between;
+}
+
+#cases .case {
+    align-items: center;
+    background-color:transparent;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+   
+    display: flex;
+    flex-direction: column;
+    height: 457px;
+    justify-content: flex-start;
+    padding: 65px 40px 47px;
+    width: 530px;
+    height: auto;
+}
+
+#cases .case img{
+    height: 85px;
+}
+
+#cases .case p,
+#cases .case span {
+    color: #212121;
+    font-family: Montserrat;
+    font-size: 22px;
+    line-height: 33px;
+    text-align: center;
+    font-size: 1.12rem;
+}
+
+#cases .case p {
+    padding-top: 30px;
+}
+
+#cases .case span {
+    font-weight: 600;
+}
+
+#cases #cases_mobile {
+    display: none;
+}
+
+.container-button-case{
+  margin-top: 15px;
+}
+
+.button-case{
+  width: 250px;
+  height: 56px;
+  color: #ffffff;
+  padding: 15.67px, 55.12px, 15.67px, 55.12px;
+  background-color: #212121;
+  border: none;
+  border-radius: 38.57px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 0.97rem;
+}
+
+   /* fim section cases */
 }
