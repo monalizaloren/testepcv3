@@ -7235,12 +7235,11 @@ h4 {
 
 /*Section Impacto social */
 
-.impacto_social{
-  height:949px;
+.impacto_social-desktop{
+  height:865px;
   background-image: url('../imagesPPV/impacto\ social\ bg.svg');
   background-color: #000000;
   background-repeat: no-repeat;
-
   background-position: right;
   background-color: rgba(0, 0, 0, 0.5);
   padding-top: 191px;
@@ -7258,6 +7257,7 @@ font-weight: 800;
 line-height: 58px;
 text-align: left;
 }
+
 .comece-gratuitamente{
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
@@ -7791,6 +7791,21 @@ text-align: left;
 }
 
 @media (max-width: 768px) {
+  .impacto_social-desktop, .class-impacto_social{
+display: none;
+  }
+  .impacto_social-mobile{
+    height: 700px;
+    width: 100%;
+    background-color: #000
+  }
+  .impacto_social-mobile-classe{
+    background-image: url(../images/foto-impacto\ mobile.svg);
+    display: block;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
     /* css Section canal discord */
  .discord {
     background: linear-gradient(273.16deg, #E50071 10.31%, #7404BF 100%);
