@@ -6160,10 +6160,15 @@ display: none;
     color: #FAF1F1;
     font-size: 2.62rem;
     text-align: center;
-    width: 606px;
+    width: 70%;
     line-height: 51.2px;
 }
-
+.texto-comunidade{
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .discord .texto_section button{
     border: none;
     width: 310px;
@@ -6229,15 +6234,7 @@ display: none;
 
 /* fim da Section Section Empresa que contrataram nossos alunos */
 
-/* section imapacto social */ 
 
-.impacto_social{
-    background-color: #141414;
-    width: 100%;
-    height: 700px;
-    display: flex;
-    
-}
 
 .texto-impacto-social{
     
@@ -6262,6 +6259,28 @@ display: none;
     width: 100%;
 }
 
+/*Section Impacto social */
+.impacto_social-mobile{
+    display: none;
+}
+.impacto_social-desktop{
+    height:865px;
+    padding-top: 191px;
+  }
+  .class-impacto_social{
+    background-image: url('../imagesPPV/impacto\ social\ bg.svg');
+    height: 100%;
+  }
+  .texto-impacto-social{
+    margin-top: -4%;
+  }
+  .texto-impacto-social h1{
+    font-family: Montserrat;
+  font-size: 47.58px;
+  font-weight: 800;
+  line-height: 58px;
+  text-align: left;
+  }
 /* fim da section impacto social */
 
 /*Section como é a rotina na mentoria*/
@@ -6553,18 +6572,18 @@ display: none;
     width: 100%;
     height: 700px;
     display: flex;
-    
 }
 
+
 .texto-impacto-social{
-    
+    margin-top: -16%;
     width: 50%;
     padding: 192.5px 0  0 158px;
 }
 
 .texto-impacto-social h1{
    
-    width: 65%;
+    width: 95%;
     font-size: 2.97rem;
     color: #FAF1F1;
     font-family: "Montserrat", sans-serif;
@@ -7341,6 +7360,41 @@ display: none;
         display: block;
         padding-top: 50px;
     } 
+    .impacto_social-mobile-classe{
+        background-image: url('./images/foto-impacto-mobile2.svg');
+        height: 100%;
+        margin-top: 19%;
+    }
+    .impacto_social-mobile{
+        display: block;
+        height: 900px;
+        width: 100%;
+        background-color: #121212;
+        margin-top: -128px;
+    }
+    .impacto_social-description{
+        text-align: center;
+        width: 80%;
+        margin-left: 10%;
+    }
+    .impacto_social-title{
+        margin-bottom: 396px;
+        font-family: Montserrat;
+        font-size: 30px;
+        font-weight: 700;
+        line-height: 36.57px;
+        text-align: center;
+        width: 73%;
+        margin-left: 16%;
+
+    }
+    .impacto_social-content{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        justify-content: center;
+        margin-top: -700px;
+    }
 
     .containerInfo {
         height: 100%;
@@ -7998,13 +8052,12 @@ display: none;
 }
 
 .discord .texto_section p{
-    font-family: "Montserrat", sans-serif;
-    font-weight: 800;
-    color: #FAF1F1;
-    font-size: 2.62rem;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29.26px;
     text-align: center;
-    width: 606px;
-    line-height: 51.2px;
+    
 }
 
 .discord .texto_section button{
