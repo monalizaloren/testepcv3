@@ -598,6 +598,10 @@ button {
   height: 30rem;
 }
 
+.video-no-show{
+  display: none;
+}
+
 /* QUINTA SESSÃO */
 .cards-journey-mobile {
   display: none;
@@ -7169,173 +7173,165 @@ h4 {
 
 /* css Section progrmar com agente*/
 
-.programar_com_agente{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: 666px;
-    background-color: #FAF1F1;
-    
+.programar_com_agente {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 666px;
+  background-color: #faf1f1;
 }
 
-.container-conteudo{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 95%;
-    height: 660px;
-    align-items: center;
+.container-conteudo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 95%;
+  height: 660px;
+  align-items: center;
 }
 
-.container-conteudo h3{
-    font-size: 1rem;
-    color: linear-gradient(90deg, #212121 100%, #3d3d3d 10%);
-    font-family: "Montserrat", sans-serif;
-    font-weight: 400;
-    line-height: 26.3px;
-    margin-bottom: 0;
+.container-conteudo h3 {
+  font-size: 1rem;
+  color: linear-gradient(90deg, #212121 100%, #3d3d3d 10%);
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  line-height: 26.3px;
+  margin-bottom: 0;
 }
 
-.container-conteudo h1{
-    font-family: "Montserrat", sans-serif;
-    font-weight: 800;
-    font-size: 2.5rem;
-    background: linear-gradient(180deg, rgba(33, 33, 33, 1), rgba(61, 61, 61, 1));
-    -webkit-background-clip: text;
-    background-clip: text;
-    color: transparent;
-    margin-bottom: 0;
+.container-conteudo h1 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 800;
+  font-size: 2.5rem;
+  background: linear-gradient(180deg, rgba(33, 33, 33, 1), rgba(61, 61, 61, 1));
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  margin-bottom: 0;
 }
 
-.container-conteudo p{
-    margin-top: 14px;
-    width: 25%;
-    text-align: center;
-    margin-bottom: 36px;
-    font-size: 1.25rem;
-    font-family: "Montserrat", sans-serif;
-    font-weight: 400;
+.container-conteudo p {
+  margin-top: 14px;
+  width: 25%;
+  text-align: center;
+  margin-bottom: 36px;
+  font-size: 1.25rem;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
 }
 
-.container-conteudo button{
-    font-family: "Montserrat", sans-serif;
-    font-weight: 700;
-    font-size: 0..97rem;
-    color: #FAF1F1;
-    width: 320px;
-    height: 55px;
-    border-radius: 38.57px;
-    padding:15.67px 55.12px 15.67px 55.12px;
-    background: linear-gradient(273.16deg, #E50071 10.31%, #7404BF 100%);
+.container-conteudo button {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 0.97rem;
+  color: #faf1f1;
+  width: 320px;
+  height: 55px;
+  border-radius: 38.57px;
+  padding: 15.67px 55.12px 15.67px 55.12px;
+  background: linear-gradient(273.16deg, #e50071 10.31%, #7404bf 100%);
 }
 
 /* fim do css progrmar com a gente */
 
-
-
-
 @media (max-width: 1440px) {
-    #programar_para_empresas{
-        padding-top: 151px; 
-        background-color: #FAF1F1;
-        width: 100%;
-        padding-bottom: 117.78px;
-    }
-    
-    .potencialize-texto{
-        margin-top: 153px;
-        margin-right: 18px;
-        width: 100%;
-    }
-    
-    .potencialize-texto__titulo_1{
-        font-family: Montserrat;
-        font-size: 15.95px;
-        font-weight: 500;
-        line-height: 26.47px;
-        letter-spacing: -0.015em;
-        text-align: left;
-    
-    }
-    
-    .potencialize-texto__titulo_2{
-        font-family: Montserrat;
-        font-size: 43px;
-        font-weight: 800;
-        line-height: 52.42px;
-        text-align: left;
-    
-    }
-    
-    .potencialize-texto__descricao{
-        font-family: Montserrat;
-        font-size: 22.65px;
-        font-weight: 400;
-        line-height: 27.61px;
-        text-align: left;
-        margin-right: 135px; 
-        margin-bottom: 29px;
-    }
-    
-    .potencialize-texto__lista{
-        margin-top: 20px;
-        padding: 0px;
-        
-    }
-    .potencialize-texto__lista li {
-        list-style: none;
-        font-family: Montserrat;
-        font-size: 15.38px;
-        font-weight: 500;
-        line-height: 25.51px;
-        letter-spacing: -0.015em;
-        text-align: left;
-        margin-bottom: 21px;
-    }
-    
-    .potencialize-texto__lista img{
-        margin-right: 10px;
-    }
-    
-    .potencialize-texto__botao{
-        background-color: #212121;
-        border-radius: 38.569px;
-        color: #FAF1F1;
-        text-decoration: none;
-        padding: 18.61px 123.91px;
-        margin-top: 20px;
-        display: inline-block;
-        text-align: center;
-        font-family: Montserrat;
-        font-size: 15.67px;
-        font-weight: 700;
-        line-height: 19.1px;
-        letter-spacing: -0.015em;
-        text-align: center;
-    }
-    
-    .cards{
-        display: flex;
-        justify-content: space-between;
-        margin-top: 98px;
-        width: 100%;
-        gap: 10px;
-    
-    }
-    .cards-left {
-        display: flex;
-        flex-direction: column;
-        width: 50%;
-        gap: 10px;
-    }
-    
-    .cards-right {
-        display: flex;
-        flex-direction: column;
-        width: 50%;
-        gap: 10px;
-    }
+  #programar_para_empresas {
+    padding-top: 151px;
+    background-color: #faf1f1;
+    width: 100%;
+    padding-bottom: 117.78px;
+  }
+
+  .potencialize-texto {
+    margin-top: 153px;
+    margin-right: 18px;
+    width: 100%;
+  }
+
+  .potencialize-texto__titulo_1 {
+    font-family: Montserrat;
+    font-size: 15.95px;
+    font-weight: 500;
+    line-height: 26.47px;
+    letter-spacing: -0.015em;
+    text-align: left;
+  }
+
+  .potencialize-texto__titulo_2 {
+    font-family: Montserrat;
+    font-size: 43px;
+    font-weight: 800;
+    line-height: 52.42px;
+    text-align: left;
+  }
+
+  .potencialize-texto__descricao {
+    font-family: Montserrat;
+    font-size: 22.65px;
+    font-weight: 400;
+    line-height: 27.61px;
+    text-align: left;
+    margin-right: 135px;
+    margin-bottom: 29px;
+  }
+
+  .potencialize-texto__lista {
+    margin-top: 20px;
+    padding: 0px;
+  }
+  .potencialize-texto__lista li {
+    list-style: none;
+    font-family: Montserrat;
+    font-size: 15.38px;
+    font-weight: 500;
+    line-height: 25.51px;
+    letter-spacing: -0.015em;
+    text-align: left;
+    margin-bottom: 21px;
+  }
+
+  .potencialize-texto__lista img {
+    margin-right: 10px;
+  }
+
+  .potencialize-texto__botao {
+    background-color: #212121;
+    border-radius: 38.569px;
+    color: #faf1f1;
+    text-decoration: none;
+    padding: 18.61px 123.91px;
+    margin-top: 20px;
+    display: inline-block;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 15.67px;
+    font-weight: 700;
+    line-height: 19.1px;
+    letter-spacing: -0.015em;
+    text-align: center;
+  }
+
+  .cards {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 98px;
+    width: 100%;
+    gap: 10px;
+  }
+  .cards-left {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    gap: 10px;
+  }
+
+  .cards-right {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    gap: 10px;
+  }
 
   #potencialize-content__mobile {
     display: none;
@@ -7750,46 +7746,46 @@ h4 {
 }
 
 @media (max-width: 768px) {
-    /* css Section canal discord */
- .discord {
-    background: linear-gradient(273.16deg, #E50071 10.31%, #7404BF 100%);
+  /* css Section canal discord */
+  .discord {
+    background: linear-gradient(273.16deg, #e50071 10.31%, #7404bf 100%);
     background-repeat: no-repeat;
-    background-size: cover; 
+    background-size: cover;
     height: 292px;
-}
+  }
 
-.discord .texto_section{
+  .discord .texto_section {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     height: 292px;
     width: 100%;
-}
+  }
 
-.discord .texto_section h3{
+  .discord .texto_section h3 {
     padding-top: 10px;
     margin-bottom: 0px;
     text-align: center;
     font-size: 1rem;
     font-family: "Montserrat", sans-serif;
     font-weight: 500;
-    color: #FAF1F1;
+    color: #faf1f1;
     line-height: 26.54px;
     margin-bottom: 0;
-}
+  }
 
-.discord .texto_section p{
+  .discord .texto_section p {
     font-family: "Montserrat", sans-serif;
     font-weight: 800;
-    color: #FAF1F1;
+    color: #faf1f1;
     font-size: 1.5rem;
     text-align: center;
     width: 100%;
     line-height: 29px;
-}
+  }
 
-.discord .texto_section button{
+  .discord .texto_section button {
     border: none;
     width: 290px;
     height: 55px;
@@ -7802,162 +7798,150 @@ h4 {
     font-size: 0.87rem;
     font-family: "Montserrat", sans-serif;
     font-weight: 600;
-}
+  }
 
-.discord .texto_section button a{
-    color: #FFFFFF;
-}
+  .discord .texto_section button a {
+    color: #ffffff;
+  }
 
-/* fim Section canal discord */
+  /* fim Section canal discord */
 
- /* css Section Empresa que contrataram nossos alunos */
-    .contratam-alunos{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        width: 100%;
-        height: 656px;
-        background: linear-gradient(273.16deg, #E50071 10.31%, #7404BF 100%);
-     }
+  /* css Section Empresa que contrataram nossos alunos */
+  .contratam-alunos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 656px;
+    background: linear-gradient(273.16deg, #e50071 10.31%, #7404bf 100%);
+  }
 
-     h1{
-        font-family: "Montserrat", sans-serif;
-        font-weight: 800;
-        color: #FAF1F1;
-        white-space:normal;
-        text-align: center;
-        width: 98%;
-        font-size: 1.75rem;
-        margin-top: -90px;
-        padding: 0;
-        
-     }
+  h1 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 800;
+    color: #faf1f1;
+    white-space: normal;
+    text-align: center;
+    width: 98%;
+    font-size: 1.75rem;
+    margin-top: -90px;
+    padding: 0;
+  }
 
-     .containerLogo{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-wrap: wrap;
-        justify-content: space-around;
-        width: 90%;
-        height: 300px;
-        padding-bottom: 70px;
-     }
+  .containerLogo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 90%;
+    height: 300px;
+    padding-bottom: 70px;
+  }
 
-     .containerLogo > div {
-        flex: 0 1 calc(50% - 10px);
-        width: 163px;
-        height: 65px;
-        background: rgba(249, 248, 248, 0.2);
-        border-radius: 5px;
-        margin-bottom: 15px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-wrap: wrap;
-        padding: 5px;
-    }
+  .containerLogo > div {
+    flex: 0 1 calc(50% - 10px);
+    width: 163px;
+    height: 65px;
+    background: rgba(249, 248, 248, 0.2);
+    border-radius: 5px;
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 5px;
+  }
 
-    .containerLogo > div > img {
-        max-width: 100%;
-        max-height: 40px; 
-        height: auto;
-        width: auto; 
-    }
+  .containerLogo > div > img {
+    max-width: 100%;
+    max-height: 40px;
+    height: auto;
+    width: auto;
+  }
 
-/* fim da Section Section Empresa que contrataram nossos alunos */
+  /* fim da Section Section Empresa que contrataram nossos alunos */
 
+  /*Section como é a rotina na mentoria*/
 
-
-
-
-/*Section como é a rotina na mentoria*/
-
-.container-rotina-mentoria{
+  .container-rotina-mentoria {
     display: none;
-}
+  }
 
-    .carrossel-mobile{
-        display: inline-block;
-        width: 100%;
-    }
+  .carrossel-mobile {
+    display: inline-block;
+    width: 100%;
+  }
 
-    .rotina-mentoria{
-        height: 600px;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        
+  .rotina-mentoria {
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .rotina-mentoria h1 {
+    margin-top: 40px;
+  }
 
+  .rotina-mentoria h1 span {
+    color: #e50071;
+  }
 
-    }
-    .rotina-mentoria h1{
-        margin-top: 40px;
-        
-    }
-
-    .rotina-mentoria h1 span{
-        color: #E50071;
-            
-    }
-
-   .number{
+  .number {
     width: 120px;
     height: 120px;
     font-size: 5.25rem;
     border-radius: 50%;
-    background: linear-gradient(273.16deg, #E50071 10.31%, #7404BF 100%);
+    background: linear-gradient(273.16deg, #e50071 10.31%, #7404bf 100%);
     display: flex;
     justify-content: center;
     align-items: center;
     font-family: "Montserrat", sans-serif;
     font-weight: 700;
-   }
+  }
 
-   .texto-number{
-     color: #FAF1F1;
-     white-space: pre-line;
-     text-align: center;
-     font-family: "Montserrat", sans-serif;
+  .texto-number {
+    color: #faf1f1;
+    white-space: pre-line;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
     font-weight: 700;
     margin-top: 20px;
-   }
+  }
 
-    .container-number{
-        width: 100%;
-        height: 300px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
+  .container-number {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 
-    .rotina-mentoria .comece-gratuitamente{
-        font-family: "Montserrat", sans-serif;
-        font-weight: 700;
-        font-size: 0..97rem;
-        color: #FAF1F1;
-        width: 270px;
-        height: 55px;
-        border-radius: 38.57px;
-        padding:9px;
-        background: linear-gradient(273.16deg, #E50071 10.31%, #7404BF 100%);
-        margin-top: 26.93px;
-        margin: 0 auto;
-    }
+  .rotina-mentoria .comece-gratuitamente {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 0.97rem;
+    color: #faf1f1;
+    width: 270px;
+    height: 55px;
+    border-radius: 38.57px;
+    padding: 9px;
+    background: linear-gradient(273.16deg, #e50071 10.31%, #7404bf 100%);
+    margin-top: 26.93px;
+    margin: 0 auto;
+  }
 
-    .rotina-mentoria .comece-gratuitamente a{
-        color: #FAF1F1;
-    }
-      
-    
-/* fim da section rotina mentoria*/
+  .rotina-mentoria .comece-gratuitamente a {
+    color: #faf1f1;
+  }
 
+  /* fim da section rotina mentoria*/
 
-/* section imapacto social */ 
+  /* section imapacto social */
 
-.impacto_social{
-    height:949px;
+  .impacto_social {
+    height: 949px;
     background-color: #000000;
     background-image: url(images/foto-impacto2.png);
     background-repeat: no-repeat;
@@ -7965,66 +7949,60 @@ h4 {
     background-position: center;
     background-color: rgba(0, 0, 0, 0.5);
     padding-top: 191px;
- }
+  }
 
- .img-desktop{
+  .img-desktop {
     display: none;
- }
- 
- .texto-impacto-social{
+  }
+
+  .texto-impacto-social {
     width: 100%;
     height: 700px;
     display: flex;
     flex-direction: column;
     margin-left: 0px;
+  }
 
- 
- }
- 
-.button-p{
+  .button-p {
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-top: 400px;
+  }
 
-}
- 
- .texto-impacto-social h1{
+  .texto-impacto-social h1 {
     text-align: center;
     font-size: 2.97rem;
     white-space: pre-line;
     margin: 0;
- }
- 
- .texto-impacto-social p{
+  }
+
+  .texto-impacto-social p {
     width: 600px;
-    color: #FAF1F1;
+    color: #faf1f1;
     font-size: 1.12rem;
- }
- 
- .texto-impacto-social p span{
-     font-family: "Montserrat", sans-serif;
-     font-weight: 700;
- }
- 
+  }
 
- 
-  .texto-impacto-social button{
-     font-family: "Montserrat", sans-serif;
-     font-weight: 700;
-     font-size: 0..97rem;
-     color: #FAF1F1;
-     width: 270px;
-     height: 55px;
-     border-radius: 38.57px;
-     padding:9px;
-     background: linear-gradient(273.16deg, #E50071 10.31%, #7404BF 100%);
-     margin-top: 26.93px;
- }
- 
- /* fim da section impacto social */
+  .texto-impacto-social p span {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+  }
 
+  .texto-impacto-social button {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 0.97rem;
+    color: #faf1f1;
+    width: 270px;
+    height: 55px;
+    border-radius: 38.57px;
+    padding: 9px;
+    background: linear-gradient(273.16deg, #e50071 10.31%, #7404bf 100%);
+    margin-top: 26.93px;
+  }
+
+  /* fim da section impacto social */
 
   body {
     width: 100%;
@@ -8498,9 +8476,9 @@ h4 {
     width: 85%;
   }
 
-    footer .colunas-rodape{
-        align-items: flex-start;
-    }
+  footer .colunas-rodape {
+    align-items: flex-start;
+  }
 }
 
 @media (max-width: 768px) {
