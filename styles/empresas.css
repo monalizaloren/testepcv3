@@ -425,9 +425,18 @@ line-height:24.38px;
   width: 334px;
   height: 56px;
   border-radius: 38.57px;
-  margin-top: 70px;
+  margin-top: 30px;
+  margin-bottom: 30px;
   border: none;
+  color: white;
   background: linear-gradient(284.22deg, #E50071 -49.78%, #7404BF 29.51%, #5271DC 89.33%);
+  font-family: Montserrat;
+font-size: 15.67px;
+font-weight: 700;
+line-height: 19.1px;
+letter-spacing: -0.015em;
+text-align: center;
+
 }
 
 h1{
@@ -528,8 +537,154 @@ footer {
 
 
 /*Estilos do formulaário*/
+.bg-form{
+  width: 1440px;
+height: 780px;
+top: 4342px;
+}
+.bg-preto{
+  background-color: #212121;
+  width: 100%;
+  margin-top: 485px;
+height: 381px;
+top: 4741px;
+gap: 0px;
+opacity: 0px;
+
+}
+.textoGradiente {
+  font-family: Montserrat;
+  font-size: 17.85px;
+  font-weight: 500;
+  line-height: 26.77px;
+  letter-spacing: -0.015em;
+  text-align: left;
+  color: transparent; /* Faz o texto ser transparente */
+  -webkit-background-clip: text; /* Suporte para WebKit */
+  background-clip: text; /* Suporte padrão */
+  mask-image: linear-gradient(to right, black 50%, white 50%);
+}
+
+.textoGradiente::before {
+  content: "Entre em contato";
+  position: absolute;
+  z-index: -1;
+  display: inline-block;
+  padding-right: 10px;
+  background: linear-gradient(284.22deg, #E50071 -49.78%, #7404BF 29.51%, #5271DC 89.33%);
+  -webkit-mask-image: linear-gradient(to right, black 50%, white 50%);
+  mask-image: linear-gradient(to right, black 50%, white 50%);
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+.tituloForm{
+  font-family: Montserrat;
+font-size: 40.17px;
+font-weight: 700;
+line-height: 48.97px;
+letter-spacing: -0.015em;
+text-align: left;
+width: 76%;
+margin-bottom: 29px;
+}
+.cardForm{
+  display: flex;
+  flex-direction: row;
+  width: 501px;
+  height: 112px;
+  display: flex;
+  justify-content: space-around;
+  /* align-items: center; */
+  background-color: white;
+  border-radius: 20px 0px 0px 0px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  opacity: 1;
+  padding: 14px 21px 1px 21px;
+  border-radius: 10px;
+}
+.textoPequenoForm{
+  display: flex;
+  flex-direction: column;
+  width: 24%;
+}
+.formEsquerdo{
+  margin-top: -300px;
+}
+.numerosForm{
+  font-family: Montserrat;
+font-size: 32px;
+font-weight: 700;
+line-height: 39.01px;
+letter-spacing: -0.015em;
+text-align: left;
+}
+.primeiroTextoForm{
+  font-family: Montserrat;
+font-size: 12px;
+font-weight: 600;
+line-height: 14.63px;
+text-align: center;
+width: 57%;
+margin-left: 57px;
+}
+
+.formDireita{
+  margin-top: -400px;
+}
+
+.formGeral{
+  width: 494px;
+height: 620px;
+top: 4392px;
+left: 761px;
+gap: 0px;
+border-radius: 20px;
+background-color: white;
+box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+opacity: 1;
+padding: 36px;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
 
 
+label {
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 14.63px;
+  text-align: left;
+  margin-bottom: 5px;
+}
+
+input, textarea {
+  font-size: 14px;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 9px;
+}
+
+textarea {
+  height: 100px;
+  resize: none;
+}
+.buttonForm {
+  font-size: 16px;
+  font-weight: 500;
+  padding: 10px;
+  color: white;
+  background-color: black;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+.buttonForm:hover {
+  background-color: #333;
+}
 @media (max-width: 768px) {
   
   .processo {
