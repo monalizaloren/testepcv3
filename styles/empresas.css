@@ -421,7 +421,7 @@ footer {
   font-size: 22px;
   font-weight: 700;
   margin-bottom: 20px;
-  color: #7404BF; /* Example color for headings */
+  color: #E9E9E9; /* Example color for headings */
 }
 
 .footer-section p {
@@ -431,9 +431,15 @@ footer {
   margin: 5px 0;
 }
 
+.logo-section {
+  margin-top: -30px;
+}
+
 .logo-section .logo {
-  width: 150px;
-  margin-bottom: 20px;
+  width: 210px;
+  
+  
+  
 }
 
 .social-icons img {
