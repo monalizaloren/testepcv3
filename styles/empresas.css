@@ -472,6 +472,9 @@ footer {
 }
 
 @media (max-width: 768px) {
+  .servicosGeral{
+    flex-direction: column;
+  }
   .container-desenvolvimento{
     display: none;
   }
