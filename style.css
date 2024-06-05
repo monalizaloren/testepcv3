@@ -6265,11 +6265,13 @@ display: none;
 }
 .impacto_social-desktop{
     height:865px;
-    padding-top: 191px;
+    padding-top: 109px;
   }
   .class-impacto_social{
-    background-image: url('../imagesPPV/impacto\ social\ bg.svg');
+    background-image: url('./imagesPPV/impacto\ social\ bg.svg');
     height: 100%;
+    background-repeat: no-repeat;
+    background-position: right;
   }
   .texto-impacto-social{
     margin-top: -4%;
@@ -6576,7 +6578,7 @@ display: none;
 
 
 .texto-impacto-social{
-    margin-top: -16%;
+    margin-top: -7%;
     width: 50%;
     padding: 192.5px 0  0 158px;
 }
@@ -6890,6 +6892,9 @@ display: none;
 
 
 @media (max-width: 1200px) {
+    .texto-impacto-social {
+        margin-top: -10%;
+    }
     .card-performace{
         width: 245px;
     }
@@ -7342,7 +7347,9 @@ display: none;
     .impacto-social{
         max-width: 100%;
     }
-
+.class-impacto_social, .impacto_social-desktop{
+    display: none;
+}
     .impact-btn{
         margin: 0 auto;
     }
@@ -7363,7 +7370,7 @@ display: none;
     .impacto_social-mobile-classe{
         background-image: url('./images/foto-impacto-mobile2.svg');
         height: 100%;
-        margin-top: 19%;
+        margin-top: 17%;
     }
     .impacto_social-mobile{
         display: block;
@@ -8803,6 +8810,12 @@ display: none;
 }
 
 @media (max-width: 576px) {
+    .discord{
+        margin-top: 94px;
+    }
+    .impacto_social-mobile{
+        margin-top: -128px;
+    }
     #servicos #servicos_column .service {
         width: 95%;
     }

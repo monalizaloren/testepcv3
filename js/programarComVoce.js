@@ -4,32 +4,42 @@ let rightVideo = document.querySelector("#right-video");
 let noShowVideo = document.querySelector("#no-show-video");
 
 function swapVideoSrc(videos) {
+  // Adicionar classe de saída aos vídeos
   videos.forEach((video) => {
-    // Capturar dimensões do vídeo
-    const rect = video.getBoundingClientRect();
-    video.style.width = rect.width + "px";
-    video.style.height = rect.height + "px";
-    video.pause(); // Pausar todos os vídeos
+    video.classList.remove('video-enter', 'video-show'); // Remover classes anteriores
+    video.classList.add('video-exit');
   });
 
-  // Trocar src dos vídeos
-  let tempSrc = videos[3].src;
-  videos[3].src = videos[2].src;
-  videos[2].src = videos[1].src;
-  videos[1].src = videos[0].src;
-  videos[0].src = tempSrc;
-
-  videos[0].load();
-  videos[0].play(); // Reproduzir apenas o vídeo no centro
-
-  // Remover estilos de dimensão fixa após um pequeno atraso para garantir que a troca foi concluída
+  // Após a animação de saída, trocar os vídeos
   setTimeout(() => {
+    // Trocar src dos vídeos
+    let tempSrc = videos[3].src;
+    videos[3].src = videos[2].src;
+    videos[2].src = videos[1].src;
+    videos[1].src = videos[0].src;
+    videos[0].src = tempSrc;
+
+    // Carregar e reproduzir o vídeo central
+    videos[0].load();
+    videos[0].play(); // Reproduzir apenas o vídeo no centro
+
+    // Adicionar classe de entrada aos vídeos após a troca de src
     videos.forEach((video) => {
-      video.style.width = "";
-      video.style.height = "";
+      video.classList.remove('video-exit');
+      video.classList.add('video-enter');
     });
-  }, 800); // Tempo suficiente para garantir que a troca foi concluída
+
+    
+    setTimeout(() => {
+      videos.forEach((video) => {
+        video.classList.remove('video-enter');
+        video.classList.add('video-show');
+      });
+    }, 400); 
+  }, 400); 
 }
+
+
 
 leftVideo.addEventListener("click", () => {
   swapVideoSrc([centerVideo, rightVideo, noShowVideo, leftVideo]);

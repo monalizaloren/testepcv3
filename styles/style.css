@@ -7243,10 +7243,6 @@ h4 {
 
 /*Section Impacto social */
 
-.impacto_social-desktop{
-  height:865px;
-  padding-top: 109px;
-}
 .class-impacto-social{
   background-image: url('../imagesPPV/impacto\ social\ bg.svg');
 }
@@ -9246,4 +9242,22 @@ display: none;
   .text-dv {
     padding-left: 0px;
   }
+}.video-commitment {
+  transition: opacity 0.8s ease, transform 0.8s ease;
 }
+
+.video-enter {
+  opacity: 0;
+  transform: scale(0.9);
+}
+
+.video-exit {
+  opacity: 0;
+  transform: scale(1.1);
+}
+
+.video-show {
+  opacity: 1;
+  transform: scale(1);
+}
+
