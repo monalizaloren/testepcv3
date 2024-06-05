@@ -453,10 +453,38 @@ footer {
 }
 
 
-
-
+.imageIconsMobile{
+  display: none;
+}
+.divImageIconsDesktopM{
+  display: none;
+}
+.servicosGeral{
+  display: flex;
+}
+@media (max-width: 1199px) {
+ .divImageIconsDesktopM{
+  display: block;
+ }
+ .divImageIconsDesktopG{
+  display: none;
+ }
+}
 
 @media (max-width: 768px) {
+  .container-desenvolvimento{
+    display: none;
+  }
+  .imageIconsMobile{
+    display: block;
+  }
+  .divImageIconsMobile{
+    display: flex;
+    justify-content: center;
+  }
+  .divImageIconsDesktopM{
+    display: none;
+  }
   .footer-container {
       flex-direction: column;
       align-items: flex-start;
@@ -835,7 +863,7 @@ font-weight: 400;
     }
 
     #eficiencia .texto-eficiencia{
-      height: 114px;
+      padding: 62px;
       display: flex;
       justify-content: center;
       align-items: center;
@@ -845,19 +873,19 @@ font-weight: 400;
       text-align: center;
       font-weight: 800;
       font-size: 2.37rem;
-      margin: 0 100px 46px 100px;
+      margin-bottom: 30px;    
       border-radius: 20px;
-      
-
    }
 
-   .container-quadros{
+   .container-quadros {
+    width: 96%;
+    margin-left: 22px;
     display: flex;
     justify-content: center;
     flex-direction: row-reverse;
-    margin: 0 95px 0 95px;
+    margin-bottom: 20px;
     gap: 40px;
-   }
+}
 
    .container-quadros .container-programar{
       display: flex;
