@@ -348,6 +348,17 @@ text-align: center;
 .icon.check {
   color: green;
 }
+
+.text-center{
+  margin-bottom: 80px;
+  font-size: 43px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 800;
+}
+.centralizarButton{
+  display: flex;
+  justify-content: center;
+}
 #expertise{
   margin-top: 75px;
 }
@@ -396,12 +407,19 @@ line-height:24.38px;
 /*Fim da section servicos*/
 /*Início section processos*/
 
+h1 {
+  margin-bottom: 80px;
+  font-size: 43px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 800;
+}
 
 .processo {
   display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
   text-align: center;
   margin-bottom: 20px;
-  width: 25%;
 }
 
 
@@ -419,50 +437,17 @@ line-height:24.38px;
   font-weight: 700;
  
 }
+
 .btn-solicitar {
   display: block;
   margin: 0 auto;
   width: 334px;
   height: 56px;
   border-radius: 38.57px;
-  margin-top: 30px;
-  margin-bottom: 30px;
+  margin-bottom: 120px;
   border: none;
   color: white;
   background: linear-gradient(284.22deg, #E50071 -49.78%, #7404BF 29.51%, #5271DC 89.33%);
-  font-family: Montserrat;
-font-size: 15.67px;
-font-weight: 700;
-line-height: 19.1px;
-letter-spacing: -0.015em;
-text-align: center;
-
-}
-
-h1{
-  font-size: 30px;
-}
-
-.processo img {
-  max-width: 100%;
-  height: auto;
-}
-
-.processo::-webkit-scrollbar {
-  display: none;
-}
-
-.processo .col-md-3 {
-  flex: 0 0 100%;
-  scroll-snap-align: start;
-}
-
-
-.processo span {
-  display: block;
-  font-size: 16px;
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 700;
 }
 
 
@@ -709,23 +694,63 @@ textarea {
 .buttonForm:hover {
   background-color: #333;
 }
+.formGeralMobile{
+  display: none;
+}
 @media (max-width: 768px) {
-
+  .formGeral{
+    margin-bottom: 61px;
+  }
+  .formGeralMobile {
+    display: block;
+    background-color: #212121;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 79px;
+    padding-bottom: 120px;
+}
+  .formGeralDesktop{
+    display: none;
+  }
+  .textosFormMobile{
+    display: contents;
+  }
+  .textosFormMobile p{
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 21px;
+    letter-spacing: -0.015em;
+    text-align: center;
+    color: #FAF1F1;
+  }
+  .textosFormMobile h3{
+    font-family: Montserrat;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 36.57px;
+    letter-spacing: -0.015em;
+    text-align: center;    
+    color: #FAF1F1;
+    width: 46%;
+  }
+  .buttonForm{
+    background-color: #212121;
+  }
   .processo {
-    width: 100%;
     flex-wrap: nowrap;
     overflow-x: auto;
     -webkit-overflow-scrolling: touch;
     scroll-snap-type: x mandatory;
     -ms-overflow-style: none;
     scrollbar-width: none;
-    padding-left: 100px;
+    padding-left: 150px;
+    margin: 0 -10px;
+    margin-bottom: 50px;
     
 }
 
-h1{
-    font-size: 30px;
-}
 .processo img {
     max-width: 100%;
     height: auto;
@@ -747,7 +772,6 @@ h1{
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
 }
-
 
 .btn-solicitar{
   display: none;
@@ -790,6 +814,16 @@ h1{
 }
 
 @media (max-width: 480px) {
+  .textosFormMobile h3{
+    width: 85%;
+  }
+  .formGeral{
+    width: 80%;
+    padding: 6%;
+  }
+  .cardForm{
+    width: 93%;
+  }
   .footer-container {
       align-items: center;
       text-align: center;

@@ -68,6 +68,24 @@ body{
     border: 1px solid;
     border-image-source: linear-gradient(267.73deg, #ED6D1D -4.01%, #E50071 99.34%);
     border-image-slice: 1;
+    transition: border 0.3s;
+}
+
+.inner-div1:hover .line1 {
+    position: absolute;
+    width: 97%;
+    height: 97%;
+    top: 15px;
+    left: 14px;
+    background:
+        linear-gradient(to right, #E50071, #ED6D1D 50%, rgba(255, 255, 255, 0) 0%) 0 0 / 40px 1px repeat-x,
+        linear-gradient(to bottom, #E50071, #ED6D1D 50%, rgba(255, 255, 255, 0) 0%) 0 0 / 1px 40px repeat-y,
+        linear-gradient(to right, #E50071, #ED6D1D  50%, rgba(255, 255, 255, 0) 0%) 0 100% / 40px 1px repeat-x,
+        linear-gradient(to bottom, #E50071, #ED6D1D 50%, rgba(255, 255, 255, 0) 0%) 100% 0 / 1px 40px repeat-y;
+        box-sizing: border-box;
+        border: none;
+    
+    
 }
 
 .line1 h1 {
@@ -117,7 +135,6 @@ body{
     border: none;
     background-image: linear-gradient(267.73deg, #ED6D1D -4.01%, #E50071 99.34%);
     border-image-slice: 1;
-    z-index: 1000;
 }
 
 /* Container 2 */
@@ -144,12 +161,23 @@ body{
     height: 97%;
     top: 15px;
     left: 14px;
-    background:
-    linear-gradient(to right, #3D3D3D 50%, rgba(255, 255, 255, 0) 0%) 0 0 / 40px 1px repeat-x,
-    linear-gradient(to bottom, #3D3D3D 50%, rgba(255, 255, 255, 0) 0%) 0 0 / 1px 40px repeat-y,
-    linear-gradient(to right, #3D3D3D 50%, rgba(255, 255, 255, 0) 0%) 0 100% / 40px 1px repeat-x,
-    linear-gradient(to bottom, #3D3D3D 50%, rgba(255, 255, 255, 0) 0%) 100% 0 / 1px 40px repeat-y;
-    box-sizing: border-box;
+    border: 1px solid #3D3D3D;
+   
+    }
+
+    .inner-div2:hover .line2{
+        position: absolute;
+        width: 97%;
+        height: 97%;
+        top: 15px;
+        left: 14px;
+        background:
+        linear-gradient(to right, #3D3D3D 50%, rgba(255, 255, 255, 0) 0%) 0 0 / 40px 1px repeat-x,
+        linear-gradient(to bottom, #3D3D3D 50%, rgba(255, 255, 255, 0) 0%) 0 0 / 1px 40px repeat-y,
+        linear-gradient(to right, #3D3D3D 50%, rgba(255, 255, 255, 0) 0%) 0 100% / 40px 1px repeat-x,
+        linear-gradient(to bottom, #3D3D3D 50%, rgba(255, 255, 255, 0) 0%) 100% 0 / 1px 40px repeat-y;
+        box-sizing: border-box;
+        border: none;
     }
 
 .line2 h1 {
@@ -198,19 +226,37 @@ body{
     border: none;
     background-color: #212121;
     border-image-slice: 1;
-    z-index: 1000;
 }
 
 
 
 @media (max-width: 1440px){
-    /* Container 1 */
+   
 
 .line1 {
     position: absolute;
-    width: 97%;
+    width: 95%;
     height: 96%;
+    text-align: center;
+    border: 1px solid;
+    border-image-source: linear-gradient(267.73deg, #ED6D1D -4.01%, #E50071 99.34%);
+    border-image-slice: 1;
+    transition: border 0.3s;
     
+}
+
+.inner-div1:hover .line1{
+    position: absolute;
+    width: 95%;
+    height: 96%;
+    background:
+        linear-gradient(to right, #E50071, #ED6D1D 50%, rgba(255, 255, 255, 0) 0%) 0 0 / 40px 1px repeat-x,
+        linear-gradient(to bottom, #E50071, #ED6D1D 50%, rgba(255, 255, 255, 0) 0%) 0 0 / 1px 40px repeat-y,
+        linear-gradient(to right, #E50071, #ED6D1D  50%, rgba(255, 255, 255, 0) 0%) 0 100% / 40px 1px repeat-x,
+        linear-gradient(to bottom, #E50071, #ED6D1D 50%, rgba(255, 255, 255, 0) 0%) 100% 0 / 1px 40px repeat-y;
+        box-sizing: border-box;
+        border: none;
+
 }
 
 .line1 h1 {
@@ -244,9 +290,23 @@ body{
 
 .line2 {
     position: absolute;
-    width: 97%;
+    width: 95%;
     height: 96%;
+    border: 1px solid #3D3D3D;
     
+}
+
+.inner-div2:hover .line2{
+    position: absolute;
+    width: 95%;
+    height: 96%;
+    background:
+    linear-gradient(to right, #3D3D3D 50%, rgba(255, 255, 255, 0) 0%) 0 0 / 40px 1px repeat-x,
+    linear-gradient(to bottom, #3D3D3D 50%, rgba(255, 255, 255, 0) 0%) 0 0 / 1px 40px repeat-y,
+    linear-gradient(to right, #3D3D3D 50%, rgba(255, 255, 255, 0) 0%) 0 100% / 40px 1px repeat-x,
+    linear-gradient(to bottom, #3D3D3D 50%, rgba(255, 255, 255, 0) 0%) 100% 0 / 1px 40px repeat-y;
+    box-sizing: border-box;
+    border: none;
 }
 
 .line2 h1 {
@@ -276,8 +336,24 @@ body{
 .line1 {
     position: absolute;
     width: 95%;
-    height: 95%;
-    
+    height: 95%; 
+    border: 1px solid;
+    border-image-source: linear-gradient(267.73deg, #ED6D1D -4.01%, #E50071 99.34%);
+    border-image-slice: 1;
+    transition: border 0.3s;
+}
+
+.inner-div1:hover .line1{
+    position: absolute;
+    width: 95%;
+    height: 95%; 
+    background:
+        linear-gradient(to right, #E50071, #ED6D1D 50%, rgba(255, 255, 255, 0) 0%) 0 0 / 40px 1px repeat-x,
+        linear-gradient(to bottom, #E50071, #ED6D1D 50%, rgba(255, 255, 255, 0) 0%) 0 0 / 1px 40px repeat-y,
+        linear-gradient(to right, #E50071, #ED6D1D  50%, rgba(255, 255, 255, 0) 0%) 0 100% / 40px 1px repeat-x,
+        linear-gradient(to bottom, #E50071, #ED6D1D 50%, rgba(255, 255, 255, 0) 0%) 100% 0 / 1px 40px repeat-y;
+        box-sizing: border-box;
+        border: none;
 }
 
 .line1 h1 {
@@ -313,7 +389,21 @@ body{
     position: absolute;
     width: 95%;
     height: 95%;
+    border: 1px solid #3D3D3D;
     
+}
+
+.inner-div2:hover .line2{
+    position: absolute;
+    width: 95%;
+    height: 95%;
+    background:
+    linear-gradient(to right, #3D3D3D 50%, rgba(255, 255, 255, 0) 0%) 0 0 / 40px 1px repeat-x,
+    linear-gradient(to bottom, #3D3D3D 50%, rgba(255, 255, 255, 0) 0%) 0 0 / 1px 40px repeat-y,
+    linear-gradient(to right, #3D3D3D 50%, rgba(255, 255, 255, 0) 0%) 0 100% / 40px 1px repeat-x,
+    linear-gradient(to bottom, #3D3D3D 50%, rgba(255, 255, 255, 0) 0%) 100% 0 / 1px 40px repeat-y;
+    box-sizing: border-box;
+    border: none;
 }
 
 .line1 h2 {
@@ -344,7 +434,24 @@ body{
     position: absolute;
     width: 92%;
     height: 96%;
+    border: 1px solid;
+    border-image-source: linear-gradient(267.73deg, #ED6D1D -4.01%, #E50071 99.34%);
+    border-image-slice: 1;
+    transition: border 0.3s;
     
+}
+
+.inner-div1:hover .line1{
+    position: absolute;
+    width: 92%;
+    height: 96%;
+    background:
+        linear-gradient(to right, #E50071, #ED6D1D 50%, rgba(255, 255, 255, 0) 0%) 0 0 / 40px 1px repeat-x,
+        linear-gradient(to bottom, #E50071, #ED6D1D 50%, rgba(255, 255, 255, 0) 0%) 0 0 / 1px 40px repeat-y,
+        linear-gradient(to right, #E50071, #ED6D1D  50%, rgba(255, 255, 255, 0) 0%) 0 100% / 40px 1px repeat-x,
+        linear-gradient(to bottom, #E50071, #ED6D1D 50%, rgba(255, 255, 255, 0) 0%) 100% 0 / 1px 40px repeat-y;
+        box-sizing: border-box;
+        border: none;
 }
 
 .line1 h1 {
@@ -386,7 +493,21 @@ body{
     position: absolute;
     width: 92%;
     height: 96%;
+    border: 1px solid #3D3D3D;
     
+}
+
+.inner-div2:hover .line2{
+    position: absolute;
+    width: 92%;
+    height: 96%;
+    background:
+        linear-gradient(to right, #3D3D3D 50%, rgba(255, 255, 255, 0) 0%) 0 0 / 40px 1px repeat-x,
+        linear-gradient(to bottom, #3D3D3D 50%, rgba(255, 255, 255, 0) 0%) 0 0 / 1px 40px repeat-y,
+        linear-gradient(to right, #3D3D3D 50%, rgba(255, 255, 255, 0) 0%) 0 100% / 40px 1px repeat-x,
+        linear-gradient(to bottom, #3D3D3D 50%, rgba(255, 255, 255, 0) 0%) 100% 0 / 1px 40px repeat-y;
+        box-sizing: border-box;
+        border: none;
 }
 
 .line2 h1 {
@@ -424,7 +545,24 @@ body{
     position: absolute;
     width: 92%;
     height: 96%;
+    border: 1px solid;
+    border-image-source: linear-gradient(267.73deg, #ED6D1D -4.01%, #E50071 99.34%);
+    border-image-slice: 1;
+    transition: border 0.3s;
     
+}
+
+.inner-div1:hover .line1{
+    position: absolute;
+    width: 92%;
+    height: 96%;
+    background:
+    linear-gradient(to right, #E50071, #ED6D1D 50%, rgba(255, 255, 255, 0) 0%) 0 0 / 40px 1px repeat-x,
+    linear-gradient(to bottom, #E50071, #ED6D1D 50%, rgba(255, 255, 255, 0) 0%) 0 0 / 1px 40px repeat-y,
+    linear-gradient(to right, #E50071, #ED6D1D  50%, rgba(255, 255, 255, 0) 0%) 0 100% / 40px 1px repeat-x,
+    linear-gradient(to bottom, #E50071, #ED6D1D 50%, rgba(255, 255, 255, 0) 0%) 100% 0 / 1px 40px repeat-y;
+    box-sizing: border-box;
+    border: none;
 }
 
 .line1 h1 {
@@ -466,7 +604,21 @@ body{
     position: absolute;
     width: 92%;
     height: 96%;
+    border: 1px solid #3D3D3D;
     
+}
+
+.inner-div2:hover .line2{
+    position: absolute;
+    width: 92%;
+    height: 96%;
+    background:
+    linear-gradient(to right, #3D3D3D 50%, rgba(255, 255, 255, 0) 0%) 0 0 / 40px 1px repeat-x,
+    linear-gradient(to bottom, #3D3D3D 50%, rgba(255, 255, 255, 0) 0%) 0 0 / 1px 40px repeat-y,
+    linear-gradient(to right, #3D3D3D 50%, rgba(255, 255, 255, 0) 0%) 0 100% / 40px 1px repeat-x,
+    linear-gradient(to bottom, #3D3D3D 50%, rgba(255, 255, 255, 0) 0%) 100% 0 / 1px 40px repeat-y;
+    box-sizing: border-box;
+    border: none;
 }
 
 .line2 h1 {
@@ -515,6 +667,7 @@ body{
         position: absolute;
         width: 100%;
         height: 422px;
+        
     }
     
     .line1 {
@@ -522,6 +675,10 @@ body{
         width: 100%;
         left: 0;
         border: none;
+    }
+
+    .inner-div1:hover .line1{
+        background: none;
     }
     
     .line1 h1 {
@@ -573,13 +730,16 @@ body{
         top: 20px;
         left: 0;
         background: none;
+        border: none;
     }
+
+    
     
     .line2 h1 {
         position: absolute;
         width: 240px;
         height: 40px;
-        top: 35px;
+        top: 30px;
         left: 50%;
         transform: translateX(-50%);
         font-size: 14px;
@@ -606,7 +766,6 @@ body{
         left: 50%;
         transform: translateX(-50%);
         font-size: 14px;
-        z-index: 1000;
     }
 }
 
