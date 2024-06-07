@@ -899,6 +899,9 @@ button {
 
 /* MEDIA QUERIES - Medium Devices */
 @media (max-width: 576px) {
+  .text-emphasis-one {
+    margin-bottom: 20px;
+  }
   /* CABEÇALHO */
   #header-home {
     justify-content: center;
@@ -1032,11 +1035,12 @@ button {
   /* QUARTA SESSÃO */
   #text-sucess-stories {
     font-size: 0.8rem;
+    margin-bottom: -2px;
   }
 
   #title-sucess-stories {
     text-align: center;
-    margin-bottom: 1rem;
+    margin-bottom: 61px;
   }
 
   #text-this-commitment {
