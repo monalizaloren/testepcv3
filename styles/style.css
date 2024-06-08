@@ -6277,6 +6277,15 @@ h4 {
   line-height: normal;
   letter-spacing: -0.154px;
 }
+.contratam-alunos {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(273.16deg, #E50071 10.31%, #7404BF 100%);
+}
 
 .mensais {
   color: var(--pcv-gray, #e9e9e9);
@@ -7799,6 +7808,18 @@ text-align: left;
 }
 
 @media (max-width: 768px) {
+  .contratam-alunos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 747px;
+    background: linear-gradient(273.16deg, #E50071 10.31%, #7404BF 100%);
+}
+.containerLogo{
+  display: none;
+}
 
   .impacto_social-desktop, .class-impacto_social{
 display: none;
@@ -7878,16 +7899,7 @@ display: none;
   /* fim Section canal discord */
 
   /* css Section Empresa que contrataram nossos alunos */
-  .contratam-alunos {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    /* padding-bottom: 52px; */
-    height: 747px;
-    background: linear-gradient(273.16deg, #E50071 10.31%, #7404BF 100%);
-}
+
 
   h1 {
     font-family: "Montserrat", sans-serif;
@@ -8684,6 +8696,10 @@ display: none;
 }
 
 @media screen and (max-width: 700px) {
+  .discord {
+    background: linear-gradient(273.16deg, #E50071 10.31%, #7404BF 100%);
+    background-position: top;
+}
   .section-card {
     margin-top: 45%;
   }
