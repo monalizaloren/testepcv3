@@ -786,6 +786,7 @@ button {
     display: flex;
     flex-direction: column;
     align-items: center;
+    background: linear-gradient(to bottom, #000000, #150c19);
   }
 
   .high-performance-programmer-mobile .title-tertiary {
@@ -7293,7 +7294,7 @@ text-align: left;
 @media (max-width: 1440px) {
   .impacto_social-desktop {
    
-    padding-top: 104px;
+    padding-top: 61px !important;
 }
   #programar_para_empresas {
     padding-top: 151px;
@@ -9290,6 +9291,12 @@ display: none;
 }
 
 @media screen and (max-width: 376px) {
+  .video-commitment {
+    width: 84px;
+  }
+  .imagemMobile {
+    width: 232px;
+}
   .text-dv {
     padding-left: 0px;
   }
