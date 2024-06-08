@@ -920,13 +920,14 @@ button {
   }
 
   .perfect-path-and-for-whom .title-primary {
-    font-size: 1.8rem;
+    font-size: 2rem;
     margin-top: 12rem;
   }
 
   .perfect-path-and-for-whom #text-primary {
     font-size: 1rem;
     padding: 1rem 2rem;
+    width: 92%;
   }
 
   .perfect-path-and-for-whom .text-tertiary {
