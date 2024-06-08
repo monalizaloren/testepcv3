@@ -7914,6 +7914,33 @@ display: none;
    display: none;
   }
 
+
+
+  .containerLogo-Mobile {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 90%;
+    height: auto;
+    height: 600px;
+}
+.containerLogo-Mobile > div {
+    display: flex;
+    justify-content: center;
+    flex: 1 1 calc(50% - 20px);
+    box-sizing: border-box;
+    margin: 10px;
+}
+.container-logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(249, 248, 248, 0.2);
+    border-radius: 5px;
+    width: 163px;
+    height: 65px;
+    padding: 10px;
+}
   /* fim da Section Section Empresa que contrataram nossos alunos */
 
   /*Section como é a rotina na mentoria*/
