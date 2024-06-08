@@ -7273,9 +7273,14 @@ text-align: left;
   background: linear-gradient(273.16deg, #E50071 10.31%, #7404BF 100%);
   margin-top: 26.93px;
   margin: 0 auto;
+  margin-bottom: 89px;
 }
 
 @media (max-width: 1440px) {
+  .impacto_social-desktop {
+   
+    padding-top: 104px;
+}
   #programar_para_empresas {
     padding-top: 151px;
     background-color: #faf1f1;
