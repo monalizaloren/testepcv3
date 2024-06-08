@@ -7884,9 +7884,10 @@ display: none;
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: 656px;
-    background: linear-gradient(273.16deg, #e50071 10.31%, #7404bf 100%);
-  }
+    /* padding-bottom: 52px; */
+    height: 747px;
+    background: linear-gradient(273.16deg, #E50071 10.31%, #7404BF 100%);
+}
 
   h1 {
     font-family: "Montserrat", sans-serif;
@@ -7914,15 +7915,14 @@ display: none;
    display: none;
   }
 
-
-
   .containerLogo-Mobile {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     width: 90%;
-    height: auto;
-    height: 600px;
+    /* height: auto; */
+    /* height: 600px; */
+    margin-bottom: 122px;
 }
 .containerLogo-Mobile > div {
     display: flex;
@@ -7940,6 +7940,16 @@ display: none;
     width: 163px;
     height: 65px;
     padding: 10px;
+}
+.contratam-alunos h1 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 800;
+  color: #FAF1F1;
+  font-size: 1.75rem;
+  white-space: normal;
+  text-align: center;
+  width: 80%;
+  margin-top: 42px;
 }
   /* fim da Section Section Empresa que contrataram nossos alunos */
 
