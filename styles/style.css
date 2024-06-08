@@ -7288,6 +7288,7 @@ text-align: left;
   margin-bottom: 89px;
 }
 
+
 @media (max-width: 1440px) {
   .impacto_social-desktop {
    
@@ -7814,7 +7815,7 @@ text-align: left;
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: 747px;
+    height: 650px !important; 
     background: linear-gradient(273.16deg, #E50071 10.31%, #7404BF 100%);
 }
 .containerLogo{
@@ -7912,6 +7913,12 @@ display: none;
     margin-top: -90px;
     padding: 0;
   }
+
+.imagemMobile{
+  width: 72%;
+  margin-left: 40px;
+  margin-bottom: 236px;
+}
 .containerLogo-Mobile{
   display: block;
 }
@@ -7932,26 +7939,14 @@ display: none;
     justify-content: center;
     flex-wrap: wrap;
     width: 90%;
-    /* height: auto; */
-    /* height: 600px; */
-    margin-bottom: 122px;
 }
-.containerLogo-Mobile > div {
-    display: flex;
-    justify-content: center;
-    flex: 1 1 calc(50% - 20px);
-    box-sizing: border-box;
-    margin: 10px;
-}
+
 .container-logo {
     display: flex;
     align-items: center;
     justify-content: center;
     background: rgba(249, 248, 248, 0.2);
     border-radius: 5px;
-    width: 163px;
-    height: 65px;
-    padding: 10px;
 }
 .contratam-alunos h1 {
   font-family: "Montserrat", sans-serif;
@@ -7961,7 +7956,7 @@ display: none;
   white-space: normal;
   text-align: center;
   width: 80%;
-  margin-top: 42px;
+  margin-top: 138px;
 }
   /* fim da Section Section Empresa que contrataram nossos alunos */
 
@@ -9261,6 +9256,9 @@ display: none;
 }
 
 @media (max-width: 576px) {
+  .impacto_social-mobile-classe {
+    margin-top: 25%;
+}
   #servicos #servicos_column .service {
     width: 95%;
   }
@@ -9277,6 +9275,9 @@ display: none;
 }
 
 @media screen and (max-width: 425px) {
+  .impacto_social-mobile-classe {
+    margin-top: 29%;
+}
   .linha-performace {
     flex-direction: column;
   }
@@ -9308,3 +9309,9 @@ display: none;
   transform: scale(1);
 }
 
+@media (min-width: 1440px) {
+  .impacto_social-desktop {
+      height: 865px;
+      padding-top: 72px !important; 
+  }
+}
