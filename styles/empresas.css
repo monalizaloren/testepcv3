@@ -625,18 +625,17 @@ margin-left: 57px;
 .formDireita{
   margin-top: -400px;
 }
-
-.formGeral{
+.formGeral {
   width: 494px;
-height: 620px;
-top: 4392px;
-left: 761px;
-gap: 0px;
-border-radius: 20px;
-background-color: white;
-box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
-opacity: 1;
-padding: 36px;
+  height: 528px;
+  top: 4392px;
+  left: 761px;
+  gap: 0px;
+  border-radius: 20px;
+  background-color: white;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  opacity: 1;
+  padding: 36px 36px -28px 36px;
 }
 form {
   display: flex;
@@ -703,6 +702,7 @@ textarea {
 @media (max-width: 768px) {
   .formGeral{
     margin-bottom: 61px;
+    padding: 10px;
   }
   .formGeralMobile {
     display: block;
@@ -736,7 +736,7 @@ textarea {
     letter-spacing: -0.015em;
     text-align: center;    
     color: #FAF1F1;
-    width: 46%;
+    width: 49%;
   }
   .buttonForm{
     background-color: #212121;
