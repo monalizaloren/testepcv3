@@ -7,13 +7,16 @@ body {
 
 nav {
   display: flex;
-  justify-content: space-evenly;
   align-items: center;
-  padding: 30px 20px 0px 20px;
-  background-color: #fff;
-  font-family: 'Montserrat', sans-serif;
+  gap: 73px;
+  justify-content: center;
 }
-
+.botaoNav{
+  text-decoration: none;
+}
+.imgLogo {
+  width: 168px;
+}
 .menu-icon {
   display: none;
 }
@@ -27,7 +30,7 @@ nav {
 }
 
 .menu li {
-  margin: 0;
+  width: 123px;
 }
 
 .menu a {
@@ -633,7 +636,7 @@ margin-left: 57px;
   gap: 0px;
   border-radius: 20px;
   background-color: white;
-  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 4px 8px 1px rgba(0, 0, 0, 0.5);
   opacity: 1;
   padding: 36px 36px -28px 36px;
 }
@@ -659,15 +662,6 @@ label {
 }
 .servicosGeral{
   display: flex;
-}
-@media (max-width: 1199px) {
- .divImageIconsDesktopM{
-  display: block;
- }
- .divImageIconsDesktopG{
-  display: none;
- }
-
 }
 
 input, textarea {
@@ -699,7 +693,54 @@ textarea {
 .formGeralMobile{
   display: none;
 }
+
+.imageIconsG {
+  width: 86%;
+}
+@media (max-width: 1396px) {
+  .imageIconsG {
+    width: 106%;
+  }
+  nav{
+    gap:0px;
+  }
+}
+@media (max-width: 1199px) {
+  .img-content img {
+    margin-top: 65px;
+    height: 497px;
+    width: 541px;
+}
+  .menu{
+    gap:0px;
+  }
+  .imgLogo{
+    margin-left: 53px;
+  }
+  .menu a{
+    font-size: 13px;
+  }
+  .menu li {
+    width: 108px;
+  }
+  .divImageIconsDesktopM{
+   display: block;
+  }
+  .divImageIconsDesktopG{
+   display: none;
+  }
+ }
+@media (max-width: 990px){
+  .img-content img {
+    margin-top: 110px;
+    height: 382px;
+    width: 495px;
+}
+}
 @media (max-width: 768px) {
+  .button-header{
+    display: none;
+  }
   .formGeral{
     margin-bottom: 61px;
     padding: 10px;
@@ -817,6 +858,11 @@ textarea {
 }
 
 @media (max-width: 480px) {
+  .footer-section {
+    padding: 0px;
+    margin-left: 30px;
+  }
+
   .textosFormMobile h3{
     width: 85%;
   }
@@ -829,7 +875,7 @@ textarea {
   }
   .footer-container {
       align-items: center;
-      text-align: center;
+      text-align: left;
   }
 
   .footer-section h4, .footer-section p {
@@ -1336,7 +1382,7 @@ font-weight: 400;
     margin-left: 83px;
   }
 
-  .divImageIconsDesktopG .imageIconsG{
+  .divImageIconsDesktopG {
     width: 100%;
   }
 

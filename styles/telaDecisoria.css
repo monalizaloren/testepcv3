@@ -199,18 +199,17 @@ body{
 
 .line2 p {
     position: absolute;
-    width: 461px;
+    width: 57%;
     height: 96px;
     top: 330px;
     left: 50%;
     transform: translateX(-50%);
     font-family: "Montserrat", sans-serif;
     font-size: 30px;
-    color:  #212121;
+    color: #212121;
     text-align: center;
     font-weight: 500px;
 }
-
 .line2 button {
     position: absolute;
     width: 300px;

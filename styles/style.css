@@ -7293,6 +7293,9 @@ text-align: left;
 
 
 @media (max-width: 1440px) {
+  .container-number {
+    width: 246px !important;
+  }
   .impacto_social-desktop {
    
     padding-top: 61px !important;
@@ -8013,7 +8016,7 @@ display: none;
   }
 
   .container-number {
-    width: 100%;
+    width: 100% !important;
     height: 300px;
     display: flex;
     flex-direction: column;
