@@ -46,7 +46,7 @@ nav {
 }
 
 .div-principal {
- 
+ margin-bottom: 162px;
 }
 
 .div-image {
@@ -126,6 +126,7 @@ nav {
 }
 .img-content img {
   width: 555px;
+  margin-top: 28px;
 }
 ext-infos div span {
   margin-top: 5px !important;
