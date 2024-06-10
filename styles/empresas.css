@@ -781,7 +781,8 @@ textarea {
     letter-spacing: -0.015em;
     text-align: center;    
     color: #FAF1F1;
-    width: 49%;
+    width: 62%;
+    margin-bottom: 55px;
   }
   .buttonForm{
     background-color: #212121;
