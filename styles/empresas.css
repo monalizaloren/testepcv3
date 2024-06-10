@@ -476,7 +476,10 @@ footer {
   color: white;
   padding: 98px 94px;
 }
-
+.telefoneFooter{
+  text-decoration: none;
+  color:#f3f3f3;
+}
 .footer-container {
   display: flex;
   flex-wrap: wrap;
